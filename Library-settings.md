@@ -1,18 +1,18 @@
 ## Explanation of the functions in the Library settings
 
 ### Keep My List and Kodi Library in sync
-Allows you to automatically export/remove the tv shows from the Kodi library when they are added/removed from My List, but only through the addon interface, then through the context menu "Add/Remove to My List".
+Allows you to automatically export/remove the tv shows/films to the Kodi library when they are added/removed from My List, but only through the addon interface, then through the context menu "Add/Remove to My List" on selected tv show/movie. So if My List has been modified for example through the website, in the Kodi library no changes will be made, if you want this read next about scheduling.
 
 Perform full sync now: Start synchronization immediately (export tv shows and also movies) by eliminating everything previously exported.
 
 ### Export new episodes (Updates scheduling)
-When it is set, when it is executed it checks:
-* If My List has been modified (no matter from what device), then update the Kodi library accordingly
-* If there are new seasons/episodes in the tvshow update the Kodi library accordingly
+Scheduling can be set at desired intervals of hours and days, when it is executed it checks:
+* If My List has been modified (no matter from what device or apps), then update the Kodi library accordingly
+* If there are new seasons/episodes in the tv shows previously exported, then update the Kodi library accordingly
 * Note: at this moment this function DO NOT sync the movies of My List
 
 If neither of these two options are enabled (Keep My List and Kodi Library in sync, Export new episodes):
-the exports to the Kodi library can be performed manually through the context menu "Export/Remove to library"
+the exports to the Kodi library can be always performed manually through the context menu "Export/Remove to library".
 
 ### Enable NFO files export
 If enabled when a tv show or movie is exported (automatically by sync or manually), NFO files will also be created.
