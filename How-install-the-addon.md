@@ -21,7 +21,7 @@ sudo apt-get install python-crypto<br/>
 sudo apt-get install build-essential python-pip<br/>
 sudo pip install -U setuptools<br/>
 sudo pip install wheel<br/>
-sudo pip install -q pycryptodomex==3.8.2<br/>
+sudo pip install pycryptodomex==3.8.2<br/>
 wget https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip
 
 Now open Kodi and in the browser addon, choose _Install from zip file_, navigate to the home folder and install<br/>  repository.castagnait-1.0.0.zip
