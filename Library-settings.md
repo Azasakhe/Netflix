@@ -44,5 +44,5 @@ When done, in each device open the addon settings and under Library page:
 * Check "Enable custom library folder", and choose a shared "Custom library path". The path must be the exact same on all devices.
 * Enable "Use MySQL shared library database", then set the same connection parameters used in Kodi MySQL setup.
 
-As a last thing you need to set that only one device is responsible for updating the library:
+As a last thing you need to set that only one device is responsible for updating the library (i.e. check for new episodes):
 Then in the device you choose, click on "Set this device as main auto-updates manager"
