@@ -4,7 +4,7 @@
 
 ## Installing on Linux
 
-## Installing on Raspberry PI with LibreELEC
+## Installing on LibreELEC (Devices Raspberry PI, x86-64, etc...)
 Download the repository zip file: [repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip)
 
 Copy this file to an USB flash drive or memory card, and connect it to the device
@@ -13,7 +13,7 @@ Now open Kodi and in the browser addon, choose _Install from zip file_, navigate
 
 Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
 
-## Installing on Raspberry PI with OSMC
+## Installing on OSMC (Devices Raspberry PI, Vero, etc...)
 After installing OSMC and completing the configuration of the first boot, you must connect from the computer with a terminal software that support SSH connection type.
 
 On MacOS you can use Terminal app, on Windows [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), on Linux use the “ssh” command.
