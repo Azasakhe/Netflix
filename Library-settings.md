@@ -1,18 +1,16 @@
 ## Explanation of the functions in the Library settings
 
+### Auto update mode
+Establishes which method to use to update the tv shows in order to export automatically new seasons and episodes.
+
+- Manual: updates to tv shows must be done manually, through context menus `Export new episodes`, or in alternative by select the menu `Check for updates now`.
+- Scheduled: updates to tv shows are automatic, you will need to set up a schedule.
+
 ### Keep My List and Kodi Library in sync
-Allows you to automatically export/remove the tv shows/films to the Kodi library when they are added/removed from My List, but only through the addon interface, then through the context menu "Add/Remove to My List" on selected tv show/movie. So if My List has been modified for example through the website, in the Kodi library no changes will be made, if you want this read next about scheduling.
+Allows you to automatically export/remove the tv shows/films to the Kodi library when they are added/removed from My List of an specific profile. If My List has been modified externally for example through the website, in the Kodi library no changes will be made immediately, you will have to wait for the schedule to run.
 
-Perform full sync now: Start synchronization immediately (export tv shows and also movies) by eliminating everything previously exported.
-
-### Export new episodes (Updates scheduling)
-Scheduling can be set at desired intervals of hours and days, when it is executed it checks:
-* If My List has been modified (no matter from what device or apps), then update the Kodi library accordingly
-* If there are new seasons/episodes in the tv shows previously exported, then update the Kodi library accordingly
-* Note: at this moment this function DO NOT sync the movies of My List
-
-If neither of these two options are enabled (Keep My List and Kodi Library in sync, Export new episodes):
-the exports to the Kodi library can be always performed manually through the context menu "Export/Remove to library".
+Perform full sync now: Start synchronization immediately (export tv shows and also movies) but delete everything previously exported.<br/>
+_DO NOT USE IT TO SYNCHRONIZE WITHOUT WAITING FOR THE START OF THE SCHEDULING, OTHERWISE RISK BAN OF YOUR ACCOUNT._
 
 ### Enable NFO files export
 If enabled when a tv show or movie is exported (automatically by sync or manually), NFO files will also be created.
@@ -24,10 +22,14 @@ For example, it can happen that a TV series on netflix is divided into two seaso
 in this case, you must also enable the option "Include all information in NFO files".
 
 ### Enable custom library folder
-Here you can change the folder where the addon exports the files that are added to the Kodi library.
+Here you can change the default folder where the addon save the file exported of tv shows or movies.
+
+[[Read here detailed instructions|How-to-export-and-sync-tv-shows-and-movies-in-Kodi-library#where-are-the-exported-files]]
 
 ### Purge library
-Completely eliminates the tv shows/films exported to the Kodi library.
+This makes a complete removal of:
+- All tv shows/films exported to the Kodi library
+- All library data in the netflix add-on database
 
 ### Migrate Library to new format
 To use only if the old 13.x version of the addon was installed,
