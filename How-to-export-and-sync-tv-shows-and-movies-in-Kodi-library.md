@@ -52,7 +52,7 @@ When you make changes to My List from another device or from another app or webs
 
 _If you decide to use this feature pay attention to the notice written at the end._
 
-Note that when you enable this feature the context menus like Export/Remove/Update from library, will no longer be accessible, because all these operations will be performed automatically from the context menus Add/Remove to My List.
+Note that when you enable this feature the context menus like Export/Remove from library, will no longer be accessible, because all these operations will be performed automatically from the context menus Add/Remove to My List.
 
 **Before continuing you must complete the point 2 of _You can export in two ways_, in order to enable the scheduled mode.**
 
