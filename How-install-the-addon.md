@@ -1,4 +1,5 @@
 ### Prerequisites
+* A devices that are able to start Kodi (also LibreELEC or OSMC)
 * Kodi 18 or higher version
 * Inputstream.adaptive addon *1
 * Cryptdome python library *1 *2
@@ -6,9 +7,9 @@
 * Widevine CDM library *1
 
 *1 Automatically installed<br/>
-*2 Needed to some linux systems
+*2 You need to install it manually only on some linux systems
 
-### Installing on Windows / MacOS / IOS / Linux / LibreELEC (Devices Raspberry PI, x86-64, etc...)
+### Installing on Windows / MacOS / IOS / Linux (Android and linux distributions) / LibreELEC
 Download the repository zip file: [repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip)
 
 If it is a device: copy this file to an USB flash drive or memory card, and connect it to the device
@@ -17,14 +18,14 @@ Now open Kodi and in the browser addon, choose _Install from zip file_, navigate
 
 Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
 
-**Note to Linux distros (not for Ubuntu / Utuntu flavors)**<br/>
+**Note to Linux distros (not for: Ubuntu, Utuntu flavors, Android)**<br/>
 On some linux distributions some additional libraries are needed
 
 In the terminal run these commands:<br/>
 sudo apt install build-essential python-dev python-pip python-setuptools<br/>
 pip install --user pycryptodomex
 
-### Installing on OSMC (Devices Raspberry PI, Vero, etc...)
+### Installing on OSMC
 After installing OSMC and completing the configuration of the first boot, you must connect from the computer with a terminal software that support SSH connection type.
 
 On MacOS you can use Terminal app, on Windows [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), on Linux use the “ssh” command.
