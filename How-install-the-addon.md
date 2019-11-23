@@ -1,5 +1,5 @@
 ### Prerequisites
-* A devices that are able to start Kodi (also LibreELEC or OSMC)
+* A devices that are able to start Kodi (or systems like LibreELEC, OSMC)
 * Kodi 18 or higher version
 * Inputstream.adaptive addon *1
 * Cryptdome python library *1 *2
