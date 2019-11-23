@@ -18,7 +18,7 @@ Now open Kodi and in the browser addon, choose _Install from zip file_, navigate
 
 Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
 
-**Note to Linux distros (not for: Ubuntu, Utuntu flavors, Android)**<br/>
+**Note to Linux distros (NOT for: Ubuntu, Utuntu flavors, Android or LibreELEC)**<br/>
 On some linux distributions some additional libraries are needed
 
 In the terminal run these commands:<br/>
