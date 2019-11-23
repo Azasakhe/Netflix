@@ -46,3 +46,17 @@ wget https://github.com/castagnait/repository.castagnait/raw/master/repository.c
 Now open Kodi and in the browser addon, choose _Install from zip file_, navigate to the home folder and install: repository.castagnait-1.0.0.zip
 
 Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
+
+### Installing on Raspbian (Raspberry system)
+Download the repository zip file: [repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip)
+
+Open Raspberry Terminal app and run these commands:<br/>
+pip install --user pycryptodomex<br/>
+sudo apt install kodi-inputstream-adaptive
+
+Now open Kodi and follow the menu: `Add-ons` > `My add-ons` > `VideoPlayer InputStream`<br/>
+so click on `InpuStream Adaptive` and enable it.
+
+Return to the add-on browser, choose _Install from zip file_, navigate to the download folder and install: repository.castagnait-1.0.0.zip
+
+Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
