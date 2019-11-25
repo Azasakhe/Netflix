@@ -51,7 +51,11 @@ Then choose _Install from repository_, select CastagnaIT repository and Netflix 
 Download the repository zip file: [repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip)
 
 Open Raspberry Terminal app and run these commands:<br/>
-pip install --user pycryptodomex<br/>
+sudo apt update<br/>
+sudo apt install build-essential python-pip<br/>
+sudo apt install python-setuptools<br/>
+sudo pip install wheel<br/>
+sudo pip install --user pycryptodomex<br/>
 sudo apt install kodi-inputstream-adaptive
 
 Now open Kodi and follow the menu: `Add-ons` > `My add-ons` > `VideoPlayer InputStream`<br/>
