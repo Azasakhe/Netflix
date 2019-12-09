@@ -55,7 +55,7 @@ sudo apt update<br/>
 sudo apt install build-essential python-pip<br/>
 sudo apt install python-setuptools<br/>
 sudo pip install wheel<br/>
-sudo pip install --user pycryptodomex<br/>
+pip install pycryptodomex<br/>
 sudo apt install kodi-inputstream-adaptive
 
 Now open Kodi and follow the menu: `Add-ons` > `My add-ons` > `VideoPlayer InputStream`<br/>
