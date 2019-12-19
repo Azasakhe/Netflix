@@ -14,3 +14,9 @@ The proprietary Netflix JSON:<br/>
 
 The bridge used between Kodi and DRM Systems (like Widevine):<br/>
 [InputStream Adaptive Add-on](https://github.com/peak3d/inputstream.adaptive/)
+
+A little reverse engineering of Shakti API<br/>
+[HowardStark - Shakti API](https://github.com/HowardStark/shakti)
+
+Useful information for implementing video interactivity, like in Bandersnatch movie<br/>
+[Back-end infrastructure used to deliver Netflix’s interactive title](https://engelsjk.com/posts/through-the-looking-glass-at-netflix/)
