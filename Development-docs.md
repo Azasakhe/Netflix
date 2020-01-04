@@ -23,6 +23,8 @@ Useful information for implementing video interactivity, like in Bandersnatch mo
 
 ### The addon structure
 
+#### Files and folders
+
 | Files | Description  |
 | ----------------- | --------------------------- |
 | /addon.py         | Entry points for Kodi, run an addon instance (more than one instance could also be initiated) |
@@ -44,3 +46,34 @@ Useful information for implementing video interactivity, like in Bandersnatch mo
 | /lib/services/playback  | Handle everything that is related to the Kodi player info in real time like Skip button dialog, stream continuity, etc... |
 | /media            | Images used by addon itself and for directory items |
 | /skins            | Images and XML used for custom window dialogs |
+
+#### The databases
+
+The DBMS used in this add-on are SQLite for the local databases and MySQL for the (optional) shared library database.
+SQLite imposes many limitations on database management (e.g. multiple read/write, connections, threads), so to better manage these limits and to make it easier to transition to MySQL, has been chosen to create two local databases.
+
+_Database nf_local_ - Used to store any kind of data except those of the library
+
+| Table name        | Description                 |
+| ----------------- | --------------------------- |
+| app_config        | Contains data for the addon (excluded for library) |
+| menu_data         | Contains _temporary_ data for the management of the various menus/sub-menus of lists |
+| profiles          | Contains the parsed Netflix profiles list *1 |
+| profiles_config   | Contains the parsed Netflix settings of the profiles *1 |
+| session           | Contains data for the currently opened Netflix session |
+| settings_monitor  | Used only by settings_monitor.py the only way to distinguish which settings are changed by the user |
+
+_Database nf_shared_ - Used to store the data for library only, the MySQL side reflects the same scheme
+
+| Table name         | Description                 |
+| ------------------ | --------------------------- |
+| profiles           | A copy of profiles table of the local database *1 |
+| shared_app_config  | Contains the settings for the library |
+| stream_continuity  | Contains data to remember user-selected settings for audio/subtitles of each tv show/movie |
+| video_lib_episodes | Contains the data of exported episodes |
+| video_lib_movies   | Contains the data of exported movies |
+| video_lib_seasons  | Contains the data of exported seasons |
+| video_lib_tvshows  | Contains the data of exported tv shows |
+
+*1 Tables with frequently updated data, therefore these tables must never be used to save other data otherwise they will be deleted.
+
