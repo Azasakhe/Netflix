@@ -21,6 +21,11 @@ A little reverse engineering of Shakti API:<br/>
 Useful information for implementing video interactivity, like in Bandersnatch movie:<br/>
 [Back-end infrastructure used to deliver Netflix’s interactive title](https://engelsjk.com/posts/through-the-looking-glass-at-netflix/)
 
+CDN selection strategy to deliver video content and to use the best quality for used connection:<br/>
+[Measurement Study of Netflix, Hulu, and a Tale of Three CDNs](https://www.moritzsteiner.de/papers/netflix-hulu.pdf)<br/>
+[Another one like above](https://www.cs.rutgers.edu/~badri/552dir/notes/W11-four.pdf)<br/>
+[The currently Netflix Open Connect](https://openconnect.netflix.com/)
+
 Netflix player shortcuts:<br/>
 [Ctrl+Shift+Alt+D] Display A/V Stats on-screen<br/>
 [Ctrl+Shift+Alt+L] Logging window
