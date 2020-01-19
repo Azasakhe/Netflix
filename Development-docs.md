@@ -21,6 +21,10 @@ A little reverse engineering of Shakti API:<br/>
 Useful information for implementing video interactivity, like in Bandersnatch movie:<br/>
 [Back-end infrastructure used to deliver Netflix’s interactive title](https://engelsjk.com/posts/through-the-looking-glass-at-netflix/)
 
+Netflix player shortcuts:<br/>
+[Ctrl+Shift+Alt+D] Display A/V Stats on-screen<br/>
+[Ctrl+Shift+Alt+L] Logging window
+
 ### The addon structure
 
 #### Files and folders
