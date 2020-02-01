@@ -3,8 +3,8 @@ Add-on errors:
 * [The error - Request failed validation during key exchange](#The-error---Request-failed-validation-during-key-exchange)
 
 Audio:
-* [How is it possible to have only 2.0 audio tracks?](How-is-it-possible-to-have-only-2.0-audio-tracks?)
-* [When you resume a previous playback it don't keep the language of your choice](When-you-resume-a-previous-playback-it-don't-keep-the-language-of-your-choice)
+* [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-2.0-audio-tracks?)
+* [When you resume a previous playback it don't keep the language of your choice](#When-you-resume-a-previous-playback-it-don't-keep-the-language-of-your-choice)
 
 ### The error - This title is not available to watch instantly
 
