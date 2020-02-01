@@ -3,8 +3,8 @@ Add-on errors:
 * [The error - Request failed validation during key exchange](#The-error---Request-failed-validation-during-key-exchange)
 
 Audio:
-* [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-2.0-audio-tracks?)
-* [When you resume a previous playback it don't keep the language of your choice](#When-you-resume-a-previous-playback-it-don't-keep-the-language-of-your-choice)
+* [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-20-audio-tracks)
+* [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
 
 ### The error - This title is not available to watch instantly
 
@@ -28,7 +28,7 @@ Probably future changes by developers will be necessary.
 Netflix provide all 2.0 audio tracks at same bitrate quality so there is no difference between format type (DolbyDigital, AAC).
 Then to get 2.0 traces only, go to in the `Expert` add-on settings, and turn off `Enable Dolby Digital Plus`.
 
-### When you resume a previous playback it don't keep the language of your choice
+### When you resume a previous playback it do not keep the language of your choice
 
 On Kodi 18.x is a known bug, the Kodi 18.x framework does not allow to fix this problem. Then can't be solved in any way.
 If you prefer you can try to disable `Remember audio / subtitle preferences` in the addon Playback settings,
