@@ -10,6 +10,9 @@ Audio:
 * [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-20-audio-tracks)
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
 
+Other:
+* [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
+
 ## Add-on errors
 
 ### The error - This title is not available to watch instantly
@@ -57,3 +60,10 @@ Then to get 2.0 traces only, go to in the `Expert` add-on settings, and turn off
 On Kodi 18.x is a known bug, the Kodi 18.x framework does not allow to fix this problem. Then can't be solved in any way.
 If you prefer you can try to disable `Remember audio / subtitle preferences` in the addon Playback settings,
 in this way leaves the choice of language to Kodi, so you will need to manually select the exact audio language.
+
+## Other
+
+### Sometimes blank boxes are shown instead of characters of descriptions and titles
+
+The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
+This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use.
