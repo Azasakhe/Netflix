@@ -2,9 +2,15 @@ Add-on errors:
 * [The error - This title is not available to watch instantly](#The-error---This-title-is-not-available-to-watch-instantly)
 * [The error - Request failed validation during key exchange](#The-error---Request-failed-validation-during-key-exchange)
 
+Video:
+* [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
+* [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
+
 Audio:
 * [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-20-audio-tracks)
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
+
+## Add-on errors
 
 ### The error - This title is not available to watch instantly
 
@@ -22,6 +28,24 @@ In this case you can try to solve the problem by using the original ESN of your 
 Probably future changes by developers will be necessary.
 
 - Netflix has implemented some changes, so changes will need to be made by the developers of the add-on.
+
+## Video
+
+### When you playback a video on Raspberry Pi there is no audio and video
+
+It is possible that OMXPlayer is enabled, so you need to disable it.<br/>
+Go to Kodi settings, go to `Player` settings, then disable OMXPlayer.
+
+### When you playback a video on Android there is no video
+
+First make sure that android video hardware acceleration is enabled.<br/>
+Go to Kodi settings, go to `Player` settings, then enable:<br/>
+`Allow hardware acceleration - MediaCodec (Surface)` and `Allow hardware acceleration - MediaCodec`
+
+If it still does not work, it may be that one of the enabled video profiles are not compatible with your device.
+Then go to Add-on Expert settings, and try to disable VP9 and/or HEVC profile.
+
+## Audio
 
 ### How is it possible to have only 2.0 audio tracks?
 
