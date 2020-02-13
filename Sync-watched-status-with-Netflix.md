@@ -1,4 +1,4 @@
-## Watched and progress status synchronization
+## Synchronisation of watched status with Netflix
 
 ### The limitations
 
@@ -17,15 +17,16 @@ If you enable it, all previous watched status and progress will be replaced by t
 You want enable it open the add-on settings and go to:
 `Playback` -> `Send/Receive progress and watched status of the videos`
 
-### What happen if you use multiple devices
+### What happen if you use multiple devices, apps or website
 
-In general there is no problem, you can use any device at the same time, but the following behaviour should be highlighted
+In general there is no problem, you can use any device, apps, website at the same time, but the following behaviour should be highlighted
 
-The synchronization from Kodi to the Netflix service is immediate
+- The synchronization from Kodi to the Netflix service is immediate
+- The synchronization from Netflix service to Kodi could be in some cases delayed
 
-But, if you use the _same_ profile on multiple device at same time, the videos progress that are been changed by other devices, in Kodi you may not see those changes immediately.
+This can happen if you use the _same_ profile on multiple device, apps, website at same time, then the videos progress that are been changed outside Kodi you may not see immediately.
 
-To see immediately the changes you need to do the _purge cache_ (add-on expert settings) or reboot Kodi.
+If you want to see those changes immediately, you need to do the _purge cache_ (add-on expert settings) or reboot Kodi.
 
 ### When i stop playback the resume is not updated
 
