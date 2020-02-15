@@ -87,9 +87,9 @@ _Database nf_shared_ - Used to store the data for library only, the MySQL side r
 *1 Tables with frequently updated data, therefore these tables must never be used to save other data otherwise they will be deleted.
 
 
-### Apple iOS limits Python compatibility
+### Apple iOS tvOS limits Python compatibility
 
-Unlike linux, iOS does not implement or allow the use of some features, creating problems in executing of the source code
+Unlike linux, iOS/tvOS does not implement or allow the use of some features, creating problems in executing of the source code
 
 These are some known limitations (on Python 2.7, later versions are to be tested):
 - There is no "fork", "exec" support for the processes, this breaks the `subprocess` module
