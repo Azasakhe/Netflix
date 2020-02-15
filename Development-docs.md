@@ -94,6 +94,6 @@ Unlike linux, iOS/tvOS does not implement or allow the use of some features, cre
 These are some known limitations (on Python 2.7, later versions are to be tested):
 - There is no "fork", "exec" support for the processes, this breaks the `subprocess` module
 - Due to missing "fork" there is no full cleanup of process resources (memory, threads, file handles, ...)
-- Due to no cleanup of processes breaks some functionality of module `platform` e.g. `machine` `system`
+- Due to no cleanup of processes breaks some functionality of module `platform` e.g. `machine`, `system`, `node`
 - There is no file access outside of application directory
 - There is no currently support multi-processing
