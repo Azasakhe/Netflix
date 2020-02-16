@@ -8,6 +8,8 @@ You can recognize the main profile because it's the only profile you can't delet
 
 Being an test feature, it has _not yet been included to work with the Kodi library_.
 
+Another limitation is that the **continue watching list will not be updated**, due to an (yet) unknown problem
+
 ### How it works
 
 By default this feature is disabled, is a choice left to the user because of compromises and limitations.
