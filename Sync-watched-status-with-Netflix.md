@@ -33,3 +33,17 @@ If you want to see those changes immediately, you need to do the _purge cache_ (
 ### When i stop playback the resume is not updated
 
 The synchronization requires updates to be sent from the first minute of playback, therefore the resume will be updated only after the first minute of the played video, then if you press stop before this minute no changes will be saved.
+
+### How to manually change state watched
+
+By default Kodi provide these context menu:<br/>
+Mark as watched / Mark as unwatched / Reset resume position
+
+In this case **they will not work** because Kodi doesn't allow a personalized use of them.
+
+Then you have to use the context menu:<br/>
+Change watched status (locally)
+
+This menu allows you to change the watched status, but _this change will never be communicated to Netflix but will only take effect within Kodi_.
+
+Using it several times you will also have the possibility to restore the watched status of Netflix.
