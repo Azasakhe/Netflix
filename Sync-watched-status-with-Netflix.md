@@ -37,12 +37,12 @@ The synchronization requires updates to be sent from the first minute of playbac
 ### How to manually change state watched
 
 By default Kodi provide these context menu:<br/>
-Mark as watched / Mark as unwatched / Reset resume position
+`Mark as watched` / `Mark as unwatched` / `Reset resume position`
 
 In this case **they will not work** because Kodi doesn't allow a personalized use of them.
 
 Then you have to use the context menu:<br/>
-Change watched status (locally)
+`Change watched status (locally)`
 
 This menu allows you to change the watched status, but _this change will never be communicated to Netflix but will only take effect within Kodi_.
 
