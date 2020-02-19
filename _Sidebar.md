@@ -7,7 +7,7 @@
 - [[Sync watched status with Netflix]]
 
 **Development**
-- [[Dev. philosophy]]
+- [[Dev. guidelines and philosophy]]
 - [[Dev. documentation]]
 - [[Dev. basic info]]
 - [[Dev. unresolved issues]]
