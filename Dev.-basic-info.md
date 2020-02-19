@@ -69,3 +69,6 @@ These are some known limitations (on Python 2.7, later versions are to be tested
 - Due to no cleanup of processes can breaks some functionality of module `platform` e.g. `machine`, `system`, `node`
 - There is no file access outside of application directory
 - There is no currently support multi-processing
+
+Why is it currently specified that on iOS/tvOS the add-on is not compatible?
+Currently the add-on is executable on iOS, but due to the lack of Widevine library, the videos can not be played.
