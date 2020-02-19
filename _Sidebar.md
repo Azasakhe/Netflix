@@ -9,6 +9,7 @@
 **Development**
 - [[Dev. philosophy]]
 - [[Dev. documentation]]
+- [[Dev. basic info]]
 - [[Dev. unresolved issues]]
 
 **About**
