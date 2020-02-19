@@ -1,5 +1,5 @@
 ### Prerequisites
-* A devices that are able to start Kodi (or systems like LibreELEC, OSMC)
+* A devices compatible with Kodi (Apple iOS/tvOS is not supported by this add-on)
 * Kodi 18 or higher version
 * Inputstream.adaptive addon *1
 * Cryptdome python library *1 *2
@@ -9,7 +9,7 @@
 *1 Automatically installed<br/>
 *2 You need to install it manually only on some linux systems
 
-### Installing on Windows / MacOS / IOS / Linux (Android and linux distributions) / LibreELEC
+### Installing on Windows / MacOS / Linux (Android and linux distributions) / LibreELEC
 Download the repository zip file: [repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip)
 
 If it is a device: copy this file to an USB flash drive or memory card, and connect it to the device
