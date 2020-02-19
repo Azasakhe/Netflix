@@ -56,6 +56,8 @@ The format is as follows:
 """
 </pre>
 
+When you modify an existing module very heavily it is advisable to add also your copyright to the existing ones
+
 **Code readability over cleverness**
 
 Transparency is key if we want outsiders to help improve this project
