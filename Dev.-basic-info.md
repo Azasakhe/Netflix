@@ -58,7 +58,6 @@ _Database nf_shared_ - Used to store the data for library only, the MySQL side r
 
 *1 Tables with frequently updated data, therefore these tables must never be used to save other data otherwise they will be deleted.
 
-
 ### Apple iOS tvOS limits Python compatibility
 
 Unlike linux, iOS/tvOS does not implement or allow the use of some features, creating problems in executing of the source code
@@ -72,3 +71,27 @@ These are some known limitations (on Python 2.7, later versions are to be tested
 
 Why is it currently specified that on iOS/tvOS the add-on is not compatible?
 Currently the add-on is executable on iOS, but due to the lack of Widevine library, the videos can not be played.
+
+### How to send / receive Netflix data
+
+This add-on relies on the website API, so it must be adapted to any changes to the website.
+
+To understand how it sends and obtains data, you must first consider how the website works.
+A simple start is to start studying the network flow with the browser in debug mode,
+by analyzing the requests/responses on the pathEvaluator endpoint.
+The data is freely accessible and complies with the [JSONGraph](https://netflix.github.io/falcor/documentation/jsongraph.html) standard.
+
+This API is also called Shakti is the basis on how the add-on makes requests and receives responses.
+
+In addition to this, the website also relies on important parts in javascript. (which i cannot mention to avoid legal problems).
+
+### The log-in system
+
+The login system is reproduced via code the one performed by the website.
+
+The security is also taken into account by the add-on, therefore on the net credentials travel encrypted according to the SSL standard, while locally user credentials are stored with AES encryption with an UUID key based on hardware information, therefore related to the hardware in use.
+
+On android the add-on login in the same way,
+but it would not be correct because the login should be through dedicated API for android.
+In fact because of this there are some side effects (see workaround for media-flag 4K).
+These APIs have not been implemented because they require further huge separate study and development.
