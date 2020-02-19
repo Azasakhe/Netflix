@@ -4,5 +4,5 @@
 - [[Dev. documentation]]
 
 **About**
-- [The project](./wiki)
+- [The project](./)
 - [Kodi forum](https://forum.kodi.tv/showthread.php?tid=329767)
