@@ -2,22 +2,18 @@
 
 ### The limitations
 
-Due to an (yet) unknown problem **this feature works only with the main (owner) profile**.
-
-You can recognize the main profile because it's the only profile you can't delete, and in the addon you can recognize it by reading `Owner account` in the description.
-
 Being an test feature, it has _not yet been included to work with the Kodi library_.
 
-Another limitation is that the **continue watching list will not be updated**, due to an (yet) unknown problem
+The only limitation is that the **continue watching list will not be updated**, due to an (yet) unknown problem
 
 ### How it works
 
-By default this feature is disabled, is a choice left to the user because of compromises and limitations.
+This newly introduced feature is still under test, then by default this feature is disabled, is a choice of the user use it.
 
 If you enable it, all previous watched status and progress will be replaced by those on your real Netflix account, until you disable this feature again.
 
 You want enable it open the add-on settings and go to:
-`Playback` -> `Send/Receive progress and watched status of the videos`
+`Playback` -> `Synchronize the watched status of the videos with Netflix`
 
 ### What happen if you use multiple devices, apps or website
 
