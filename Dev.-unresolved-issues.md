@@ -1,19 +1,5 @@
 # Unresolved issues
 
-### Needed some implementation for a MSL profile switch?
-
-It seems that when we switch a profile to get lists from a given profile, it is not applied also for MSL requests.
-This mainly causes a problem with the manifest and licence requests, which are always performed from the main profile.
-
-An example of the consequences of this problem are:
-- Missing audio/subtitle language on the others profiles with different language set (the languages available are always those of the main profile)
-- Playing videos from a Kid profile, not give age error (because the request is made from the main profile usually adult)
-- Can not communicate the status watched of videos to other profiles
-
-I performed some tests as you can read in the following references, but without success:
-https://github.com/CastagnaIT/plugin.video.netflix/pull/385<br/>
-https://github.com/CastagnaIT/plugin.video.netflix/issues/366
-
 ### Wrong runtime (length) video value
 
 Some videos played by the website have a longer length, compared to when they are played inside Kodi.
