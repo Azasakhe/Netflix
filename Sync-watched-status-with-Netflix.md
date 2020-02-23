@@ -48,3 +48,5 @@ Then you have to use the context menu:<br/>
 This menu allows you to change the watched status, but _this change will never be communicated to Netflix but will only take effect within Kodi_.
 
 Using it several times you will also have the possibility to restore the watched status of Netflix.
+
+**Be careful because of a Kodi problem, if you change the state watched manually, after stopping playback causes strange side effects, which will only resolve after Kodi restart**
