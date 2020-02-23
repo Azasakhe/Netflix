@@ -17,14 +17,19 @@ You want enable it open the add-on settings and go to:
 
 ### What happen if you use multiple devices, apps or website
 
-In general there is no problem, you can use any device, apps, website at the same time, but the following behaviour should be highlighted
+_In general there is no problem_, you can use any device, apps, website at the same time.
+
+But the following behaviour should be highlighted:
 
 - The synchronization from Kodi to the Netflix service is immediate
 - The synchronization from Netflix service to Kodi could be in some cases delayed
 
 This can happen if you use the _same_ profile on multiple device, apps, website at same time, then the videos progress that are been changed outside Kodi you may not see immediately.
 
-If you want to see those changes immediately, you need to do the _purge cache_ (add-on expert settings) or reboot Kodi.
+If you want to see those changes immediately, you can choose to perform one of the following operations:<br/>
+-Switch to another profile and return to the previous<br/>
+-Do the _purge cache_ from add-on expert settings<br/>
+-Reboot Kodi
 
 ### When i stop playback the resume is not updated
 
