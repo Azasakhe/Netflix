@@ -7,7 +7,6 @@ Being an test feature, it has _not yet been included to work with the Kodi libra
 What is not working, due to an (yet) unknown problems:
 
 - The **continue watching list will not be updated**
-- The **watched status updated from Kodi are not displayed on Android official Netflix app**, but only on the website 
 
 ### How it works
 
