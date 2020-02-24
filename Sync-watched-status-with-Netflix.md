@@ -4,7 +4,10 @@
 
 Being an test feature, it has _not yet been included to work with the Kodi library_.
 
-The only limitation is that the **continue watching list will not be updated**, due to an (yet) unknown problem
+What is not working, due to an (yet) unknown problems:
+
+- The **continue watching list will not be updated**
+- The **watched status updated from Kodi are not displayed on Android devices**, but only on the website 
 
 ### How it works
 
