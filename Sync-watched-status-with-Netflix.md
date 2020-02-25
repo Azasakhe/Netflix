@@ -7,6 +7,7 @@ Being an test feature, it has _not yet been included to work with the Kodi libra
 What is not working, due to an (yet) unknown problems:
 
 - The **continue watching list will not be updated**
+- Sometimes the update of watched status (at the end of playback) can fail (see paragraph _errors_ below)
 
 ### How it works
 
@@ -52,3 +53,10 @@ This menu allows you to change the watched status, but _this change will never b
 Using it several times you will also have the possibility to restore the watched status of Netflix.
 
 **Be careful because of a Kodi problem, if you change the state watched manually, after stopping playback causes strange side effects, which will only resolve after Kodi restart**
+
+### Notifications with errors at the end of the playback
+
+_An error prevented the update the status watched on netflix_
+
+It's an unresolved problem that happens sometimes, which causes the failure to update the watched status on Netflix
+
