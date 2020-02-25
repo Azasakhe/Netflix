@@ -2,7 +2,7 @@
 
 ### The limitations
 
-Being an test feature, it has _not yet been included to work with the Kodi library_.
+Being an **test feature**, it has _not yet been included to work with the Kodi library_.
 
 What is not working, due to an (yet) unknown problems:
 
