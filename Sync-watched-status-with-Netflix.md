@@ -49,7 +49,7 @@ This menu allows you to change the watched status, but _this change will never b
 
 Using it several times you will also have the possibility to restore the watched status of Netflix.
 
-### The video rusume not works
+### The video resume not works
 
 After many tests, i have concluded that this is Kodi problem,
 complaints in the Kodi forum thanks
