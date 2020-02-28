@@ -8,6 +8,7 @@ What is not working, due to an (yet) unknown problems:
 
 - The **continue watching list will not be updated**
 - Sometimes the update of watched status (at the end of playback) can fail (see paragraph _errors_ below)
+- _Up Next Add-on is currently not compatible with this feature_, may be in the future releases of Netflix add-on
 
 ### How it works
 
@@ -34,10 +35,6 @@ If you want to see those changes immediately, you can choose to perform one of t
 -Do the _purge cache_ from add-on expert settings<br/>
 -Reboot Kodi
 
-### When i stop playback the resume is not updated
-
-The synchronization requires updates to be sent from the first minute of playback, therefore the resume will be updated only after the first minute of the played video, then if you press stop before this minute no changes will be saved.
-
 ### How to manually change state watched
 
 By default Kodi provide these context menu:<br/>
@@ -52,11 +49,21 @@ This menu allows you to change the watched status, but _this change will never b
 
 Using it several times you will also have the possibility to restore the watched status of Netflix.
 
-**Be careful because of a Kodi problem, if you change the state watched manually, after stopping playback causes strange side effects, which will only resolve after Kodi restart**
+### The video rusume not works
+
+After many tests, i have concluded that this is Kodi problem,
+complaints in the Kodi forum thanks
+
+### When i stop playback the resume is not updated
+
+The synchronization requires updates to be sent from the first minute of playback, therefore the resume will be updated only after the first minute of the played video, then if you press stop before this minute no changes will be saved.
 
 ### Notifications with errors at the end of the playback
 
 _An error prevented the update the status watched on netflix_
 
-It's an unresolved problem that happens sometimes, which causes the failure to update the watched status on Netflix
+It's an unresolved problem that happens sometimes, which causes the failure to update the watched status on Netflix. No fixes yet.
 
+_An error prevented the update the lolomo context on netflix_
+
+It's an unresolved problem that happens sometimes, may be ignored. No fixes yet.
