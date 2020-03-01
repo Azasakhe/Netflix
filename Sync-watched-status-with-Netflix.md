@@ -51,8 +51,8 @@ Using it several times you will also have the possibility to restore the watched
 
 ### The video resume not works
 
-After many tests, i have concluded that this is Kodi problem,
-complaints in the Kodi forum thanks
+After many tests, i have concluded that this is Kodi problem-bug,<br/>
+i have already notified the Kodi developers, hoping to find a solution in the future.
 
 ### When i stop playback the resume is not updated
 
