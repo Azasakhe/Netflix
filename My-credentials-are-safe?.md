@@ -24,7 +24,7 @@ providing as much information as possible, including Kodi LOGs with debugging in
 
 Netflix adopts protection measures according to their algorithms, some of which are explained in their [official document](https://help.netflix.com/en/node/56461), which involves resetting the password under certain circumstances.
 
-Since December 2019, **Netflix is introducing a new policy for users who use shared accounts with multiple people**,
+Since October 2019, **Netflix is introducing a new policy for users who use shared accounts with multiple people**,
 this will result in the account being blocked.
 
 At the moment, there are no details revealed about how this policy work and what is the threshold above which it is applied.
