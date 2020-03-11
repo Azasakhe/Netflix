@@ -96,3 +96,29 @@ On android the add-on login in the same way,
 but it would not be correct because the login should be through dedicated API for android.
 In fact because of this there are some side effects (see workaround for media-flag 4K).
 These APIs have not been implemented because they require further huge separate study and development.
+
+### Working with the profiles
+
+Considering that there are no documents on which to base ourselves, i will try to explain in short what i currently understand.
+
+There are two ways to work with Netflix profiles, one with the APIs used in "NFSession" (e.g. Shakti) and the other with the MSL APIs. In both cases to be able to activate a profile (therefore to be able to send/receive data with it) we talk about "profile switch".
+
+#### NFSession APIs
+
+There are two ways to perform the profile switch the NFSession side, by using:
+- Endpoint /SwitchProfile (this allows you to obtain also the profile cookies)
+- Endpoint /profiles/switch
+
+In both cases, after making the switch, you must obtain the authURL value.
+The authURL is required to have access rights to make http requests with the specified profile.
+The new authURL obtained will need to use for all future NFSession requests.
+
+#### MSL APIs
+
+Here Netflix has implemented a custom MSL user-authentication scheme, (MSL references [User Authentication (Configuration)](https://github.com/Netflix/msl/wiki/User-Authentication-%28Configuration%29), [User Authentication](https://github.com/Netflix/msl/wiki/User-Authentication)) called `SWITCH_PROFILE`.
+
+This authentication method, in addition to attaching the user authentication data to the MSL request, instructs the service to activate the specified profile.
+
+Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netflix/pull/484)
+
+This user-authentication scheme works only combined with an user-id-token and can not be used with all endpoints, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
