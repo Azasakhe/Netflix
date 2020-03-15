@@ -13,6 +13,7 @@
 - [[Dev. documentation]]
 - [[Dev. basic info]]
 - [[Dev. unresolved issues]]
+- [[Dev. Add-on versioning]]
 
 **About**
 - [The project](./)
