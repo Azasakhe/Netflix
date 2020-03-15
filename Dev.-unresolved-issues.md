@@ -1,5 +1,21 @@
 # Unresolved issues
 
+### "Resume from" context menu sometimes not work with sync of watched status
+
+When "Synchronize the watched status of the videos with Netflix" is enabled the "Resume from" context menu of Kodi sometimes not work and video start from beginning.
+
+I have opened an Issue: https://github.com/xbmc/xbmc/issues/17426
+
+I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.
+
+### With the sync of watched status the "continue watching" list is not updated
+
+The path call of "refreshListByContext" in shakti.py inside the method `update_lolomo_context`, is the method that should invalidate the "continueWatching" list in the netflix cache, in order to update the contents of the list.
+
+However, this does not happen, in other words, sometimes the request generates an error, and when it works correctly it apparently does not update the list.
+
+I have some suspicions that there is something to add to the Event requests (events_handler.py, method `_build_event_params`), which relates the requests sent of the events with the request to update the list.
+
 ### Wrong runtime (length) video value
 
 Some videos played by the website have a longer length, compared to when they are played inside Kodi.
