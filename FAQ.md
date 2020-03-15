@@ -1,6 +1,8 @@
 Add-on errors:
 * [The error - This title is not available to watch instantly](#The-error---This-title-is-not-available-to-watch-instantly)
 * [The error - Request failed validation during key exchange](#The-error---Request-failed-validation-during-key-exchange)
+* [The error - Entity used incorrect key exchange data type](#The-error---Entity-used-incorrect-key-exchange-data-type)
+* [The error - Entity used incorrect user authentication data type](#The-error---Entity-used-incorrect-user-authentication-data-type)
 
 Video:
 * [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
@@ -31,6 +33,14 @@ In this case you can try to solve the problem by using the original ESN of your 
 Probably future changes by developers will be necessary.
 
 - Netflix has implemented some changes, so changes will need to be made by the developers of the add-on.
+
+### The error - Entity used incorrect user authentication data type
+
+It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
+
+### The error - Entity used incorrect key exchange data type
+
+It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
 
 ## Video
 
