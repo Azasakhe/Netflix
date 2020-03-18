@@ -3,6 +3,7 @@ Add-on errors:
 * [The error - Request failed validation during key exchange](#The-error---Request-failed-validation-during-key-exchange)
 * [The error - Entity used incorrect key exchange data type](#The-error---Entity-used-incorrect-key-exchange-data-type)
 * [The error - Entity used incorrect user authentication data type](#The-error---Entity-used-incorrect-user-authentication-data-type)
+* [The error - HTTPError: 403 Client Error: Forbidden for url ...](#the-error---httperror-403-client-error-forbidden-for-url-)
 
 Video:
 * [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
@@ -41,6 +42,11 @@ It happens very rarely, so it is difficult to find a solution, it is usually a t
 ### The error - Entity used incorrect key exchange data type
 
 It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
+
+### The error - HTTPError: 403 Client Error: Forbidden for url ...
+
+This situation may indicate a network problem, Netflix say: _It typically indicates that your computer's DNS setting is not routing to Netflix properly._
+[Read the Netflix documentation](https://help.netflix.com/en/node/26493)
 
 ## Video
 
