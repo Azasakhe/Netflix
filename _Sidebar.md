@@ -4,7 +4,7 @@
 - [[How to export and sync tv shows and movies in Kodi library]]
 - [[Library settings]]
 - [[List of 1080P 4k Android tested devices]]
-- [[Sync watched status with Netflix]]
+- [[Sync of watched status with Netflix]]
 - [[My credentials are safe?]]
 - [[VPN and Proxy]]
 
