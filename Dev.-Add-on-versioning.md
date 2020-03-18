@@ -1,5 +1,3 @@
-# Add-on versioning
-
 Kodi generally establishes the following version scheme: `x.y.z` (major.minor.patch)
 [Kodi Wiki](https://kodi.wiki/view/Addon.xml)
 
