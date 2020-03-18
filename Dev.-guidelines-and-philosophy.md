@@ -1,5 +1,3 @@
-# Development guidelines and philosophy
-
 Being a project of a certain level of difficulty and of a certain size,<br/>
 these are some points to take into account for the development,<br/>
 by adopting this good practices it will be easier to deal with the growth of this project.
