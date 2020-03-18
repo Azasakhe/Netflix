@@ -1,5 +1,3 @@
-# VPN and Proxy
-
 Netflix does not recommend the use of these network accesses, in some cases warns the user who tries to access the content with a warning.
 This is because it may unlock content that is not allowed in some countries (geo-blocking).
 
