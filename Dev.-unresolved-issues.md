@@ -1,4 +1,4 @@
-# Unresolved issues
+This document provides some points, the most critical, not solved
 
 ### "Resume from" context menu sometimes not work with sync of watched status
 
