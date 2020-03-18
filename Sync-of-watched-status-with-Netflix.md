@@ -1,5 +1,3 @@
-## Synchronisation of watched status with Netflix
-
 ### The limitations
 
 Being an **test feature**, it has _not yet been included to work with the Kodi library_.
