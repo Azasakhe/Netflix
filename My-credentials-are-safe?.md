@@ -1,5 +1,3 @@
-# My credentials are safe?
-
 To answer this question in brief yes,
 but like everything that travels on the internet nothing is really safe.
 
