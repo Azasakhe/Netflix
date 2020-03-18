@@ -7,4 +7,4 @@ The enthusiasm for its success has involved many other developers, who working t
 
 ## Notice for the use
 
-This plugin is a result of various studies conducted over time by many developers, therefore as an unofficial plugin and not commisioned/supported by Netflix, there is no guarantee that there will be constant proper functioning, everything could break and not work at any time, depending on the changes imposed by Netflix.
+This plugin is a result of various studies conducted over time by many developers, therefore as an unofficial plugin and not commissioned/supported by Netflix, there is no guarantee that there will be constant proper functioning, everything could break and not work at any time, depending on the changes imposed by Netflix.
