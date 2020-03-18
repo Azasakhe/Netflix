@@ -1,5 +1,3 @@
-# Development documentation
-
 ### List of useful information about the Netflix infastructure and DRM
 
 A big thanks to Sebastian Golasch for his conference, very useful to every developer:<br/>
