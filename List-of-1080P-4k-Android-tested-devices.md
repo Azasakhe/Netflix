@@ -1,5 +1,3 @@
-## List of 1080P and 4k Android tested devices
-
 This list includes devices capable of 1080P and/or 4K video playback in hardware video decoding with the add-on.
 
 *Note it is not a choice of the add-on developers to decide which device can work or not, it depends only by netflix.*
