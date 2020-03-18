@@ -1,6 +1,6 @@
-# Basic info for the development
+This document provides some information to start understanding the operating environment of this project.
 
-It is impossible to draw up a complete list of how this add-on works, so i will add some technical information
+Being a large project which also makes use of undocumented technologies, it is not possible to compile a complete documentation of every part of it, so i will add some technical information.
 
 ### The addon structure
 
