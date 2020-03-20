@@ -70,3 +70,4 @@ so click on `InpuStream Adaptive` and enable it.
 Return to the add-on browser, choose _Install from zip file_, navigate to the download folder and install: repository.castagnait-1.0.0.zip
 
 Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
+
