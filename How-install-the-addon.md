@@ -71,3 +71,17 @@ Return to the add-on browser, choose _Install from zip file_, navigate to the do
 
 Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
 
+### Installing on RetroPie (Raspberry system)
+Download the repository zip file [repository.castagnait-1.0.0.zip](https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip), then copy this file to an USB flash drive or memory card, and connect it to the device
+
+Open RetroPie shell and run these commands:
+<pre>
+sudo apt update
+sudo apt install build-essential python-setuptools python-pip
+sudo pip install wheel pycryptodomex
+sudo apt install libnss3
+</pre>
+
+Now open Kodi and go to the add-on browser, choose _Install from zip file_, navigate to USB flash drive/memory card folder and install: repository.castagnait-1.0.0.zip
+
+Then choose _Install from repository_, select CastagnaIT repository and Netflix addon.
