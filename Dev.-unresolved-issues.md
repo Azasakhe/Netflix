@@ -36,3 +36,12 @@ To now we have fixed this by changing the language code with an unrecognized typ
 Unfortunately here you need to make a modification on Kodi to solve the problem.
 
 Ref. https://github.com/xbmc/xbmc/issues/15308
+
+### Mixed menu languages, due to different Kodi GUI language
+
+When a netflix profile is set with a certain language, and Kodi GUI is set with a different language, some menus result with mixed languages.
+
+To fix the problem you would need a Kodi method to get the addon language strings in the chosen language and not the default one of the GUI.
+
+Which will still result in the same language code problem with ISO 639-1 (because is provided in IETF BCP 47),
+but here it would be less invasive.
