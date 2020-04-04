@@ -5,6 +5,7 @@ Add-on errors:
 * [The error - Entity used incorrect user authentication data type](#The-error---Entity-used-incorrect-user-authentication-data-type)
 * [The error - HTTPError: 403 Client Error: Forbidden for url ...](#the-error---httperror-403-client-error-forbidden-for-url-)
 * [The error - Request blacklisted by key exchange service](#the-error---request-blacklisted-by-key-exchange-service)
+* [The error - Addon Signals call timeout](#the-error---addon-signals-call-timeout)
 
 Video:
 * [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
@@ -52,6 +53,13 @@ This situation may indicate a network problem, Netflix say: _It typically indica
 ### The error - Request blacklisted by key exchange service
 
 As far as we know in the case of android devices, may indicate compatibility problems with the device firmware (needs updating), or there is the possibility that the model of the android device in use is on the black list of devices not authorized by Netflix.
+
+### The error - Addon Signals call timeout
+
+Could be a problem with Kodi or conflicts with other add-ons who are performing other operations at the same time.
+In rare cases it may represent an internal error of the addon.
+
+One solution might be to enable IPC over HTTP: In add-on expert settings, turn on `Enable IPC over HTTP`
 
 ## Video
 
