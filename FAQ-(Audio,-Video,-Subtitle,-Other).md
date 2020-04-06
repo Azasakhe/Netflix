@@ -29,7 +29,6 @@ Before asking for help, please perform the following checks:
 - Verify that in the addon settings these settings (in the Expert page) are set correctly:
 `Enable VP9 profiles` to OFF
 `Enable HEVC profiles` to ON
-`Force support to HDCP 2.2` to ON
 - Verify that in the InputStream Adaptive add-on these settings are set correctly:
 `Override HDCP status` to ON
 `Stream selection` to Auto
