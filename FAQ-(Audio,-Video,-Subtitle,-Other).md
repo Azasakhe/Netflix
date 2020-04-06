@@ -15,6 +15,7 @@ Other:
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
+* [The Skin Widgets - problems and limits](#support-for-skin-widgets---problems-and-limits)
 
 ## Video
 
@@ -123,3 +124,14 @@ If you prefer you can disable `Remember audio / subtitle preferences` in the add
 
 The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
 This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use.
+
+### Support for Skin Widgets - problems and limits
+
+Let's start by saying that _this add-on is not fully compatible with Skins Widgets_ due to unmanageability and poor integration provided by Widgets themselves.
+
+Therefore requests for help for problems caused by widgets will not be accepted.
+
+Some know Widgets limitations and problems:
+- When you add a Widget, it will have access to the data of the last selected netflix profile, then will be updated with the list of the last selected Netflix profile.
+- Widgets created by some type of list may cause unexpected errors when you select another Netflix profile different from which the Widget was created, by displaying error messages or other.
+- Add many Widgets could stuck the Netflix service with unexpected errors.
