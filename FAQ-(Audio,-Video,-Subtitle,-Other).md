@@ -15,7 +15,7 @@ Other:
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
-* [Support for Skin Widgets - problems and limits](#support-for-skin-widgets---problems-and-limits)
+* [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
 
 ## Video
 
@@ -125,7 +125,7 @@ If you prefer you can disable `Remember audio / subtitle preferences` in the add
 The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
 This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use.
 
-### Support for Skin Widgets - problems and limits
+### Skin Widgets - problems and limits
 
 Let's start by saying that _this add-on is not fully compatible with Skins Widgets_ due to unmanageability and poor integration provided by Widgets themselves.
 
