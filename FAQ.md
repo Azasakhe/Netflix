@@ -1,10 +1,12 @@
 Video:
 * [My android device supports 4K but does not playback at 4K](#my-android-device-supports-4k-but-does-not-playback-at-4k)
 * [Video playback problems like frame drops, slowdown, stuttering](#video-playback-problems-like-frame-drops-slowdown-stuttering)
+* [How to enable HDR and Dolby Vision](#how-to-enable-hdr-and-dolby-vision)
 * [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
 
 Audio:
+* [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
 * [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-20-audio-tracks)
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
 
@@ -47,6 +49,17 @@ In the addon settings go to Expert page and change `Limit video stream resolutio
 - Limit InputStream Adaptive max bandwidth<br/>
 In the addon settings go to Expert page open InputStream Adaptive settings and try to set Max Bandwidth between 2.500.000 and 4.000.000
 
+### How to enable HDR and Dolby Vision
+
+If 4K prerequisites are met, you must enabled HDR and/or DolbyVision profiles in addon settings.
+
+- In the addon settings go to Expert page and set:
+`Enable HEVC profiles` to ON
+`Enable HDR profiles` to ON and/or `Enable DolbyVision profiles` to ON
+
+Depending on your setup, there may be some tinkering required to get HDR to work. This depends on your TV,
+if you are using an AV-Receiver, which device Kodi is running on, etc. Please make sure to search the issues and available forum threads for a solution before opening an issue!
+
 ### When you playback a video on Raspberry Pi there is no audio and video
 
 It is possible that OMXPlayer is enabled, so you need to disable it.<br/>
@@ -62,6 +75,16 @@ If it still does not work, it may be that one of the enabled video profiles are 
 Then go to Add-on Expert settings, and try to disable VP9 and/or HEVC profile.
 
 ## Audio
+
+### How to enable Dolby Atmos
+
+It's enabled by default, when option `Enable Dolby Digital Plus` is enabled.
+But only some films/TV shows have Atmos streams.
+
+- On Kodi 18.x they can be distinguished only from the skin media-flag "Dolby-HD".
+- On Koki 19.x they can be distinguished also from the label "Atmos" in the audio language list
+
+A premium netflix account is required.
 
 ### How is it possible to have only 2.0 audio tracks?
 
