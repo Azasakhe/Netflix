@@ -13,6 +13,7 @@ Audio:
 Other:
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
+* [Subtitles - don't always keep the language of your choice]()
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 
 ## Video
@@ -112,6 +113,11 @@ It may not work with all kinds of Asian languages, the best thing is to get/ask 
 Just change how Kodi handles subtitles by choosing *forced only*.
 In Kodi Settings -> Player -> Language
 set: `Preferred subtitle language` to `Forced only`
+
+### Subtitles - don't always keep the language of your choice
+
+The Kodi 18.x framework does not allow to fix this problem. So there is no solution.<br/>
+If you prefer you can disable `Remember audio / subtitle preferences` in the addon Playback settings, so in each video you will manually enable the subtitles.
 
 ### Sometimes blank boxes are shown instead of characters of descriptions and titles
 
