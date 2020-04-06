@@ -13,7 +13,7 @@ Audio:
 Other:
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
-* [Subtitles - don't always keep the language of your choice]()
+* [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 
 ## Video
