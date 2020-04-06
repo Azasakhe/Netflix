@@ -1,7 +1,7 @@
 **User Documentation**
 - [[How install the addon]]
-- [[FAQ (Audio, Video, Other)]]
-- [[FAQ]]
+- [[FAQ (Audio, Video, Subtitle, Other)]]
+- [[FAQ (Errors)]]
 - [[How to export and sync tv shows and movies in Kodi library]]
 - [[Library settings]]
 - [[List of 1080P 4k Android tested devices]]
