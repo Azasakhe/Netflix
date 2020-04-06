@@ -15,7 +15,7 @@ Other:
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
-* [The Skin Widgets - problems and limits](#support-for-skin-widgets---problems-and-limits)
+* [Support for Skin Widgets - problems and limits](#support-for-skin-widgets---problems-and-limits)
 
 ## Video
 
