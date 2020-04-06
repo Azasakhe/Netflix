@@ -11,6 +11,8 @@ Audio:
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
 
 Other:
+* [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
+* [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 
 ## Video
@@ -98,6 +100,18 @@ If you prefer you can try to disable `Remember audio / subtitle preferences` in 
 in this way leaves the choice of language to Kodi, so you will need to manually select the exact audio language.
 
 ## Other
+
+### Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)
+
+The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
+This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use, and in the Kodi subtitles settings.
+It may not work with all kinds of Asian languages, the best thing is to get/ask information through the forum of Kodi.
+
+### Subtitles - I always see subtitles in every video
+
+Just change how Kodi handles subtitles by choosing *forced only*.
+In Kodi Settings -> Player -> Language
+set: `Preferred subtitle language` to `Forced only`
 
 ### Sometimes blank boxes are shown instead of characters of descriptions and titles
 
