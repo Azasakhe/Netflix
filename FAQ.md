@@ -1,13 +1,6 @@
-Add-on errors:
-* [The error - This title is not available to watch instantly](#The-error---This-title-is-not-available-to-watch-instantly)
-* [The error - Request failed validation during key exchange](#The-error---Request-failed-validation-during-key-exchange)
-* [The error - Entity used incorrect key exchange data type](#The-error---Entity-used-incorrect-key-exchange-data-type)
-* [The error - Entity used incorrect user authentication data type](#The-error---Entity-used-incorrect-user-authentication-data-type)
-* [The error - HTTPError: 403 Client Error: Forbidden for url ...](#the-error---httperror-403-client-error-forbidden-for-url-)
-* [The error - Request blacklisted by key exchange service](#the-error---request-blacklisted-by-key-exchange-service)
-* [The error - Addon Signals call timeout](#the-error---addon-signals-call-timeout)
-
 Video:
+* [My android device supports 4K but does not playback at 4K](#my-android-device-supports-4k-but-does-not-playback-at-4k)
+* [Video playback problems like frame drops, slowdown, stuttering](#video-playback-problems-like-frame-drops-slowdown-stuttering)
 * [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
 
@@ -18,50 +11,41 @@ Audio:
 Other:
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 
-## Add-on errors
-
-### The error - This title is not available to watch instantly
-
-In this case Netflix says to log out https://help.netflix.com/en/node/109329.<br/>
-Open add-on settings and choose `Logout`.
-
-If the problem persists, reinstall Widevine CDM (not applicable on Android):<br/>
-Open add-on settings (by context menu on the add-on icon), then go to `Expert` page and choose `InputStream Helper settings`, a new window will be opened, then choose `(Re)install Widevine CDM`.
-
-### The error - Request failed validation during key exchange
-
-This generally happens on Android devices, most of the time it can mean two things:
-- The ESN used is wrong, no more compatible or incorrectly generated<br/>
-In this case you can try to solve the problem by using the original ESN of your device. In some cases you can read the ESN in the system information of the operative system, alternatively you can read the ESN by opening the official Netflix app settings. Then copy it in full lenght, in to `Manual ESN` option in the Netflix add-on expert settings.<br/>
-Probably future changes by developers will be necessary.
-
-- Netflix has implemented some changes, so changes will need to be made by the developers of the add-on.
-
-### The error - Entity used incorrect user authentication data type
-
-It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
-
-### The error - Entity used incorrect key exchange data type
-
-It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
-
-### The error - HTTPError: 403 Client Error: Forbidden for url ...
-
-This situation may indicate a network problem, Netflix say: _It typically indicates that your computer's DNS setting is not routing to Netflix properly._
-[Read the Netflix documentation](https://help.netflix.com/en/node/26493)
-
-### The error - Request blacklisted by key exchange service
-
-As far as we know in the case of android devices, may indicate compatibility problems with the device firmware (needs updating), or there is the possibility that the model of the android device in use is on the black list of devices not authorized by Netflix.
-
-### The error - Addon Signals call timeout
-
-Could be a problem with Kodi or conflicts with other add-ons who are performing other operations at the same time.
-In rare cases it may represent an internal error of the addon.
-
-One solution might be to enable IPC over HTTP: In add-on expert settings, turn on `Enable IPC over HTTP`
-
 ## Video
+
+### My android device supports 4K but does not playback at 4K
+
+Before asking for help, please perform the following checks:
+- Verify that your device support Widevine Security Level L1 (use an app like: DRM Info)
+- Verify that your device is connected to a display and/or amplifier with HDCP 2.2 or higher
+- Verify that in the Netflix website the streaming quality settings is set to Auto or High
+- If possible change Kodi display resolution to 4K. If it is not possible, open InputStream Adaptive settings and set `Ignore Display Resolution` to ON
+- Verify that in the addon settings these settings (in the Expert page) are set correctly:
+`Enable VP9 profiles` to OFF
+`Enable HEVC profiles` to ON
+`Force support to HDCP 2.2` to ON
+- Verify that in the InputStream Adaptive add-on these settings are set correctly:
+`Override HDCP status` to ON
+`Stream selection` to Auto
+
+If again you don't get 4k resolution, take note of the ESN of your device, or get it from Netflix App (can be found under Settings => About) and write it down on Expert page, Manual ESN.
+
+If again you don't get 4k resolution, open InputStream Adaptive settings and try to set:
+`Ignore Display Resolution` to ON
+`Min Bandwidth` to 18.000.000
+
+### Video playback problems like frame drops, slowdown, stuttering
+
+Usually happens to those devices where hardware video decoding is not available (due to Netflix licensing restrictions) and the CPU fails to process the video stream properly due to the high load.
+All devices with software video decoding are affected by this problem (see *Reference table of high resolutions*) like personal computers, raspberry, android boxes (with Widevine sec. lev. L3), etc..
+
+So to get a smooth reproduction **you'll need a CPU that can handle the load of software decoding 1080p video** otherwise you'll have the result of stuttering video playback.
+
+You can try to solve this problem by trying one of these solutions:
+- Limit the resolution to 720p<br/>
+In the addon settings go to Expert page and change `Limit video stream resolution to` value to 720p.
+- Limit InputStream Adaptive max bandwidth<br/>
+In the addon settings go to Expert page open InputStream Adaptive settings and try to set Max Bandwidth between 2.500.000 and 4.000.000
 
 ### When you playback a video on Raspberry Pi there is no audio and video
 
