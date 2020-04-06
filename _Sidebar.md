@@ -1,5 +1,6 @@
 **User Documentation**
 - [[How install the addon]]
+- [[FAQ (Audio, Video, Other)]]
 - [[FAQ]]
 - [[How to export and sync tv shows and movies in Kodi library]]
 - [[Library settings]]
