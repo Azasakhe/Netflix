@@ -4,6 +4,7 @@
 - [[FAQ (Errors)]]
 - [[How to export and sync tv shows and movies in Kodi library]]
 - [[Library settings]]
+- [[Use library exported with multiple devices]]
 - [[List of 1080P 4k Android tested devices]]
 - [[Sync of watched status with Netflix]]
 - [[My credentials are safe?]]
