@@ -2,7 +2,7 @@ When you need to share the same Kodi exported library (of Netflix videos) with m
 
 Choose the case that suits your needs.
 
-### CASE 1 - All devices can manage and play from the same Kodi library of Netflix exported items
+### OPTION 1 - All devices can manage and play from the same Kodi library of Netflix exported items
 
 In this case every devices can manage the Kodi library of Netflix exported items (e.g. export, remove).
 
@@ -27,7 +27,7 @@ To configure the main device to auto-update the library see [[How to export and 
 
 Now you can manage and play the Netflix exported items from all configured devices.
 
-### CASE 2 - Only a main device must manage the Kodi library of Netflix exported items, all devices can play from same library
+### OPTION 2 - Only a main device must manage the Kodi library of Netflix exported items, all devices can play from same library
 In this case _only_ the main device must manage the Kodi library (e.g. export, remove) netflix exported items, any other device must access to the library as "_read-only_" mode, so you should not modify the exported library items from the other devices.
 
 - Method to be used carefully, can causing problems explained below
