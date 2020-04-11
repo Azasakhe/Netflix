@@ -44,7 +44,7 @@ Otherwise this will cause in the best cases inconsistencies with the menus to ma
 
 To first you must create a shared network folder (using SMB or other services) where place the exported library items.
 
-In the in the _main device_:
+In the _main device_:
 * Open the add-on settings and under Library page: Turn ON `Enable custom library folder` and choose the path of the shared network folder `Custom library path`.
 * If you want configure also the auto-update feature see [[How to export and sync tv shows and movies in Kodi library]]
 
