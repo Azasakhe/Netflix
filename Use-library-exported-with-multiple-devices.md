@@ -52,6 +52,6 @@ In the _other devices_:
 * Install the add-on
 * In the Kodi Video browser and add the path of the shared network folder.
 * Remember not to modify the Kodi library of Netflix exported items from these devices
-* Do not enable the feature `Enable custom library folder` on this devices 
+* If you prefer you can disable the functionality with the Kodi library completely. In Library page settings, set `Auto update mode` to `Disabled`.
 
 Now you can play the Netflix exported items from all configured devices.
