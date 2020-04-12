@@ -20,7 +20,7 @@ There are several reasons because this problem is presented, but not all of them
 
 If it still doesn't work, you can only try to change your password.
 
-You can find other info on the page: [[My credentials are safe]]
+You can find other info on the page: [[My credentials are safe?]]
 
 ### This title is not available to watch instantly
 
