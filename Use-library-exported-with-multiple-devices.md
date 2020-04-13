@@ -8,7 +8,7 @@ In this case every devices can manage the Kodi library of Netflix exported items
 
 - Recommended method
 - Needed a shared network folder (like SMB)
-- Needed a MySQL server
+- Needed a MySQL server (MySQL => 5.5.3 or MariaDB => 5.5)
 
 **How to configure:**
 
