@@ -40,11 +40,8 @@ Warning: in some cases this function may not work or may only migrate a part of 
 ### Use MySQL shared library database
 It allows you to share what you export to the Kodi library, with multiple different devices, where each device has its own Kodi installation.
 
-In order to work it is necessary use all Kodi's with a central MySQL server. You can follow the official Kodi MySQL setup instructions at [Kodi Wiki](https://kodi.wiki/view/MySQL).
+In order to work it is necessary use all Kodi's with a central MySQL server.
 
-When done, in each device open the addon settings and under Library page:
-* Check "Enable custom library folder", and choose a shared "Custom library path". The path must be the exact same on all devices.
-* Enable "Use MySQL shared library database", then set the same connection parameters used in Kodi MySQL setup.
+The versions of MySQL supported are: MySQL => 5.5.3 or MariaDB => 5.5
 
-As a last thing you need to set that only one device is responsible for updating the library (i.e. check for new episodes):
-Then in the device you choose, click on "Set this device as main auto-updates manager"
+Read "[[Use library exported with multiple devices]]" page for configuration instructions
