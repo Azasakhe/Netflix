@@ -6,7 +6,6 @@ What is not working, due to an (yet) unknown problems:
 
 - The **continue watching list will not be updated**
 - Sometimes the update of watched status (at the end of playback) can fail (see paragraph _errors_ below)
-- _Up Next Add-on is currently not compatible with this feature_, may be in the future releases of Netflix add-on
 
 ### How it works
 
