@@ -16,6 +16,7 @@ Other:
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
+* [Exports to Kodi library - There are no details of the video/audio stream](#exports-to-kodi-library---there-are-no-details-of-the-videoaudio-stream)
 
 ## Video
 
@@ -134,3 +135,9 @@ Some know Widgets limitations and problems:
 - When you add a Widget, it will have access to the data of the last selected netflix profile, then will be updated with the list of the last selected Netflix profile.
 - Widgets created by some type of list may cause unexpected errors when you select another Netflix profile different from which the Widget was created, by displaying error messages or other.
 - Add many Widgets could stuck the Netflix service with unexpected errors.
+
+### Exports to Kodi library - There are no details of the video/audio stream
+
+This is a limitation, it is not possible to add information regarding the details of the audio/video tracks (media-flags), because the information are not available in the metadata requested to Netflix service.
+
+You can still add the length of the videos, by enable the option `Enable NFO files export` in the `Libray` settings of the add-on.
