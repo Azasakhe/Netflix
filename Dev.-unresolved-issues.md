@@ -16,14 +16,6 @@ However, this does not happen, in other words, sometimes the request generates a
 
 I have some suspicions that there is something to add to the Event requests (events_handler.py, method `_build_event_params`), which relates the requests sent of the events with the request to update the list.
 
-### Wrong runtime (length) video value
-
-Some videos played by the website have a longer length, compared to when they are played inside Kodi.
-An example is the tv show "You" S01E02, on the website after the ending netflix logo, the video continue and you can view others credits, that with Kodi player you can not see, therefore this is the cause of the wrong video length.
-Is it possible that some of the credits have a separate video stream?
-
-Ref. https://github.com/CastagnaIT/plugin.video.netflix/issues/414
-
 ### Wrong selection of audio/subtitle track due to unsupported language code from Kodi
 
 Kodi support only the language code of ISO 639-1 standard,
