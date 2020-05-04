@@ -38,7 +38,7 @@ Force a maximum resolution limit. This runs at a low level, it limits the video 
 
 ### Open Connect CDN
 To be used with caution. This parameter allows you to select a CDN server for streaming.
-It may help in some cases of flow instability, causing video interruptions or the failure to play some videos.
+It may help in some cases of stream instability, causing video interruptions or the failure to play some videos.
 
 Then, use only if:
 - You have streaming errors in log like this:
