@@ -59,7 +59,7 @@ The IPC allows the communication between different processes of the add-on, not 
 In some cases the use of this plugin by many add-ons could cause timeout problems, so you can activate the _IPC over HTTP_ to exclude _IPC over AddonSignals_.
 
 ### Manual ESN
-Allows you to specify the use of an ESN of your certified device.
+Allows you to specify the use of an ESN of your certified device, by excluding the automatically generated ESN.
 
 To be inserted only and exclusively in case of problems.
 
