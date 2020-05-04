@@ -53,3 +53,15 @@ The CDN server with a lower index (rank) is the most reliable one and with the f
 
 Therefore the CDN `Server 1` is the default choice, try to change only for the problems described above.
 
+### Enable IPC over HTTP
+The IPC allows the communication between different processes of the add-on, not to be confused with internet communication. By default IPC communication is done by using the AddonSignals plugin.
+
+In some cases the use of this plugin by many add-ons could cause timeout problems, so you can activate the _IPC over HTTP_ to exclude _IPC over AddonSignals_.
+
+### Manual ESN
+Allows you to specify the use of an ESN of your certified device.
+
+To be inserted only and exclusively in case of problems.
+
+### Reset ESN
+Reset any settings and ESN data stored in the database, and generates a new ESN.
