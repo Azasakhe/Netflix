@@ -12,13 +12,15 @@ Add-on errors:
 
 ### Email or password is incorrect
 
-There are several reasons because this problem is presented, but not all of them are known:
+There are several reasons because this problem is presented, the known cases are:
 
-- Verify that an email has arrived to reset your password
-- Try Logout from Netflix add-on and then Login again
-- Check that your current password is still working on other devices (perform logout / login again)
+- Netflix automatically reset your password for suspicious activity (notice by e-mail)
+- You have changed the password while Kodi was still running
 
-If it still doesn't work, you can only try to change your password.
+The only solutions is:
+1) Try to change your password
+2) Reboot Kodi
+3) Open Netflix add-on, should be asked to enter the new credentials (if no credential are asked try to open add-on settings and Logout)
 
 You can find other info on the page: [[My credentials are safe?]]
 
