@@ -16,7 +16,7 @@ _DO NOT USE IT TO SYNCHRONIZE WITHOUT WAITING FOR THE START OF THE SCHEDULING, O
 If enabled when a tv show or movie is exported (automatically by sync or manually), NFO files will also be created.
 
 This function has three purposes:
-1) It adds the length of the videos
+1) It adds the length of the videos to the media-flags.
 2) It helps to add missing information to episodes of TV series or movies when Kodi's built-in screapers don't get information.
 For example, it can happen that a TV series on netflix is divided into two seasons, while on the TMDB database it is in a single season. This means that Kodi's screaper doesn't get the information for the second season because it doesn't exist in the database. So the NFO files add this missing information.
 3) To allow the use of the "Local information only" screaper in Kodi's library,
