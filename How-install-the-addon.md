@@ -2,7 +2,7 @@
 * A devices compatible with Kodi (Apple iOS/tvOS are not supported)
 * Kodi 18 or higher version
 * InputStream Adaptive add-on *1 *2
-* Cryptdome python library *1 *2
+* Pycryptodome python library *1 *2
 * InputStream Helper add-on *2
 * Widevine CDM library *2
 
