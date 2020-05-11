@@ -17,6 +17,7 @@
 - [[Dev. basic info]]
 - [[Dev. unresolved issues]]
 - [[Dev. Add-on versioning]]
+- [[Dev. PyCrypto packages]]
 
 **About**
 - [The project](./)
