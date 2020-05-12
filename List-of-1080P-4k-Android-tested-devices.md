@@ -10,7 +10,8 @@ This list only includes tested devices with hardware video decoding.
 | Beelink GT1-A                            | ✔     | ✔    |     |              | 7       |
 | EON Smart Box (United Group)             | ✔     | ✔    |     |              | 7, 8    |
 | Minix U9-H                               | ✔     |      |     |              | 7       |
-| NVIDIA Shield TV                         | ✔     | ✔    | ✔   | ✔           | 8, 9    |
+| NVIDIA Shield TV 2015/2017               | ✔     | ✔    | ✔   |             | 8, 9    |
+| NVIDIA Shield TV 2019                    | ✔     | ✔    | ✔   | ✔           | 8, 9    |
 | Sony KD-55XE9005                         | ✔     | ✔    | ✔   |              | 8       |
 | Xiaomi Mi Box MDZ-16-AB (Mi Box 3)       | ✔     | ✔    |     |              | 8       |
 | Xiaomi Mi Box S (Mi Box 4)               | ✔     | ✔    |     |              | 8       |
