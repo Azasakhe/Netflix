@@ -1,10 +1,8 @@
 ### The limitations
 
-Being an **test feature**, it has _not yet been included to work with the Kodi library_.
+Being an **test feature**, may not always work properly.
 
-What is not working, due to an (yet) unknown problems:
-
-- The continue watching list will be updated, but not in add-on side yet (to update it will be needed add-on or Kodi reboot)
+- Currently there is _no integration with the Kodi library_, many code changes are required, so no ETA
 - It can rarely happen that the update of watched status fails with a notification on screen (see paragraph _errors_ below)
 
 ### How it works
