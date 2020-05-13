@@ -4,8 +4,8 @@ Being an **test feature**, it has _not yet been included to work with the Kodi l
 
 What is not working, due to an (yet) unknown problems:
 
-- The **continue watching list will not be updated**
-- Sometimes the update of watched status (at the end of playback) can fail (see paragraph _errors_ below)
+- The continue watching list will be updated, but not in add-on side yet (to update it will be needed add-on or Kodi reboot)
+- It can rarely happen that the update of watched status fails with a notification on screen (see paragraph _errors_ below)
 
 ### How it works
 
