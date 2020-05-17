@@ -40,7 +40,7 @@ So in add-on settings, go to Library page and:
 **WARNING: If this setting is changed after you have already exported tv shows or movies, you must reset the database data! This implies the loss of all exports!<br/>**
 
 To reset database, in add-on settings, go to Library page and:
-- Click on `Purge library`
+- Select `Delete library contents`
 
 NOTE: if you are an experienced user, instead of resetting you can move the folders of the files manually
 
