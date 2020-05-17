@@ -27,7 +27,7 @@ Here you can change the default folder where the addon save the file exported of
 
 [[Read here detailed instructions|How-to-export-and-sync-tv-shows-and-movies-in-Kodi-library#where-are-the-exported-files]]
 
-### Purge library
+### Delete library contents
 This makes a complete removal of:
 - All tv shows/films exported to the Kodi library
 - All library data in the netflix add-on database
