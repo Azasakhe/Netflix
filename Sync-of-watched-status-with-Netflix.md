@@ -26,7 +26,7 @@ But the following behaviour should be highlighted:
 This can happen if you use the _same_ profile on multiple device, apps, website at same time, then the videos progress that are been changed outside Kodi you may not see immediately.
 
 If you want to see those changes immediately, you can choose to perform one of the following operations:<br/>
--Do the `Purge in-memory cache` from add-on expert settings<br/>
+-Do the `Clear in-memory cache` from add-on expert settings<br/>
 -Disable and re-enable the add-on<br/>
 -Reboot Kodi
 
