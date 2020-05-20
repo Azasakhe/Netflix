@@ -132,7 +132,7 @@ This user-authentication scheme works only combined with an user-id-token and ca
 If you are on windows you can install MinGW or similars<br>
 If you are on windows and you have installed Git, you can integrate make:<br>
 -Download make-x.x-without-guile-w32.zip from https://sourceforge.net/projects/ezwinports/files/<br>
--Copy the contents to your Git\mingw64\ merging the folders, but do NOT overwrite/replace any existing files
+-Copy the contents to your `Git\mingw64\` merging the folders, but do NOT overwrite/replace any existing files
 
 - Install makefile dependencies (kodi-addon-checker, tox, coverage)
 - To run a test open console and run: `make test` or `make run`
