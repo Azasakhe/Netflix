@@ -2,7 +2,6 @@ Video:
 * [My android device supports 4K but does not playback at 4K](#my-android-device-supports-4k-but-does-not-playback-at-4k)
 * [Video playback problems like frame drops, slowdown, stuttering](#video-playback-problems-like-frame-drops-slowdown-stuttering)
 * [How to enable HDR and Dolby Vision](#how-to-enable-hdr-and-dolby-vision)
-* [When you playback a video on Raspberry Pi there is no audio and video](#When-you-playback-a-video-on-Raspberry-Pi-there-is-no-audio-and-video)
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
 
 Audio:
@@ -63,11 +62,6 @@ If 4K prerequisites are met, you must enabled HDR and/or DolbyVision profiles in
 
 Depending on your setup, there may be some tinkering required to get HDR to work. This depends on your TV,
 if you are using an AV-Receiver, which device Kodi is running on, etc. Please make sure to search the issues and available forum threads for a solution before opening an issue!
-
-### When you playback a video on Raspberry Pi there is no audio and video
-
-It is possible that OMXPlayer is enabled, so you need to disable it.<br/>
-Go to Kodi settings, go to `Player` settings, then disable OMXPlayer.
 
 ### When you playback a video on Android there is no video
 
