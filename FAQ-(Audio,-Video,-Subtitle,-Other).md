@@ -42,16 +42,16 @@ If again you don't get 4k resolution, open InputStream Adaptive settings and try
 
 ### Video playback problems like frame drops, slowdown, stuttering
 
-Usually happens to those devices where hardware video decoding is not available (due to Netflix licensing restrictions) and the CPU fails to process the video stream properly due to the high load.
+Usually happens to those devices where hardware video decoding is not available (due to Widevine limitations) and the CPU fails to process the video stream properly due to the high load.
 All devices with software video decoding are affected by this problem (see *Reference table of high resolutions*) like personal computers, raspberry, android boxes (with Widevine sec. lev. L3), etc..
 
-So to get a smooth reproduction **you'll need a CPU that can handle the load of software decoding 1080p video** otherwise you'll have the result of stuttering video playback.
+So to get a smooth reproduction **you will need a CPU that can handle the load of software decoding 1080p video** otherwise you will have the result of stuttering video playback.
 
 You can try to solve this problem by trying one of these solutions:
 - Limit the resolution to 720p<br/>
-In the addon settings go to Expert page and change `Limit video stream resolution to` value to 720p.
+From add-on settings go to `Expert` page and change `Limit video stream resolution to` value to 720p.
 - Limit InputStream Adaptive max bandwidth<br/>
-In the addon settings go to Expert page open InputStream Adaptive settings and try to set Max Bandwidth between 2.500.000 and 4.000.000
+From add-on settings go to `Expert` page open `InputStream Adaptive settings` and try to set `Max Bandwidth` between 2.500.000 and 4.000.000
 
 ### How to enable HDR and Dolby Vision
 
