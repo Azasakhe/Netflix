@@ -139,7 +139,7 @@ You can still add the length of the videos, by enable the option `Enable NFO fil
 
 ### Views setting
 
-Views are the types of views provided by skins to show contents such as video/image lists etc.
+Views are the types of views provided by skins to show contents such as video lists that can be for examle InfoWall/Poster/WideList etc.
 
 These settings allow you to override the default views set by default of the currently used skin.
 When enabling the custom view on a list type, you must enter the ID (number) of the view to be used.
