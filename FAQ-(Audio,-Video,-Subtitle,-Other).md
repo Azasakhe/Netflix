@@ -16,6 +16,7 @@ Other:
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
 * [Exports to Kodi library - The video lists do not have video/audio stream info (media-flags)](#exports-to-kodi-library---the-video-exported-do-not-have-videoaudio-stream-info-media-flags)
+* [Views setting](#views-setting)
 
 ## Video
 
@@ -135,3 +136,12 @@ Some know Widgets limitations and problems:
 This is a limitation, it is not possible to add information regarding the details of the audio/video tracks (media-flags), because the information are not available in the metadata requested to Netflix service.
 
 You can still add the length of the videos, by enable the option `Enable NFO files export` in the `Libray` settings of the add-on.
+
+### Views setting
+
+Views are the types of views provided by skins to show contents such as video/image lists etc.
+
+These settings allow you to override the default views set by default of the currently used skin.
+When enabling the custom view on a list type, you must enter the ID (number) of the view to be used.
+
+The ID's must be provided by the skins used, they are related to the skin used and have no relation with the add-on.
