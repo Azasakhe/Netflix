@@ -125,7 +125,7 @@ Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netf
 
 This user-authentication scheme works only combined with an user-id-token and can not be used with all endpoints, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
 
-#### How using makefile unit test
+### How using makefile unit test
 
 - Install "make"
 
@@ -137,7 +137,7 @@ If you are on windows and you have installed Git, you can integrate make:<br>
 - Install makefile dependencies (kodi-addon-checker, tox, coverage)
 - To run a test open console and run: `make test` or `make run`
 
-#### The available resolutions and limitations
+### The available resolutions and limitations
 
 Netflix has a complicated system of protection and limitations to allow the viewing of high resolution video (720p/1080p/4k).
 
