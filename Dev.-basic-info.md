@@ -143,18 +143,15 @@ Netflix has a complicated system of protection and limitations to allow the view
 
 The main factors currently known to influence the available resolutions are:
 
-- The type of operative system
-- The type of browser
+- The type of operative system *
+- The type of browser *
 
 Is taken in account of the type of User Agent used, it influences the shakti metadata, the ESN, the manifest and license requests.<br/>
 We rely on the website specs: https://help.netflix.com/en/node/23742<br/>
 In some cases it is possible to obtain even higher resolutions than those declared (depends from the MSL profiles used).
 
-- The model of device in use
-
-This parameter affects the ESN
-
-- The DRM security level and HDCP version in use
+- The model of device in use *
+- The DRM security level and HDCP version in use *
 
 We use only the DRM Widevine. We can handle Sec.Lev. L1 only to certified android devices all others are L3.
 If the device is L1 and have HDCP >= 2.2, will be available resolutions 1080p and higher in hardware deconding.
@@ -165,3 +162,7 @@ The ESN is a serial that _could_ contains information about the device in use, a
 
 - Some videos also seem to be influenced by the producers
 - Others things!? we hope no..
+
+<sup>
+* This parameter affects the ESN
+</sup>
