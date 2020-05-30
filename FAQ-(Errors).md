@@ -5,6 +5,7 @@ Add-on errors:
 * [Entity used incorrect key exchange data type](#Entity-used-incorrect-key-exchange-data-type)
 * [Entity used incorrect user authentication data type](#Entity-used-incorrect-user-authentication-data-type)
 * [HTTPError: 403 Client Error: Forbidden for url ...](#httperror-403-client-error-forbidden-for-url-)
+* [HTTPError: 500 Server Error](#httperror-500-server-error)
 * [Request blacklisted by key exchange service](#request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
 
@@ -53,6 +54,11 @@ It happens very rarely, so it is difficult to find a solution, it is usually a t
 
 This situation may indicate a network problem, Netflix say: _It typically indicates that your computer's DNS setting is not routing to Netflix properly._
 [Read the Netflix documentation](https://help.netflix.com/en/node/26493)
+
+### HTTPError: 500 Server Error
+
+There is a problem with the netflix server. This should be fixed by them.
+Some users were able to solve the problem by changing their profile language.
 
 ### Request blacklisted by key exchange service
 
