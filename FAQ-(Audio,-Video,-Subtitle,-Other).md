@@ -55,11 +55,13 @@ From add-on settings go to `Expert` page open `InputStream Adaptive settings` an
 
 ### How to enable HDR and Dolby Vision
 
-If 4K prerequisites are met, you must enabled HDR and/or DolbyVision profiles in addon settings.
+If 4K prerequisites are met (see Readme), you must enabled HDR and/or DolbyVision profiles in addon settings.
 
 - In the addon settings go to Expert page and set:
 `Enable HEVC profiles` to ON
 `Enable HDR profiles` to ON and/or `Enable DolbyVision profiles` to ON
+
+Remember also to enable HDR feature also in the Kodi display settings.
 
 Depending on your setup, there may be some tinkering required to get HDR to work. This depends on your TV,
 if you are using an AV-Receiver, which device Kodi is running on, etc. Please make sure to search the issues and available forum threads for a solution before opening an issue!
