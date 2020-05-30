@@ -25,7 +25,7 @@ Other:
 Before asking for help, please perform the following checks:
 - Verify that your device support Widevine Security Level L1 (use an app like: DRM Info)
 - Verify that your device is connected to a display and/or amplifier with HDCP 2.2 or higher
-- Verify that in the Netflix website the streaming quality settings is set to Auto or High
+- Verify that on the Netflix website, in the Playback Settings for the profiles to be used, they have the Data usage per screen, set to Auto or High
 - If possible change Kodi display resolution to 4K. If it is not possible, open InputStream Adaptive settings and set `Ignore Display Resolution` to ON
 - Verify that in the addon settings these settings (in the Expert page) are set correctly:
 `Enable VP9 profiles` to OFF
