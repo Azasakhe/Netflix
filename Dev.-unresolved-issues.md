@@ -8,18 +8,6 @@ I have opened an Issue: https://github.com/xbmc/xbmc/issues/17426
 
 I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.
 
-### Path call "refreshListByContext" of update_lolomo_context method often fails
-
-Here we talk about Sync watched status with netflix feature,
-at the end of playing a video (or stop it) to request the update of continueWatching lolomo, we need to call api path `refreshListByContext` (see update_lolomo_context method in api_requests.py).
-
-This invalidate the "continueWatching" list in the netflix cache, in order to update the contents of the list.
-The call is done after the Stop event request from _process_event_request in events_hadler.py.
-
-Often this call return HTTPError 500 (error visible from log, on screen only when debug verbose is enabled).
-
-On NF website there is some cases where this call is not performed, it is possible that this is the cause of the error, but i failed to understand the rule.
-
 ### Wrong selection of audio/subtitle track due to unsupported language code from Kodi
 
 Kodi support only the language code of ISO 639-1 standard,
