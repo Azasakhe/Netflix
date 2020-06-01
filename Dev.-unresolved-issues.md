@@ -8,13 +8,17 @@ I have opened an Issue: https://github.com/xbmc/xbmc/issues/17426
 
 I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.
 
-### With the sync of watched status the "continue watching" list is not updated
+### Path call "refreshListByContext" of update_lolomo_context method often fails
 
-The path call of "refreshListByContext" in shakti.py inside the method `update_lolomo_context`, is the method that should invalidate the "continueWatching" list in the netflix cache, in order to update the contents of the list.
+Here we talk about Sync watched status with netflix feature,
+at the end of playing a video (or stop it) to request the update of continueWatching lolomo, we need to call api path `refreshListByContext` (see update_lolomo_context method in api_requests.py).
 
-However, this does not happen, in other words, sometimes the request generates an error, and when it works correctly it apparently does not update the list.
+This invalidate the "continueWatching" list in the netflix cache, in order to update the contents of the list.
+The call is done after the Stop event request from _process_event_request in events_hadler.py.
 
-I have some suspicions that there is something to add to the Event requests (events_handler.py, method `_build_event_params`), which relates the requests sent of the events with the request to update the list.
+Often this call return HTTPError 500 (error visible from log, on screen only when debug verbose is enabled).
+
+On NF website there is some cases where this call is not performed, it is possible that this is the cause of the error, but i failed to understand the rule.
 
 ### Wrong selection of audio/subtitle track due to unsupported language code from Kodi
 
