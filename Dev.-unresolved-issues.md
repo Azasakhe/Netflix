@@ -6,7 +6,8 @@ When "Synchronize the watched status of the videos with Netflix" is enabled the 
 
 I have opened an Issue: https://github.com/xbmc/xbmc/issues/17426
 
-I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.
+~I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.~
+I found the problem in Kodi core, i have opened PR https://github.com/xbmc/xbmc/pull/17993 waiting devs response
 
 ### Wrong selection of audio/subtitle track due to unsupported language code from Kodi
 
