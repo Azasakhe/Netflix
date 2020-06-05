@@ -1,9 +1,6 @@
 ### The limitations
 
-Being an **test feature**, may not always work properly.
-
-- Currently there is _no integration with the Kodi library_, many code changes are required, so no ETA
-- It can rarely happen that the update of watched status fails with a notification on screen (see paragraph _errors_ below)
+Currently there is _no integration with the Kodi library_, many code changes are required, so no ETA
 
 ### How it works
 
@@ -53,12 +50,15 @@ i have already notified the Kodi developers, hoping to find a solution in the fu
 
 The synchronization requires updates to be sent from the first minute of playback, therefore the resume will be updated only after the first minute of the played video, then if you press stop before this minute no changes will be saved.
 
-### Notifications with errors at the end of the playback
+### Possible notifications with errors at the end of the playback
 
-_An error prevented the update the status watched on netflix_
+#### An error prevented the update the lolomo context on netflix
 
-It's an unresolved problem that happens sometimes, which causes the failure to update the watched status on Netflix. No fixes yet.
+This error may cause:
+- Failure to update the watched status of the video
+- It may cause the Continue Watching list not to be updated
+- You may find that the synchronization of the watched status can be viewed on the website but not on other devices
 
-_An error prevented the update the lolomo context on netflix_
-
-It's an unresolved problem that happens sometimes, may be ignored. No fixes yet.
+This is a problem that cannot be solved yet,
+but sometime even if the synchronization has failed,
+it may resolve automatically after a few hours.
