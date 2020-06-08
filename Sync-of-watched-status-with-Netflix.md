@@ -52,7 +52,7 @@ The synchronization requires updates to be sent from the first minute of playbac
 
 ### Possible notifications with errors at the end of the playback
 
-#### An error prevented the update the lolomo context on netflix
+#### An error prevented the update the status watched on netflix
 
 This error may cause:
 - Failure to update the watched status of the video
