@@ -4,11 +4,11 @@ Currently there is _no integration with the Kodi library_, many code changes are
 
 ### How it works
 
-This newly introduced feature is still under test, then by default this feature is disabled, is a choice of the user use it.
+By default this feature is disabled, we leave the choice to use this feature to the user.
 
-If you enable it, all previous watched status and progress will be replaced by those on your real Netflix account, until you disable this feature again.
+If you enable it, all previous watched status and video progress (inside Kodi) will be replaced by those on your real Netflix account, until you disable this feature again.
 
-You want enable it open the add-on settings and go to:
+To enable it open the add-on settings and go to:
 `Playback` -> `Synchronize the watched status of the videos with Netflix`
 
 ### What happen if you use multiple devices, apps or website
@@ -34,7 +34,7 @@ By default Kodi provide these context menu:<br/>
 
 In this case **they will not work** because Kodi doesn't allow a personalized use of them.
 
-Then you have to use the context menu:<br/>
+Then you have to use this context menu:<br/>
 `Change watched status (locally)`
 
 This menu allows you to change the watched status, but _this change will never be communicated to Netflix but will only take effect within Kodi_.
@@ -43,8 +43,8 @@ Using it several times you will also have the possibility to restore the watched
 
 ### The video resume not works
 
-After many tests, i have concluded that this is Kodi problem-bug,<br/>
-i have already notified the Kodi developers, hoping to find a solution in the future.
+Kodi 18.x/19.x versions have a bug that prevent to resume the videos.<br/>
+At moment there is no solutions.
 
 ### When i stop playback the resume is not updated
 
