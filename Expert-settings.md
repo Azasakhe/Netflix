@@ -58,6 +58,18 @@ The IPC allows the communication between different processes of the add-on, not 
 
 In some cases the use of this plugin by many add-ons could cause timeout problems, so you can activate the _IPC over HTTP_ to exclude _IPC over AddonSignals_.
 
+### Force Widevine security level L3 (Android only)
+
+Some devices are declared as Widevine security level L1, but they have a broken/wrong implementation of Widevine or MediaCodec API, that will cause impossibility to playback videos, so with no pictures or with an error raised as `Request failed validation during key exchange`.
+
+The only way to have a possibility to playback videos with this devices, are:
+- Try request/do a firmware update of device to the manufacturer
+- Try to enable this option
+
+When you enable this option:
+- If you get this error `Request failed validation during key exchange`, means that _you can not use your device with Netflix add-on_.
+- If you can play videos, you can only see them only at _SD quality_.
+
 ### Manual ESN
 Allows you to specify the use of an ESN of your certified device, by excluding the automatically generated ESN.
 
