@@ -11,6 +11,10 @@
 *2 Automatically installed
 </sup>
 
+### Notice for Android
+
+This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all android devices.
+
 ---
 
 <details>
