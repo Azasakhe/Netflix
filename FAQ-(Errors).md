@@ -35,9 +35,11 @@ Open add-on settings (by context menu on the add-on icon), then go to `Expert` p
 
 ### Request failed validation during key exchange
 
-This generally happens on Android devices, most of the time it can mean two things:
-- The ESN used is wrong, no more compatible or incorrectly generated<br/>
-In this case you can try to solve the problem by using the original ESN of your device. In some cases you can read the ESN in the system information of the operative system, alternatively you can read the ESN by opening the official Netflix app settings. Then copy it in full lenght, in to `Manual ESN` option in the Netflix add-on expert settings.<br/>
+This generally happens on Android devices, most of the time it can be one of these cases:
+- Your device model is not Netflix certified (usually on chinese android-box), you can only try to enable `Force Widevine security level L3` see Expert settings wiki page.
+
+- The ESN used is wrong or incorrectly generated<br/>
+In this case you can try to solve the problem by using the ESN prodived from your device. In some cases you can read the ESN in the system information of the operative system, alternatively you can read the ESN by opening the official Netflix app settings. Then copy it in full lenght, in to `Manual ESN` option in the Netflix add-on expert settings.<br/>
 Probably future changes by developers will be necessary.
 
 - Netflix has implemented some changes, so changes will need to be made by the developers of the add-on.
