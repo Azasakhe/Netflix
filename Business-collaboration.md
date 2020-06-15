@@ -34,7 +34,7 @@ The monthly statistics are subject to the following fluctuations:
 
 This is a screenshot of the GitHub traffic flow of the repository (updated June 2020)
 
-------- iamg
+[![image.png](https://i.postimg.cc/KYZTjC2H/image.png)](https://postimg.cc/K1Hjsq4P)
 
 The graph shows the flow of web traffic over the 13-day period + 1 day (partial).
 
