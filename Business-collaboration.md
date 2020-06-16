@@ -51,4 +51,7 @@ also the downloads have definitely increased.
 
 ## Contacts
 
-Contact me through the e-mail provided in the details of this GitHub account.
+Contact me through the e-mail of this GitHub account:
+
+gottardo.stefano.83[at]gmail.com
+
