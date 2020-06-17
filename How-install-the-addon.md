@@ -18,7 +18,7 @@ This add-on works with most _Netflix certified_ android devices, but video playb
 ---
 
 <details>
-<summary><b>How to installing on: Windows / MacOS / Android / LibreELEC</b><sup> [click to expand]</sup></summary>
+<summary><b>How to installing on: Windows / MacOS / Android / LibreELEC / CoreELEC</b><sup> [click to expand]</sup></summary>
 <p>
 
 Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
