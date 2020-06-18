@@ -21,9 +21,9 @@ you can join as a developer and provide help to fix errors, make improvements, a
 
 ## Donations status
 
-Budget: 65€ (personal funds will be added to the current budget)<br/>
+Budget: 70€ (personal funds will be added to the current budget)<br/>
 Goal: 159€ + 100€
 
 _A huge thank you to those who were able to participate in the goal:_
 
-Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
+Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
