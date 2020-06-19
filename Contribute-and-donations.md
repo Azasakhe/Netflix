@@ -25,4 +25,4 @@ Budget: 50% for 1st goal
 
 _A huge thank you to those who were able to participate in the goal:_
 
-Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
+Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
