@@ -3,13 +3,16 @@ Anyone who wishes to support the development of this project can participate in 
 ### Indirect contribution through a donation
 The add-on works on a very wide range of different devices and operating systems, phone, tablet, computers, android box, linux machines, etc..
 
-Currently every test is performed only under Windows x64, and sometime with a old Android smartphone (Widevine L3).
+Currently every tests are performed under:
+Windows x64<br/>
+Old Android smartphone (Widevine L3)<br/>
+CoreELEC under GS-King X (ARM cpu)
 
 To better manage the development of the add-on is needed more hardware to make tests,
 so the current goal of donations is to purchase new hardware:
 
 1] NVidia Shield 2019 needed for testing under android OS with 4k/HDR, Netflix certified, Widewine L1<br/>
-2] Raspberry Pi 4 needed for testing under LibreElec with ARM linux enviroment
+2] Raspberry Pi 4 needed for testing under LibreElec/Raspbian with ARM linux enviroment
 
 If you wish to help to achieve the goal, you can donate via PayPal as "payment for Friends & Family" to the e-mail of this GitHub account:
 
