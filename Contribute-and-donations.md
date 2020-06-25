@@ -24,8 +24,8 @@ you can join as a developer and provide help to fix errors, make improvements, a
 
 ## Donations status
 
-Budget: 62% for 1st goal
+Budget: 79% for 1st goal
 
 _A huge thank you to those who were able to participate in the goal:_
 
-Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
+Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
