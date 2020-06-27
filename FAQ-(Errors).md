@@ -68,7 +68,9 @@ As far as we know in the case of android devices, may indicate compatibility pro
 
 ### Addon Signals call timeout
 
-Could be a problem with Kodi or conflicts with other add-ons who are performing other operations at the same time.
-In rare cases it may represent an internal error of the addon.
-
-One solution might be to enable IPC over HTTP: In add-on expert settings, turn on `Enable IPC over HTTP`
+This can happen most of the times when:
+- Could be a problem of conflicts with other add-ons who are performing other operations at the same time with AddonSignals add-on.<br/>
+The only solution is try to enable IPC over HTTP: In add-on expert settings, turn on `Enable IPC over HTTP`.
+- Your connection/ISP is not working optimally or Netflix server fails<br/>
+Not solvable here.
+- In rare cases it may represent an internal error of the addon.
