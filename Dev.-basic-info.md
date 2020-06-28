@@ -143,6 +143,7 @@ Netflix has a complicated system of protection and limitations to allow the view
 
 The main factors currently known to influence the available resolutions are:
 
+- The type of CPU architecture
 - The type of operative system *
 - The type of browser *
 
