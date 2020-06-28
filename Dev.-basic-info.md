@@ -160,7 +160,7 @@ If the device is L1 and have HDCP >= 2.2, will be available resolutions 1080p an
 
 The ESN is a serial that _could_ contains information about the device in use, and can influence the resolutions.
 
-- Some videos also seem to be influenced by the producers
+- Some videos are also influenced by the producers
 - Others things!? we hope no..
 
 <sup>
