@@ -75,5 +75,5 @@ This can happen most of the times when:
 The only solution is try to enable IPC over HTTP: In add-on expert settings, turn on `Enable IPC over HTTP`.
 - Your connection/ISP is not working optimally or Netflix server fails<br/>
 Not solvable here.
-- Your device uses too slow a memory card or disk.
+- Your device uses a memory card or disk that is too slow.
 - In rare cases it may represent an internal error of the addon.
