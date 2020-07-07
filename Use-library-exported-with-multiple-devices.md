@@ -18,6 +18,7 @@ Then will be needed to configure all Kodi installations, with a central MySQL se
 
 When done, in each device, open the add-on settings and under Library page:
 * Turn ON `Enable custom library folder` and choose the path of the shared network folder `Custom library path`. The path must be the exact the same to all devices.
+(in the path selection window press the back button several times to have full access)
 * Enable `Use MySQL shared library database`, then set the same connection parameters used in Kodi MySQL setup.
 
 Now you have set what main device that is responsible for updating the library (e.g. check for new episodes):
@@ -46,6 +47,7 @@ To first you must create a shared network folder (using SMB or other services) w
 
 In the _main device_:
 * Open the add-on settings and under Library page: Turn ON `Enable custom library folder` and choose the path of the shared network folder `Custom library path`.
+(in the path selection window press the back button several times to have full access)
 * If you want configure also the auto-update feature see [[How to export and sync tv shows and movies in Kodi library]]
 
 In the _other devices_:
