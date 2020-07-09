@@ -11,9 +11,13 @@
 *2 Automatically installed
 </sup>
 
-### Notice for Android
+### Notice
 
-This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all android devices.
+Android:
+This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices.
+
+Fedora Linux:
+The add-on can not be run on Kodi 18.x with Fedora 32 or higher (is mandatory use Kodi 19.x)
 
 ---
 
