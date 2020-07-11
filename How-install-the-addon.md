@@ -17,7 +17,7 @@ Android:
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices.
 
 Fedora Linux:
-The add-on can not be run on Kodi 18.x with Fedora 32 or higher (is mandatory use Kodi 19.x)
+The add-on can not be run on Kodi 18.x with Fedora 32 or higher (Python 2 is partially working [Retire Python 2](https://fedoraproject.org/wiki/Changes/RetirePython2)), then is mandatory install and use Kodi 19.
 
 ---
 
