@@ -17,6 +17,7 @@ Other:
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
 * [Exports to Kodi library - The video lists do not have video/audio stream info (media-flags)](#exports-to-kodi-library---the-video-exported-do-not-have-videoaudio-stream-info-media-flags)
 * [Views setting](#views-setting)
+* [Some lists have missing titles, seasons or episodes](#some-lists-have-missing-titles-seasons-or-episodes)
 
 ## Video
 
@@ -150,3 +151,12 @@ These settings allow you to override the default views used by skin for a type o
 When enabling a custom view on a list type, you must enter the ID (number) of the view to be used.
 
 The ID's must be provided by the skins readme, have no relation with the add-on.
+
+### Some lists have missing titles, seasons or episodes
+It may happen that between the official app and the add-on are missing titles, seasons or episodes.
+
+Before opening an Issue thread check these things:
+- Check if you are using the same profile on all devices
+- Check that the missing titles actually exist on the website (from a computer)
+
+Only if the titles exist in the website but not in the add-on then open an Issue, otherwise it is their problem.
