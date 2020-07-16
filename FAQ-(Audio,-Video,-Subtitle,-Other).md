@@ -16,8 +16,9 @@ Other:
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
 * [Exports to Kodi library - The video lists do not have video/audio stream info (media-flags)](#exports-to-kodi-library---the-video-exported-do-not-have-videoaudio-stream-info-media-flags)
-* [Views setting](#views-setting)
+* [Exports to Kodi library - Some exported TV Shows/Movies are missing in kodi library](#exports-to-kodi-library---some-exported-tv-showsmovies-are-missing-in-kodi-library)
 * [Some lists have missing titles, seasons or episodes](#some-lists-have-missing-titles-seasons-or-episodes)
+* [Views setting](#views-setting)
 
 ## Video
 
@@ -140,6 +141,28 @@ This is a limitation, it is not possible to add information regarding the detail
 
 You can still add the length of the videos, by enable the option `Enable NFO files export` in the `Libray` settings of the add-on.
 
+### Exports to Kodi library - Some exported TV Shows/Movies are missing in kodi library
+
+It may happen that the screaper set in the exported files folder (in Kodi's library) does not recognize the exported TV Shows/Movies, so it excludes them from the list.
+
+So to view titles not recognized by the Kodi screaper, you must enable export of NFO files:
+- Open the add-on settings
+- Go to Library
+- Turn on `Enable NFO files export`
+- Then, turn on also `Include all information in NFO files`
+
+Now export again the missing titles.
+
+### Some lists have missing titles, seasons or episodes
+It may happen that between the official app and the add-on are missing titles, seasons or episodes,
+(we are talking about missing titles inside add-on lists, NOT Kodi library).
+
+Before opening an Issue thread check these things:
+- Check if you are using the same profile on all devices
+- Check that the missing titles actually exist on the website (from a computer)
+
+Only if the titles exist in the website but not in the add-on then open an Issue, otherwise it is their problem.
+
 ### Views setting
 
 The views are type of view to show list contents, for example to Estuary skin there are InfoWall/Poster/WideList/Wall etc.
@@ -151,12 +174,3 @@ These settings allow you to override the default views used by skin for a type o
 When enabling a custom view on a list type, you must enter the ID (number) of the view to be used.
 
 The ID's must be provided by the skins readme, have no relation with the add-on.
-
-### Some lists have missing titles, seasons or episodes
-It may happen that between the official app and the add-on are missing titles, seasons or episodes.
-
-Before opening an Issue thread check these things:
-- Check if you are using the same profile on all devices
-- Check that the missing titles actually exist on the website (from a computer)
-
-Only if the titles exist in the website but not in the add-on then open an Issue, otherwise it is their problem.
