@@ -147,7 +147,7 @@ It may happen that the screaper set in the exported files folder (in Kodi's libr
 
 So to view titles not recognized by the Kodi screaper, you must enable export of NFO files:
 - Open the add-on settings
-- Go to Library
+- Go to `Library` section
 - Turn on `Enable NFO files export`
 - Then, turn on also `Include all information in NFO files`
 
