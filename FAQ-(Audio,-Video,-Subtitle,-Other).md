@@ -17,6 +17,7 @@ Other:
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
 * [Exports to Kodi library - The video lists do not have video/audio stream info (media-flags)](#exports-to-kodi-library---the-video-exported-do-not-have-videoaudio-stream-info-media-flags)
 * [Exports to Kodi library - Some exported TV Shows/Movies are missing in kodi library](#exports-to-kodi-library---some-exported-tv-showsmovies-are-missing-in-kodi-library)
+* [Exports to Kodi library - Some Tv Shows are not updated automatically](#exports-to-kodi-library---some-tv-shows-are-not-updated-automatically)
 * [Some lists have missing titles, seasons or episodes](#some-lists-have-missing-titles-seasons-or-episodes)
 * [Views setting](#views-setting)
 
@@ -152,6 +153,20 @@ So to view titles not recognized by the Kodi screaper, you must enable export of
 - Then, turn on also `Include all information in NFO files`
 
 Now export again the missing titles.
+
+### Exports to Kodi library - Some Tv Shows are not updated automatically
+If some Tv Show are not updated automatically, you should have this situation: More profiles with different languages.
+
+This could lead to fails to get the tv show data, because some titles are not available on other profiles languages.
+This is not solvable due to the working design of netflix itself. How to solve it?
+
+- If happen with auto sync with My list:
+Means that last time you have browsed the add-on with a profile different than set for the auto sync.
+Then open again the add-on with the same profile set for the auto sync, and do not change profile until the next scheduled update.
+
+- If happen with auto update:
+Means that you have exported a tv show from a profile where in another profile language is not available.
+Then browse the add-on with the right profile, select the tv show, open the context menu and select `Export new episodes`.
 
 ### Some lists have missing titles, seasons or episodes
 It may happen that between the official app and the add-on are missing titles, seasons or episodes,
