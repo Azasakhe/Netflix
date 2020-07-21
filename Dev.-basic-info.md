@@ -23,9 +23,10 @@ Being a large project which also makes use of undocumented technologies, it is n
 | /lib/navigation       | Handle route navigation between menus, context menu actions, settings actions, play titles |
 | /lib/services         | Contains code used only by the service instance |
 | /lib/services/cache   | The cache management (sharable with multiple plugin instances) |
-| /lib/services/directorybuilder | Prepare the data to build a directory of xbmcgui.ListItem |
 | /lib/services/msl     | Handle MSL Request/Response, Manifest, License, MPD for InputStream |
-| /lib/services/nfsession | Handle the Netflix web session, path request/response |
+| /lib/services/nfsession | Handle the Netflix web session and related features |
+| /lib/services/nfsession/session | Handle HTTP Request/Response and Netflix web session |
+| /lib/services/nfsession/directorybuilder | Prepare the list of data to build a directory of xbmcgui.ListItem |
 | /lib/services/playback  | Handle everything that is related to the Kodi player info in real time like Skip button dialog, stream continuity, etc... |
 | /media            | Images used by addon itself and for directory items |
 | /skins            | Images and XML used for custom window dialogs |
