@@ -46,6 +46,7 @@ _Database nf_local_ - Used to store any kind of data except those of the library
 | profiles_config   | Contains the parsed Netflix settings of the profiles *1 |
 | session           | Contains data for the currently opened Netflix session |
 | settings_monitor  | Used only by settings_monitor.py the only way to distinguish which settings are changed by the user |
+| search            | Contains the list of the search menu (search history) |
 
 _Database nf_shared_ - Used to store the data for library only, the MySQL side reflects the same scheme
 
