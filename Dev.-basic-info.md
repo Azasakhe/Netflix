@@ -164,6 +164,7 @@ If the device is L1 and have HDCP >= 2.2, will be available resolutions 1080p an
 The ESN is a serial that _could_ contains information about the device in use, and can influence the resolutions.
 
 - Some videos are also influenced by the producers
+- On Android, Netflix has also adopted a blacklist, when a device is blacklisted it will only play videos in SD quality
 - Others things!? we hope no..
 
 <sup>
