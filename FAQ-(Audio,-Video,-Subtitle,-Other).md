@@ -15,6 +15,7 @@ Other:
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
+* [Kodi - Favourites](#kodi---favourites)
 * [Exports to Kodi library - The video lists do not have video/audio stream info (media-flags)](#exports-to-kodi-library---the-video-exported-do-not-have-videoaudio-stream-info-media-flags)
 * [Exports to Kodi library - Some exported TV Shows/Movies are missing in kodi library](#exports-to-kodi-library---some-exported-tv-showsmovies-are-missing-in-kodi-library)
 * [Exports to Kodi library - Some Tv Shows are not updated automatically](#exports-to-kodi-library---some-tv-shows-are-not-updated-automatically)
@@ -132,9 +133,13 @@ Let's start by saying that _this add-on is not fully compatible with Skins Widge
 Therefore requests for help for problems caused by widgets will not be accepted.
 
 Some know Widgets limitations and problems:
-- When you add a Widget, it will have access to the data of the last selected netflix profile, then will be updated with the list of the last selected Netflix profile.
+- When you add a Widget, it will have access to the data of the last selected netflix profile, which is the profile you selected to open the add-on last time.
+- The videos played from a Widget, will be played by using the last selected netflix profile, which is the profile you selected to open the add-on last time.
 - Widgets created by some type of list may cause unexpected errors when you select another Netflix profile different from which the Widget was created, by displaying error messages or other.
 - Add many Widgets could stuck the Netflix service with unexpected errors.
+
+### Kodi - Favourites
+The Kodi Favourites menu play the videos with the last selected netflix profile, which is the profile you selected to open the add-on last time.
 
 ### Exports to Kodi library - The video exported do not have video/audio stream info (media-flags)
 
