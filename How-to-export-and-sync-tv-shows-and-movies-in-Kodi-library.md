@@ -36,6 +36,8 @@ For easier an access to your exported files, you can change the default path and
 So in add-on settings, go to Library page and:
 - Turn on `Enable custom library folder`
 - Click on `Custom library path`, to set up your preferred folder
+- Select your preferred path (in the path selection window press the back button several times to have full access)
+- Create a new folder like "Netflix exported", where within it the add-on will create two new subfolders _shows_ and _movies_
 
 **WARNING: If this setting is changed after you have already exported tv shows or movies, you must reset the database data! This implies the loss of all exports!<br/>**
 
