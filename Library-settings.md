@@ -33,11 +33,16 @@ This makes a complete removal of:
 - All tv shows/films exported to the Kodi library
 - All library data in the netflix add-on database
 
-### Migrate Library to new format
-To use only if the old 13.x version of the addon was installed,
-allows you to transfer the tvshows/movies exported with the old version to the new one
+### Import existing library
+It allows you to import a previously exported library.
+Useful for example after an add-on reinstallation allowing you to restore the library.
 
-Warning: in some cases this function may not work or may only migrate a part of the existing library
+This feature also support to import STRM library files generated from old add-on versions, like 0.13.x or versions less than 1.7.0.
+
+If some titles are not imported it is possible that:
+- The title is not more available on netflix
+- The import failed because of an unmanageable problem with the STRM file to import
+- The title is not available in the selected profile (try to open the add-on with a different profile and try again)
 
 ### Use MySQL shared library database
 It allows you to share what you export to the Kodi library, with multiple different devices, where each device has its own Kodi installation.
