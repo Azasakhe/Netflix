@@ -60,7 +60,7 @@ How to enable the sync of Kodi library with My List:
 - **First important thing, login with the profile containing the My List to synchronize!**
 - Open add-on settings, go to Library page
 - Turn on `Keep My List and Kodi Library in sync`
-- Click on `Use "My List" of the current profile`, in order to get the My List of the chosen profile
+- Click on `Set a profile for synchronization`, to sync the library with the My List of the chosen profile
 - If you want customize the export folder go to paragraph _Where are the exported files?_. If you want to customize it must be done before before the next points
 - Click on `Perform full sync now`, to start the synchronization immediately
 
