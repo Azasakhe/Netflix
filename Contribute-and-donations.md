@@ -28,4 +28,4 @@ Budget: 88% for 1st goal
 
 _A huge thank you to those who were able to participate in the goal:_
 
-Thomas, David, Jan, Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
+Matej, Thomas, David, Jan, Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
