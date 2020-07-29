@@ -1,4 +1,4 @@
-This document provides some points, the most critical, not solved
+This document provides some points, the most critical, not solved. Other could be found on Projects page.
 
 ### "Resume from" context menu sometimes not work with sync of watched status
 
