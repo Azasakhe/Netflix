@@ -15,8 +15,8 @@ Being a large project which also makes use of undocumented technologies, it is n
 | Addon folder structure under 'resources' | Description  |
 | ----------------- | --------------------------- |
 | /language         | .po files of the languages supported by the addon GUI |
-| /lib/api          | Shakti and website |
-| /lib/common       | Various utility [can be used at same time in Addon instance and Addon service instance] |
+| /lib/utils        | Stand-alone helper files |
+| /lib/common       | Helper files which can be used by both instances [Addon/service instance] |
 | /lib/database         | SQLite, MySQL database management |
 | /lib/kodi             | Methods for interact with Kodi mainly used for context menus and library |
 | /lib/kodi/ui          | Classes and methods to handle standard and custom Kodi window dialogs |
@@ -30,6 +30,11 @@ Being a large project which also makes use of undocumented technologies, it is n
 | /lib/services/playback  | Handle everything that is related to the Kodi player info in real time like Skip button dialog, stream continuity, etc... |
 | /media            | Images used by addon itself and for directory items |
 | /skins            | Images and XML used for custom window dialogs |
+
+Difference between _common_ and _utils_ folders:<br/>
+On _common_ folder all modules and related imports are loaded at the same time (excluded exceptions.py),
+because for convenience they are incorporated on the common module (see common/\_\_init\_\_.py).<br/>
+On _utils_ folder the modules and related imports are loaded only when required.
 
 #### The databases
 
