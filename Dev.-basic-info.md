@@ -16,7 +16,7 @@ Being a large project which also makes use of undocumented technologies, it is n
 | ----------------- | --------------------------- |
 | /language         | .po files of the languages supported by the addon GUI |
 | /lib/utils        | Stand-alone helper files |
-| /lib/common       | Helper files which can be used by both instances [Addon/service instance] |
+| /lib/common       | Helper files incorporated on the _common_ module |
 | /lib/database         | SQLite, MySQL database management |
 | /lib/kodi             | Methods for interact with Kodi mainly used for context menus and library |
 | /lib/kodi/ui          | Classes and methods to handle standard and custom Kodi window dialogs |
