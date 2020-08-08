@@ -10,6 +10,7 @@ Audio:
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
 
 Other:
+* [How to set the automatic selection of a profile](#how-to-set-the-automatic-selection-of-a-profile)
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
@@ -103,6 +104,18 @@ If you prefer you can try to disable `Remember audio / subtitle preferences` in 
 in this way leaves the choice of language to Kodi, so you will need to manually select the exact audio language.
 
 ## Other
+
+### How to set the automatic selection of a profile
+
+Open the list of profiles, then open the context menu on a chosen profile:
+
+- Set for auto-selection<br/>
+If set, the chosen profile will be selected automatically at every add-on start.
+- Set for library playback<br/>
+If set, the chosen profile will used to play the videos from Kodi library.<br/>
+Note: if no profile has been set every time a video is played you will be asked to select a profile.
+
+To remove the setting perform the action again.
 
 ### Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)
 
