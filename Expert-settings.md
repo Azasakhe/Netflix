@@ -70,6 +70,14 @@ When you enable this option:
 - If you get this error `Request failed validation during key exchange`, means that _you can not use your device with Netflix add-on_.
 - If you can play videos, you can only see them only at _SD quality_.
 
+### Results per page
+
+You can choose how many results have per page (works only to paginated menus).
+
+Note to slow devices and/or slow internet connection:
+- A lower value could solve timeouts errors
+- A high value could cause timeouts errors
+
 ### Manual ESN
 Allows you to specify the use of an ESN of your certified device, by excluding the automatically generated ESN.
 
