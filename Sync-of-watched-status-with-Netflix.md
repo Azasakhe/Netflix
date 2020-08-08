@@ -7,14 +7,14 @@ If you enable it, all previous watched status and video progress (inside Kodi) w
 Everything else will happen automatically.
 
 #### To enable it
-Open the add-on settings and go to `Playback` -> `Synchronize the watched status of the videos with Netflix`
+Open the add-on settings and turn on `Synchronize the watched status of the videos with Netflix`
 
 #### To enable it on Kodi library
 **If you enable this feature on the Kodi library, you can only send the watched status to netflix, therefore the synchronization will never update the watched status of your videos in the Kodi library.**
 
 Before you will have to enable _Synchronize the watched status of the videos with Netflix_ then:
 
-Open the add-on settings and go to `Playback` -> `Synchronize the watched status of the videos with Netflix` -> `Include Kodi library`
+Open the add-on settings on `Synchronize the watched status of the videos with Netflix` -> turn on `Include Kodi library`
 
 
 ### What happen if you use multiple devices, apps or website
