@@ -3,6 +3,7 @@ Video:
 * [Video playback problems like frame drops, slowdown, stuttering](#video-playback-problems-like-frame-drops-slowdown-stuttering)
 * [How to enable HDR and Dolby Vision](#how-to-enable-hdr-and-dolby-vision)
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
+* [Missing video resolutions](#missing-video-resolutions)
 
 Audio:
 * [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
@@ -79,6 +80,16 @@ Go to Kodi settings, go to `Player` settings, then enable:<br/>
 
 If it still does not work, it may be that one of the enabled video profiles are not compatible with your device.
 Then go to Add-on Expert settings, and try to disable VP9 and/or HEVC profile.
+
+### Missing video resolutions
+
+Netflix does _not provide the same resolutions_ (even of the same TV shows or movies) on all models of devices.
+Most of the time it is closely related to the type of CPU architecture used.
+
+To have more chances to get high resolutions use a device with Android certified Netflix or Windows (x86/x64) system.
+
+All other Linux devices are subject to major restrictions.
+See also _Reference table of high resolutions_ in the Readme.
 
 ## Audio
 
