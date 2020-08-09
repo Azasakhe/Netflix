@@ -86,10 +86,7 @@ Then go to Add-on Expert settings, and try to disable VP9 and/or HEVC profile.
 Netflix does _not provide the same resolutions_ (even of the same TV shows or movies) on all models of devices.
 Most of the time it is closely related to the type of CPU architecture used.
 
-To have more chances to get high resolutions use a device with Android certified Netflix or Windows (x86/x64) system.
-
-All other Linux devices are subject to major restrictions.
-See also _Reference table of high resolutions_ in the Readme.
+See _Reference table of high resolutions_ in the Readme to have more info.
 
 ## Audio
 
