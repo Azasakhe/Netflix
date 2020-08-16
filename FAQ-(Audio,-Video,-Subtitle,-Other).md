@@ -97,6 +97,8 @@ The ATMOS feature is enabled by default, when the option `Enable Dolby Digital P
 
 A Premium netflix account is required.
 
+Read also [The ATMOS stream info (media-flags) does not appear](#the-atmos-stream-info-media-flags-does-not-appear) to more info.
+
 ### How is it possible to have only 2.0 audio tracks?
 
 Netflix provide all 2.0 audio tracks at same bitrate quality so there is no difference between format type (DolbyDigital, AAC).
@@ -119,7 +121,7 @@ First of all make sure that:
 Kodi does not support the ATMOS name as a track description, therefore is replaced by [DOLBY-HD], so:
 
 - On Kodi 18.x ATMOS tracks can be distinguished only from the skin media-flag [DOLBY-HD].
-- On Koki 19.x ATMOS tracks can be distinguished also from the label ATMOS in the audio language list
+- On Koki 19.x ATMOS tracks can be distinguished also from the label ATMOS in the audio language list.
 
 ## Other
 
