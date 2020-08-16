@@ -9,6 +9,7 @@ Audio:
 * [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
 * [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-20-audio-tracks)
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
+* [The ATMOS stream info (media-flags) does not appear](#the-atmos-stream-info-media-flags-does-not-appear)
 
 Other:
 * [How to set the automatic selection of a profile](#how-to-set-the-automatic-selection-of-a-profile)
@@ -92,13 +93,9 @@ See _Reference table of high resolutions_ in the Readme to have more info.
 
 ### How to enable Dolby Atmos
 
-It's enabled by default, when option `Enable Dolby Digital Plus` is enabled.
-But only some films/TV shows have Atmos streams.
+The ATMOS feature is enabled by default, when the option `Enable Dolby Digital Plus` on Expert settings is enabled.
 
-- On Kodi 18.x they can be distinguished only from the skin media-flag "Dolby-HD".
-- On Koki 19.x they can be distinguished also from the label "Atmos" in the audio language list
-
-A premium netflix account is required.
+A Premium netflix account is required.
 
 ### How is it possible to have only 2.0 audio tracks?
 
@@ -110,6 +107,19 @@ Then to get 2.0 traces only, go to in the `Expert` add-on settings, and turn off
 On Kodi 18.x is a known bug, the Kodi 18.x framework does not allow to fix this problem. Then can't be solved in any way.
 If you prefer you can try to disable `Remember audio / subtitle preferences` in the addon Playback settings,
 in this way leaves the choice of language to Kodi, so you will need to manually select the exact audio language.
+
+### The ATMOS stream info (media-flags) does not appear
+
+First of all make sure that:
+- You have a Premium Netflix subcription
+- Check that a video have the ATMOS track from another device
+- In add-on Expert settings, `Enable Dolby Digital Plus` is turned ON
+- In add-on Expert settings, try `Clear in-memory and on-disk cache`, and reload the list of videos
+
+Kodi does not support the ATMOS name as a track description, therefore is replaced by [DOLBY-HD], so:
+
+- On Kodi 18.x ATMOS tracks can be distinguished only from the skin media-flag [DOLBY-HD].
+- On Koki 19.x ATMOS tracks can be distinguished also from the label ATMOS in the audio language list
 
 ## Other
 
