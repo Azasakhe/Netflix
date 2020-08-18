@@ -94,8 +94,13 @@ See _Reference table of high resolutions_ in the Readme to have more info.
 ### How to enable Dolby Atmos
 
 The ATMOS feature is enabled by default, when the option `Enable Dolby Digital Plus` on Expert settings is enabled.
+To use it a Premium account is required.
 
-A Premium netflix account is required.
+If the Atmos audio output does not work:
+- Open Kodi settings `System` -> `Audio` and switch to `Advanced` settings, then check:<br/>
+`Allow passthrough` must be enabled<br/>
+`Dolby Digital Plus capable receiver` must be enabled
+- Check your hardware/software for a possible wrong setup
 
 Read also [The ATMOS stream info (media-flags) does not appear](#the-atmos-stream-info-media-flags-does-not-appear) to more info.
 
