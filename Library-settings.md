@@ -39,6 +39,9 @@ Useful for example after an add-on reinstallation allowing you to restore the li
 
 This feature also support to import STRM library files generated from old add-on versions, like 0.13.x or versions less than 1.7.0.
 
+Before starting the import make sure you have selected the appropriate Netflix profile (open the add-on with the chosen profile).<br/>
+When you will be asked to select the path of the library to import, select the path of the folder that contains the subfolders `shows` and `movies`.
+
 If some titles are not imported it is possible that:
 - The title is not more available on netflix
 - The import failed because of an unmanageable problem with the STRM file to import
