@@ -1,5 +1,6 @@
 **User Documentation**
 - [[How install the addon]]
+- [[Login with Authentication key]]
 - [[FAQ (Audio, Video, Subtitle, Other)]]
 - [[FAQ (Errors)]]
 - [[Library settings]]
