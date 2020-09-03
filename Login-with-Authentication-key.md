@@ -8,7 +8,7 @@ NFAuthentication.key file + PIN + Account password
 
 To create this file and get the PIN, you need to use one of the following software.
 
-The file created cointains part of your account data that will be encrypted, and can be used to login on all type of devices/systems.
+The file created cointains part of your account data that will be encrypted, and can be used to login on all type of devices/systems where the Netflix add-on is installed.
 
 The file will become no more valid after 5 days, remember to delete it after his use.
 
