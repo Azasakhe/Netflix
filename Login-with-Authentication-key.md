@@ -15,11 +15,13 @@ The file will become no more valid after 5 days, remember to delete it after his
 <details>
 <summary><b>For Windows</b><sup> [click to expand]</sup></summary>
 <p>
-PREREQUISITE: Chrome browser installed
 
-[Download NFAuthentication key software]
+**PREREQUISITE**: Chrome browser installed
 
-INSTRUCTIONS: Download the zip and extract the folder, then run the executable and follow the istructions on screen.
+**INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen.
+
+**DOWNLOAD**: [NFAuthenticationKey_1.0.0.0.zip](https://www.dropbox.com/s/wvdv1t20g1ea1m5/NFAuthenticationKey_1.0.0.0.zip?dl=0)
+
 </p>
 </details>
 
