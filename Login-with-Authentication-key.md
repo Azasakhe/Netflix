@@ -2,7 +2,8 @@ Due to some changes in the website (we think about new anti-bot protections)
 login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct.
 
 The login with Authentication key is a method that allow you to login in to your account by using:<br/>
-NFAuthentication.key file + PIN + Account password
+NFAuthentication.key file + PIN + Account password<br/>
+and so "bypass" these restrictions.
 
 ## How to get the file NFAuthentication.key and the PIN
 
