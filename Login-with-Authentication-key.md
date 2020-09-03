@@ -6,7 +6,7 @@ NFAuthentication.key file + PIN + Account password
 
 ## How to get the file NFAuthentication.key and the PIN
 
-To create this file you need to use one of the following software.
+To create this file and get the PIN, you need to use one of the following software.
 
 The file created cointains part of your account data that will be encrypted, and can be used to login on all type of devices/systems.
 
