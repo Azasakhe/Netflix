@@ -25,6 +25,9 @@ The only solutions is:
 
 You can find other info on the page: [[My credentials are safe?]]
 
+NOTE: It is known that e-mail addresses containing the plus sign like `name+surname@dom.com` cause "incorrect password" errors.
+In this case the only solutions are: Change account e-mail, or try use the phone number as login.
+
 ### This title is not available to watch instantly
 
 In this case Netflix says to log out https://help.netflix.com/en/node/109329.<br/>
