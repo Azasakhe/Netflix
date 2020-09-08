@@ -29,7 +29,9 @@ The file will become no more valid after 5 days, remember to delete it after his
 <details>
 <summary><b>For Linux</b><sup> [click to expand]</sup></summary>
 <p>
-Not available yet - need developer
+Not available yet
+
+WIP - I am building an script
 
 For those who want to help me and other users and if you have experience in development
 in my repository there is the source code, it can be used to make a porting of the software to others operative systems.
