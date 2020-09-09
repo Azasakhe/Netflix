@@ -29,20 +29,25 @@ The file will become no more valid after 5 days, remember to delete it after his
 <details>
 <summary><b>For Linux</b><sup> [click to expand]</sup></summary>
 <p>
-Not available yet
 
-WIP - I am building an script
+**INSTRUCTIONS**: Download the zip, extract the folder and open this folder with the Terminal/Console. Then run the following commands.
 
-For those who want to help me and other users and if you have experience in development
-in my repository there is the source code, it can be used to make a porting of the software to others operative systems.
+Install the prerequisites:
+<pre>
+pip install pycryptodomex
+pip install websocket-client
+</pre>
 
-Some rules:
-- The source code have to be public and with GPL-3.0-only License or similar
-- Have to respect the same protection system and same/similar instructions
-- No third-party libraries (some exceptions could be discussed)
-- Better if a single execution file, otherwise less files possible
+Run the script:
+<pre>
+python NFAuthenticationKey.py
+or
+python3 NFAuthenticationKey.py
+</pre>
+Follow the instructions on screen, after you have created the file, you have to open it with Netflix add-on by choosing the login with "Authentication key".
 
-For other information contact me.
+**DOWNLOAD**: [NFAuthenticationKeyLinux_1.0.0.zip](https://www.dropbox.com/s/qkoe0n3a2rx10go/NFAuthenticationKeyLinux_1.0.0.zip?dl=0)
+
 </p>
 </details>
 
