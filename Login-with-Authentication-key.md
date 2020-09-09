@@ -30,7 +30,7 @@ The file will become no more valid after 5 days, remember to delete it after his
 <summary><b>For Linux</b><sup> [click to expand]</sup></summary>
 <p>
 
-**PREREQUISITE**: Chrome or Chronium browser installed
+**PREREQUISITE**: Chrome or Chromium browser installed
 
 **INSTRUCTIONS**: Download the zip, extract the folder and open this folder with the Terminal/Console. Then run the following commands.
 
