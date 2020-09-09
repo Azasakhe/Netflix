@@ -29,16 +29,17 @@ The file will become no more valid after 5 days, remember to delete it after his
 <details>
 <summary><b>For Linux</b><sup> [click to expand]</sup></summary>
 <p>
+**PREREQUISITE**: Chrome or Chronium browser installed
 
 **INSTRUCTIONS**: Download the zip, extract the folder and open this folder with the Terminal/Console. Then run the following commands.
 
-Install the prerequisites:
+Install these python packages:
 <pre>
 pip install pycryptodomex
 pip install websocket-client
 </pre>
 
-Run the script:
+After run the script:
 <pre>
 python NFAuthenticationKey.py
 or
