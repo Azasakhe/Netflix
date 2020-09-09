@@ -21,7 +21,7 @@ The file will become no more valid after 5 days, remember to delete it after his
 
 **INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key".
 
-**DOWNLOAD**: [NFAuthenticationKey_1.0.0.0.zip](https://www.dropbox.com/s/wvdv1t20g1ea1m5/NFAuthenticationKey_1.0.0.0.zip?dl=0)
+**DOWNLOAD**: [NFAuthenticationKey_1.0.1.0.zip](https://www.dropbox.com/s/3oi2j5grvwxn29q/NFAuthenticationKey_1.0.1.0.zip?dl=0)
 
 </p>
 </details>
