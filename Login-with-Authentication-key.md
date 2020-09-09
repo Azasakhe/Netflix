@@ -48,7 +48,7 @@ python3 NFAuthenticationKey.py
 </pre>
 Follow the instructions on screen, after you have created the file, you have to open it with Netflix add-on by choosing the login with "Authentication key".
 
-**DOWNLOAD**: [NFAuthenticationKeyLinux_1.0.0.zip](https://www.dropbox.com/s/0dw916329hh6ibg/NFAuthenticationKeyLinux_1.0.0.zip?dl=0)
+**DOWNLOAD**: [NFAuthenticationKeyLinux_1.0.0.zip](https://www.dropbox.com/s/xp0wpfyfdep8fyr/NFAuthenticationKeyLinux_1.0.0.zip?dl=0)
 
 </p>
 </details>
