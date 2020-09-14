@@ -21,7 +21,7 @@ The file will become no more valid after 5 days, remember to delete it after his
 
 **INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key".
 
-**DOWNLOAD**: [NFAuthenticationKey_1.0.1.0.zip](https://www.dropbox.com/s/3oi2j5grvwxn29q/NFAuthenticationKey_1.0.1.0.zip?dl=0)
+**DOWNLOAD**: [NFAuthenticationKey_Windows.zip](https://www.dropbox.com/sh/80zv4umiiyx8ok1/AAABi-vk9CKNNXvpmzkCRTiIa?dl=0)
 
 </p>
 </details>
@@ -48,7 +48,7 @@ python3 NFAuthenticationKey.py
 </pre>
 Follow the instructions on screen, after you have created the file, you have to open it with Netflix add-on by choosing the login with "Authentication key".
 
-**DOWNLOAD**: [NFAuthenticationKeyLinux_1.0.1.zip](https://www.dropbox.com/s/60n64ln2csvtlz3/NFAuthenticationKeyLinux_1.0.1.zip?dl=0)
+**DOWNLOAD**: [NFAuthenticationKey_Linux.zip](https://www.dropbox.com/sh/ls3veptflvneub1/AABz9Tt3EqKUb90PQXNarNxga?dl=0)
 
 </p>
 </details>
