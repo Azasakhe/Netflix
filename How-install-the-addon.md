@@ -160,3 +160,52 @@ then select CastagnaIT repository and install Netflix add-on
 
 </p>
 </details>
+
+
+<details>
+<summary><b>How to installing on: QNAP - HD Station</b><sup> [click to expand]</sup></summary>
+<p>
+
+<ins>**NOTICE: THIS GUIDE IS INTENDED FOR THE EXCLUSIVE USE OF KODI 18.x**</ins>
+
+**PREREQUISITE:** Mandatory HD Station app installed
+
+* Connect to QNAP with a terminal (ssh or telnet) as admin<br/>
+Instructions: https://www.qnap.com/en/how-to/knowledge-base/article/how-to-access-qnap-nas-by-ssh
+
+* In the terminal run the following commands
+
+Run this to locate the root OS folder
+
+`getcfg SHARE_DEF defVolMP -f /etc/config/def_share.info`
+
+Will be shown a path e.g.: /share/CACHEDEV1_DATA
+(depending on the model and OS version the path may be different)
+
+Now open the path on screen like:
+
+`cd /share/CACHEDEV1_DATA`
+
+and then open this sub-folder:
+
+`cd /.qpkg/HD_Station`
+
+Now that you are in the _HD_Station_ folder, run:
+
+<pre>
+chroot .
+apt-get install python-pycryptodome
+</pre>
+
+Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+
+Copy this file to an USB flash drive or memory card and connect it to the device
+
+* Now open Kodi and in the Add-ons browser, choose _Install from zip file_
+* Navigate in to the Home folder<br/>
+then install the repository file `repository.castagnait-1.0.x.zip`
+* Return to the add-ons browser and choose _Install from repository_<br/>
+then select CastagnaIT repository and install Netflix add-on
+
+</p>
+</details>
