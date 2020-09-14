@@ -194,7 +194,7 @@ Now that you are in the _HD_Station_ folder, run:
 
 <pre>
 chroot .
-apt-get install python-pycryptodome
+apt install python-pycryptodome
 </pre>
 
 Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
