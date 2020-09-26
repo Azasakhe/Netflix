@@ -1,15 +1,20 @@
 Due to some changes in the website (we think about new anti-bot protections)
 login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct.
 
-The login with Authentication key is a method that allow you to login in to your account by using:<br/>
-NFAuthentication.key file + PIN + Account password<br/>
-and so "bypass" these restrictions.
+Then to avoid this problem a new login method has been added, the _Authentication key_.
+
+The Authentication key is a file created by a software (or script).
+This software will open the web browser in your computer, and will ask you to login in to Netflix web page.
+
+After the login in the web page, the software will create the Authentication key file, and provide you of a PIN.<br/>
+You can use this file+PIN to login with the add-on and so bypass the problem of "Incorrect password" error.
 
 ## How to get the file NFAuthentication.key and the PIN
 
-To create this file and get the PIN, you need to use one of the following software.
+To create this file and get the PIN, you need to use one of the following software.<br/>
+You can create this file from any computer, no matter what operating system you use.
 
-The file created cointains part of your account data that will be encrypted, and can be used to login on all type of devices/systems where the Netflix add-on is installed.
+The file created can be used to login on all type of devices/systems where the Netflix add-on is installed.
 
 The file will become no more valid after 5 days, remember to delete it after his use.
 
