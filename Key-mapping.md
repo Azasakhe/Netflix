@@ -31,3 +31,9 @@ Export to library<br/>
 
 Remove from library<br/>
 `RunPlugin(plugin://plugin.video.netflix/keymaps/lib_remove)`
+
+## Notice
+
+**Please be careful! Do not hold down the keys for a long time may cause side effects!**
+
+_This could cause unexpected behaviour of the add-on and/or in worst case scenario also corrupt the database._
