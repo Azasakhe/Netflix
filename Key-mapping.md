@@ -22,11 +22,18 @@ This is a quick example of keyboard.xml content, to map the function _Export to 
 </keymap>
 ```
 
-## List of mappable features
+## List of mappable functions
 
 Only some of the add-on functions are available for mapping:
 
-Export to library<br/>
+Add/Remove to My list<br/>
+`RunPlugin(plugin://plugin.video.netflix/keymaps/my_list)`
+
+Change watched status (locally)<br/>
+_Note: works only with "Sync of watched status with Netflix" enabled_<br/>
+`RunPlugin(plugin://plugin.video.netflix/keymaps/change_watched_status)`
+
+Export/Update to library<br/>
 `RunPlugin(plugin://plugin.video.netflix/keymaps/lib_export)`
 
 Remove from library<br/>
