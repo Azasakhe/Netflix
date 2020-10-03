@@ -11,6 +11,7 @@
 - [[Sync of watched status with Netflix]]
 - [[My credentials are safe?]]
 - [[VPN and Proxy]]
+- [[Key mapping]]
 
 **Development**
 - [[Dev. guidelines and philosophy]]
