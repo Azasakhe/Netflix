@@ -17,6 +17,7 @@ Other:
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
 * [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
+* [Skin - wrong media-flags info (resolution, format video-audio)](#skin---wrong-media-flags-info-resolution-format-audio-video)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
 * [Kodi - Favourites](#kodi---favourites)
 * [Exports to Kodi library - The video lists do not have video/audio stream info (media-flags)](#exports-to-kodi-library---the-video-exported-do-not-have-videoaudio-stream-info-media-flags)
@@ -163,6 +164,16 @@ If you prefer you can disable `Remember audio / subtitle preferences` in the add
 
 The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
 This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use.
+
+### Skin - wrong media-flags info (resolution, format audio-video)
+
+Due to the great fragmentation of operating systems and the different support of audio/video format types and resolutions of each type of device, 
+we can not get all the right skin media-flags info in to the videos.
+
+The information are therefore general and may not conform to what you might get in reality when you play the video.
+
+Media-flag info descriptions like HDR, DOLBY VISION and DOLBY ATMOS are not supported in Kodi.
+For DOLBY ATMOS case, will be replaced by DOLBY-HD description.
 
 ### Skin Widgets - problems and limits
 
