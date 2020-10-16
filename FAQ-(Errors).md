@@ -6,6 +6,7 @@ Add-on errors:
 * [Entity used incorrect user authentication data type](#Entity-used-incorrect-user-authentication-data-type)
 * [HTTPError: 403 Client Error: Forbidden for url ...](#httperror-403-client-error-forbidden-for-url-)
 * [HTTPError: 500 Server Error](#httperror-500-server-error)
+* [HTTPError: 504 Server Error](#httperror-504-server-error)
 * [Request blacklisted by key exchange service](#request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
 
@@ -66,6 +67,15 @@ This situation may indicate a network problem, Netflix say: _It typically indica
 
 There is a problem with the netflix server. This should be fixed by them.
 Some users were able to solve the problem by changing their profile language.
+
+### HTTPError: 504 Server Error
+
+This error could happen when:
+- Temporary server issue
+- There are some problems with your network DNS
+- Your Proxy or VPN prevent correct communication (if used)
+- A firewall is blocking the communication
+- There are some changes to the website API endpoints (e.g. MSL) this rarely happens then the add-on need to be checked
 
 ### Request blacklisted by key exchange service
 
