@@ -132,17 +132,23 @@ Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netf
 
 This user-authentication scheme works only combined with an user-id-token and can not be used with all endpoints, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
 
-### How using makefile unit test
+### How using: makefile
 
+Prerequisites:
 - Install "make"
-
 If you are on windows you can install MinGW or similars<br>
 If you are on windows and you have installed Git, you can integrate make:<br>
 -Download make-x.x-without-guile-w32.zip from https://sourceforge.net/projects/ezwinports/files/<br>
 -Copy the contents to your `Git\mingw64\` merging the folders, but do NOT overwrite/replace any existing files
+- Install makefile dependencies (kodi-addon-checker, tox, coverage, xmllint) depends on what functionality you need to run
 
-- Install makefile dependencies (kodi-addon-checker, tox, coverage)
-- To run a test open console and run: `make test` or `make run`
+Functionalities (to be used with the console):
+- Test unit (tox, pylint, check-translations...): `make test` or `make run`
+- Check translations issues: `make check-translations`
+- Modify all translations files to update them with "en_gb" file: `make update-translations`
+- Run Kodi addon checker: `make check-addon`
+- Build add-on zip for Leia: `make build`
+- Build add-on zip for Leia + Matrix: `make multizip`
 
 ### The available resolutions and limitations
 
