@@ -11,11 +11,11 @@ You can use this file+PIN to login with the add-on and so bypass the problem of 
 
 ## How to get the file NFAuthentication.key and the PIN
 
-To create this file and get the PIN, you need to use one of the following software.<br/>
-You can create this file from any computer, no matter what operating system you use.
+To create this file and get the PIN, you need to use one of the following software.
 
-The file created can be used to login on all type of devices/systems where the Netflix add-on is installed.
+You can create this file from any _Personal Computer_, no matter what operating system you use.
 
+The file created can be used to login on all type of devices/systems where the Netflix add-on is installed.<br/>
 The file will become no more valid after 5 days, remember to delete it after his use.
 
 <details>
