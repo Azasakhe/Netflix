@@ -7,6 +7,7 @@ Add-on errors:
 * [HTTPError: 403 Client Error: Forbidden for url ...](#httperror-403-client-error-forbidden-for-url-)
 * [HTTPError: 500 Server Error](#httperror-500-server-error)
 * [HTTPError: 504 Server Error](#httperror-504-server-error)
+* [Exception: Connection error](#exception-connection-error)
 * [Request blacklisted by key exchange service](#request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
 
@@ -76,6 +77,15 @@ This error could happen when:
 - Your Proxy or VPN prevent correct communication (if used)
 - A firewall is blocking the communication
 - There are some changes to the website API endpoints (e.g. MSL) this rarely happens then the add-on need to be checked
+
+### Exception: Connection error
+
+This error has many meanings and depends on the details of this error,
+is usually due to something that prevents good internet communication.
+You can try to solve the problem by making these tests:
+- Check your connection if it is stable or try use another connection
+- Try change your DNS (on the router or in Kodi settings if you use a Kodi OS)
+- If you use Proxy/VPN try disable it
 
 ### Request blacklisted by key exchange service
 
