@@ -15,8 +15,7 @@ To create this file and get the PIN, you need to use one of the following softwa
 
 You can create this file from any _Personal Computer_, no matter what operating system you use.
 
-The file created can be used to login on all type of devices/systems where the Netflix add-on is installed.<br/>
-The file will become no more valid after 5 days, remember to delete it after his use.
+The file created can be used to login on all type of devices/systems where the Netflix add-on is installed.
 
 <details>
 <summary><b>For Windows</b><sup> [click to expand]</sup></summary>
@@ -24,7 +23,7 @@ The file will become no more valid after 5 days, remember to delete it after his
 
 **PREREQUISITE**: Chrome browser installed
 
-**INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key".
+**INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key". Remember to delete the Authentication key file after login.
 
 **DOWNLOAD**: [NFAuthenticationKey_Windows.zip](https://www.dropbox.com/sh/80zv4umiiyx8ok1/AAABi-vk9CKNNXvpmzkCRTiIa?dl=0)
 
@@ -51,7 +50,7 @@ python NFAuthenticationKey.py
 or
 python3 NFAuthenticationKey.py
 </pre>
-Follow the instructions on screen, after you have created the file, you have to open it with Netflix add-on by choosing the login with "Authentication key".
+Follow the instructions on screen, after you have created the file, you have to open it with Netflix add-on by choosing the login with "Authentication key". Remember to delete the Authentication key file after login.
 
 **DOWNLOAD**: [NFAuthenticationKey_Linux.zip](https://www.dropbox.com/sh/ls3veptflvneub1/AABz9Tt3EqKUb90PQXNarNxga?dl=0)
 
