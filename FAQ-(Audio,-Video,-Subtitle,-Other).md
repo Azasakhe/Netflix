@@ -5,6 +5,7 @@ Video:
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
 * [Missing video resolutions](#missing-video-resolutions)
 * [Video Stream only at 540 on ARM device (linux/Kodi OS)](#video-stream-only-at-540-on-arm-device-linuxkodi-os)
+* [Video Stream only at 540 on Android device](#video-stream-only-at-540-on-android-device)
 
 Audio:
 * [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
@@ -105,6 +106,36 @@ How to do a check, an example with RPI:
 3. Play a video title that for you have HD resolutions at fullscreen
 4. Now press keys CTRL + ALT + SHIFT + D, will be shown the info about current video resolution
 5. If the info shown 1080P resolution and same title in the addon is at 540P, in this case it is an add-on problem to be reported
+
+### Video Stream only at 540 on Android device
+
+The lack of HD resolutions most of the cases is due to a uncertified device or due to a operative system update.
+Before asking for help make these steps.
+
+**First step, check if device is still HD certified:**
+
+1. Install official Netflix app from PlayStore,
+If the app is not available on PlayStore, you will not be able to have HD resolutions.
+2. Open the `Settings` of official Netflix app, and go to `Playback specification` page<br/>
+If say maximum resolution SD, the device is not certified.<br/>
+If say maximum resolution HD, then could be an ESN problem.
+
+**Second step, check the ESN:**
+
+Open add-on expert settings, do a _Reset ESN_.<br/>
+If still not works, try compare the ESN code shown in the settings of official app with the add-on ESN (expert settings->Show ESN).
+if you see that the code starts differently, you can try manually insert the ESN in the add-on, or ask for help.
+
+**Third step, how to ask for help:**
+
+If you have not solved the problem or you still want to report the problem, you must attach the following info otherwise we cannot analyze and solve the problem.
+
+In your Issue thread you have to attach:
+- A screenshot of ESN of the official Netflix app (by censuring last chars)
+- The device system info, how to do:
+1. Install "Material Terminal" app or similar terminal app
+2. Open the app, in the black screen write `getprop` so a long list appears
+3. Open the options then select "Send to e-mail". (you can send the info to yourself and attach everything as a text file or if you prefer send directly to this GitHub e-mail)
 
 ## Audio
 
