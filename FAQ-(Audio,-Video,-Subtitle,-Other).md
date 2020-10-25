@@ -4,6 +4,7 @@ Video:
 * [How to enable HDR and Dolby Vision](#how-to-enable-hdr-and-dolby-vision)
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
 * [Missing video resolutions](#missing-video-resolutions)
+* [Video Stream only at 540 on ARM device (linux/Kodi OS)](#video-stream-only-at-540-on-arm-device-linuxkodi-os)
 
 Audio:
 * [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
@@ -89,6 +90,21 @@ Netflix does _not provide the same resolutions_ (even of the same TV shows or mo
 Most of the time it is closely related to the type of CPU architecture used.
 
 See _Reference table of high resolutions_ in the Readme to have more info.
+
+### Video Stream only at 540 on ARM device (linux/Kodi OS)
+
+On ARM devices such as RaspberryPI that runs Kodi OS like CoreELEC, LibreELEC, etc...
+Netflix does not provide HD content for every video.
+
+Do you think that the missing HD resolutions are an add-on problem?
+**Before opening an issue thread, please check that your information are accurate.**
+
+How to do a check, an example with RPI:
+1. Run RPI operative system
+2. Open Netflix website with Chromium browser
+3. Play a video title that for you have HD resolutions at fullscreen
+4. Now press keys CTRL + ALT + SHIFT + D, will be shown the info about current video resolution
+5. If the info shown 1080P resolution and same title in the addon is at 540P, in this case it is an add-on problem to be reported
 
 ## Audio
 
