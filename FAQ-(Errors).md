@@ -17,18 +17,18 @@ Add-on errors:
 
 There are several reasons because this problem is presented, the known cases are:
 
-- Netflix automatically reset your password for suspicious activity (notice by e-mail)
-- You have changed the password while Kodi was still running
+- Due to new Netflix anti-bot protection<br/>
+For more info read [Login with Authentication key](https://github.com/CastagnaIT/plugin.video.netflix/wiki/Login-with-Authentication-key) page
 
-The only solutions is:
-1) Try to change your password
+- Netflix has automatically reset your password for suspicious activity (notice by e-mail), or you have changed the password while Kodi was still running<br/>
+You can try solve with these steps:
+1) Try to change your password (again or try skip this step)
 2) Reboot Kodi
-3) Open Netflix add-on, should be asked to enter the new credentials (if no credential are asked try to open add-on settings and Logout)
+3) Open Netflix add-on, should be asked to enter the new credentials, if no credential are asked open add-on settings and Logout
 
-You can find other info on the page: [[My credentials are safe?]]
-
-NOTE: It is known that e-mail addresses containing the plus sign like `name+surname@dom.com` cause "incorrect password" errors.
-In this case the only solutions are: Change account e-mail, or try use the phone number as login.
+- Your e-mail address contains a plus sign example `name+surname@dom.com`<br/>
+This is a known problem, this e-mail addresses will always cause "incorrect password" errors.<br/>
+The only solutions are: Change account e-mail, or try insert the phone number instead of the e-mail to login.
 
 ### This title is not available to watch instantly
 
