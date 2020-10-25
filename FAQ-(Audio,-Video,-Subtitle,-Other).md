@@ -4,8 +4,8 @@ Video:
 * [How to enable HDR and Dolby Vision](#how-to-enable-hdr-and-dolby-vision)
 * [When you playback a video on Android there is no video](#When-you-playback-a-video-on-Android-there-is-no-video)
 * [Missing video resolutions](#missing-video-resolutions)
-* [Video Stream only at 540 on ARM device (linux/Kodi OS)](#video-stream-only-at-540-on-arm-device-linuxkodi-os)
-* [Video Stream only at 540 on Android device](#video-stream-only-at-540-on-android-device)
+* [Video Stream only at 540P (SD) on ARM device (linux/Kodi OS)](#video-stream-only-at-540p-sd-on-arm-device-linuxkodi-os)
+* [Video Stream only at 540P (SD) on Android device](#video-stream-only-at-540p-sd-on-android-device)
 
 Audio:
 * [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
@@ -92,7 +92,7 @@ Most of the time it is closely related to the type of CPU architecture used.
 
 See _Reference table of high resolutions_ in the Readme to have more info.
 
-### Video Stream only at 540 on ARM device (linux/Kodi OS)
+### Video Stream only at 540P (SD) on ARM device (linux/Kodi OS)
 
 On ARM devices such as RaspberryPI that runs Kodi OS like CoreELEC, LibreELEC, etc...
 Netflix does not provide HD content for every video.
@@ -107,7 +107,7 @@ How to do a check, an example with RPI:
 4. Now press keys CTRL + ALT + SHIFT + D, will be shown the info about current video resolution
 5. If the info shown 1080P resolution and same title in the addon is at 540P, in this case it is an add-on problem to be reported
 
-### Video Stream only at 540 on Android device
+### Video Stream only at 540P (SD) on Android device
 
 The lack of HD resolutions most of the cases is due to a uncertified device or due to a operative system update.
 Before asking for help make these steps.
