@@ -38,7 +38,13 @@ Open add-on settings and choose `Logout`.
 If the problem persists, reinstall Widevine CDM (not applicable on Android):<br/>
 Open add-on settings (by context menu on the add-on icon), then go to `Expert` page and choose `InputStream Helper settings`, a new window will be opened, then choose `(Re)install Widevine CDM`.
 
-If on Android the problem persists again, you may be using a device that is not fully certified by Google and Netflix, there are no solutions.
+If on Android the problem persists again, it is possible that your Android device is not more certified,
+how to verify device certification:
+- The official Netflix app must be available on PlayStore, if it is not listed your device is not Netflix certified
+- You can try install SafetyNet Test app, to check if `PASS` all google tests
+- You can try check in the PlayStore settings if `Play Protect certification` is marked as certified
+
+In any case there are no other known solutions to get around this message.
 
 ### Request failed validation during key exchange
 
