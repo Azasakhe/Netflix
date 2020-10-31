@@ -25,7 +25,7 @@ The file created can be used to login on all type of devices/systems where the N
 
 **INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key". Remember to delete the Authentication key file after login.
 
-**DOWNLOAD**: [NFAuthenticationKey_Windows.zip](https://www.dropbox.com/sh/80zv4umiiyx8ok1/AAABi-vk9CKNNXvpmzkCRTiIa?dl=0)
+**DOWNLOAD**: [NFAuthenticationKey_Windows.zip](https://www.dropbox.com/sh/80zv4umiiyx8ok1/AAABi-vk9CKNNXvpmzkCRTiIa?dl=0) (Google may report incorrectly as malware, press continue and ignore it)
 
 </p>
 </details>
@@ -59,3 +59,7 @@ Follow the instructions on screen, after you have created the file, you have to 
 
 #### Disclaimer
 All the Software, Script and source code available on GitHub are provided "as is" without warranty of any kind, either express or implied. Use at your own risk. The use of the software is done at your own discretion and risk with the agreement that you will be solely responsible for any damage resulting from such activities and you are solely responsible for adequate data protection.
+
+### Links reported as malware/phishing problem
+
+For details read here: https://github.com/CastagnaIT/plugin.video.netflix/issues/917
