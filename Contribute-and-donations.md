@@ -26,4 +26,4 @@ you can join as a developer and provide help to fix errors, make improvements, a
 
 _A huge thank you to those who were able to participate in the goal:_
 
-Christian, Wolfgang, Ashley, Orestis, Matej, Thomas, David, Jan, Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
+Emanuel, Christian, Wolfgang, Ashley, Orestis, Matej, Thomas, David, Jan, Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
