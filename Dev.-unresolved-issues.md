@@ -1,5 +1,12 @@
 This document provides some points, the most critical, not solved. Other could be found on Projects page.
 
+### Login with E-Mail/Password could cause "Incorrect password" error
+
+Due to changes in the website the login endpoint cause "Incorrect password" error even when the credentials are correct.
+
+Seems that is caused by the new reCAPTCHA v3 score, currently it is not possible to implement it without a paid service,
+or through "mechanical" webpage navigation (e.g. selenium) due to multi-platform add-on system and the large size of this module.
+
 ### "Resume from" context menu sometimes not work with sync of watched status
 
 When "Synchronize the watched status of the videos with Netflix" is enabled the "Resume from" context menu of Kodi sometimes not work and video start from beginning.
