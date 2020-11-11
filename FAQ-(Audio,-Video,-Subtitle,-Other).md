@@ -97,19 +97,22 @@ See _Reference table of high resolutions_ in the Readme to have more info.
 On ARM devices such as RaspberryPI that runs Kodi OS like CoreELEC, LibreELEC, etc...
 Netflix does not provide HD content for every video.
 
+First thing to do is verify that on the Netflix website, in the `Playback Settings` for the profiles to be used, they have the `Data usage per screen`, set to `Auto` or `High`.
+
 Do you think that the missing HD resolutions are an add-on problem?
 **Before opening an issue thread, please check that your information are accurate.**
 
 How to do a check, an example with RPI:
 1. Run RPI operative system
-2. Open Netflix website with Chromium browser
+2. Open Netflix website with RPI Chromium browser
 3. Play a video title that for you have HD resolutions at fullscreen
 4. Now press keys CTRL + ALT + SHIFT + D, will be shown the info about current video resolution
 5. If the info shown 1080P resolution and same title in the addon is at 540P, in this case it is an add-on problem to be reported
 
 ### Video Stream only at 540P (SD) on Android device
 
-The lack of HD resolutions most of the cases is due to a uncertified device or due to a operative system update.
+First thing to do is verify that on the Netflix website, in the `Playback Settings` for the profiles to be used, they have the `Data usage per screen`, set to `Auto` or `High`. If this is not the case, the lack of HD resolutions most of the cases is due to a uncertified device or due to a needed operative system update.
+
 Before asking for help make these steps.
 
 **First step, check if device is still HD certified:**
