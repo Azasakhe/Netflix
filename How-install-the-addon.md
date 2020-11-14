@@ -120,11 +120,9 @@ Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [Git
 * Open Raspberry Terminal app and run these commands:
 <pre>
 sudo apt update
-sudo apt install build-essential python-pip
-sudo apt install python-setuptools
+sudo apt install build-essential python-pip python-setuptools libnss3 kodi-inputstream-adaptive
 sudo pip install wheel
 pip install pycryptodomex
-sudo apt install kodi-inputstream-adaptive
 </pre>
 * Now open Kodi and follow the menu: `Add-ons browser` > `My add-ons` > `VideoPlayer InputStream`<br/>
 so click on `InpuStream Adaptive` and enable it.
