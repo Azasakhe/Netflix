@@ -86,12 +86,9 @@ After establishing the connection with a terminal:
 * In the terminal run these commands:
 <pre>
 sudo apt-get update
-sudo apt-get dist-upgrade
-sudo apt-get install python-crypto
-sudo apt-get install build-essential python-pip
+sudo apt-get install build-essential python-pip python-crypto libnss3
 sudo pip install -U setuptools
-sudo pip install wheel
-sudo pip install pycryptodomex
+sudo pip install wheel pycryptodomex
 </pre>
 * In the terminal run these commands to download the Repository zip:
 <pre>
