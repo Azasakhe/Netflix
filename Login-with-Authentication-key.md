@@ -31,7 +31,7 @@ The file created can be used to login on all type of devices/systems where the N
 </details>
 
 <details>
-<summary><b>For Linux</b><sup> [click to expand]</sup></summary>
+<summary><b>For Linux and MacOS</b><sup> [click to expand]</sup></summary>
 <p>
 
 **PREREQUISITE**: Chrome or Chromium browser installed
