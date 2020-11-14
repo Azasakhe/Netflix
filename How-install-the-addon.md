@@ -148,9 +148,8 @@ Copy this file to an USB flash drive or memory card and connect it to the device
 * Open RetroPie shell and run these commands:
 <pre>
 sudo apt update
-sudo apt install build-essential python-setuptools python-pip
+sudo apt install build-essential python-setuptools python-pip libnss3
 sudo pip install wheel pycryptodomex
-sudo apt install libnss3
 </pre>
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the USB flash drive/memory card<br/>
