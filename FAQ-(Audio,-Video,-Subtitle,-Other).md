@@ -62,6 +62,7 @@ You can try to solve this problem by trying one of these solutions:
 From add-on settings go to `Expert` page and change `Limit video stream resolution to` value to 720p.
 - Limit InputStream Adaptive max bandwidth<br/>
 From add-on settings go to `Expert` page open `InputStream Adaptive settings` and try to set `Max Bandwidth` between 2.500.000 and 4.000.000
+- On Raspberry system try increase the RAM dedicated to the GPU the best value depends on the model type in use, to know it try to search in the RPI forum.
 
 ### How to enable HDR and Dolby Vision
 
