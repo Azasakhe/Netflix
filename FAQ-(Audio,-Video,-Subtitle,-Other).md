@@ -8,6 +8,7 @@ Video:
 * [Video Stream only at 540P (SD) on Android device](#video-stream-only-at-540p-sd-on-android-device)
 
 Audio:
+* [How to automatically use the audio language of the Netflix profile used](#how-to-automatically-use-the-audio-language-of-the-netflix-profile-used)
 * [How to enable Dolby Atmos](#how-to-enable-dolby-atmos)
 * [How is it possible to have only 2.0 audio tracks?](#How-is-it-possible-to-have-only-20-audio-tracks)
 * [When you resume a previous playback it do not keep the language of your choice](#When-you-resume-a-previous-playback-it-do-not-keep-the-language-of-your-choice)
@@ -142,6 +143,12 @@ In your Issue thread you have to attach:
 3. Open the options then select "Send to e-mail". (you can send the info to yourself and attach everything as a text file or if you prefer send directly to this GitHub e-mail)
 
 ## Audio
+
+### How to automatically use the audio language of the Netflix profile used
+
+In Kodi Settings -> Player -> Language set: `Preferred audio language` to `Media default`.
+
+In this way the audio language that will be automatically selected will match the language of the currently active Netflix profile.
 
 ### How to enable Dolby Atmos
 
