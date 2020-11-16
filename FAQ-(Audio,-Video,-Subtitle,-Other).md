@@ -158,8 +158,9 @@ Read also [The ATMOS stream info (media-flags) does not appear](#the-atmos-strea
 
 ### How is it possible to have only 2.0 audio tracks?
 
-Netflix provide all 2.0 audio tracks at same bitrate quality so there is no difference between format type (DolbyDigital, AAC).
-Then to get 2.0 tracks only, go to in the `Expert` add-on settings, and turn off `Enable Dolby Digital Plus`.
+To get 2.0 tracks only, go to in the `Expert` add-on settings, and turn off `Enable Dolby Digital Plus`.
+Instead if you prefer stereo tracks to be selected automatically without turn off Dolby Digital then,
+go to in the `Playback` add-on settings, and turn on `Prefer stereo audio tracks by default`.
 
 ### When you resume a previous playback it do not keep the language of your choice
 
