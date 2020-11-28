@@ -7,15 +7,6 @@ Due to changes in the website the login endpoint cause "Incorrect password" erro
 Seems that is caused by the new reCAPTCHA v3 score, currently it is not possible to implement it without a paid service,
 or through "mechanical" webpage navigation (e.g. selenium) due to multi-platform add-on system and the large size of this module.
 
-### "Resume from" context menu sometimes not work with sync of watched status
-
-When "Synchronize the watched status of the videos with Netflix" is enabled the "Resume from" context menu of Kodi sometimes not work and video start from beginning.
-
-I have opened an Issue: https://github.com/xbmc/xbmc/issues/17426
-
-~I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.~
-I found the problem in Kodi core, i have opened PR https://github.com/xbmc/xbmc/pull/17993 waiting devs response
-
 ### Unsupported iso language code from Kodi for audio/subtitle
 
 Kodi support only the language code of ISO 639-1 standard,
