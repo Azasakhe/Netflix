@@ -16,18 +16,33 @@ I have opened an Issue: https://github.com/xbmc/xbmc/issues/17426
 ~I have circumscribed the problematic code in Kodi's core, but we need help from a Kodi developer or someone that know that part of the code.~
 I found the problem in Kodi core, i have opened PR https://github.com/xbmc/xbmc/pull/17993 waiting devs response
 
-### Wrong selection of audio/subtitle track due to unsupported language code from Kodi
+### Unsupported iso language code from Kodi for audio/subtitle
 
 Kodi support only the language code of ISO 639-1 standard,
-Netflix (and other VOD services) use the IETF BCP 47 standard, that have language-country.
+Netflix (and other VOD services) use the IETF BCP 47 standard, that have language-country,
+this iso allows you to have multiple variations of the same language.
 
-What happen? Kodi recognizes with wrong names, example `pt-BR` for Kodi is `Portuguese-Breton` instead of `Portuguese-Brazil` and so on..
+Example:<br/>
+`es` --> `Spanish`<br/>
+`es-ES` --> `Spanish-Spain`
 
-To now we have fixed this by changing the language code with an unrecognized type see fix_locale_languages method in kodiops.py, but it seems that it is not always effective, some users complain that the automatic language selection does not always happen correctly.
+What happen? Kodi recognizes the language with wrong names:
 
-Unfortunately here you need to make a modification on Kodi to solve the problem.
+`es-ES` --> `Spanish-Spanish`<br/>
+(`pt-BR` for Kodi is `Portuguese-Breton` instead of `Portuguese-Brazil` and so on..)
 
-Ref. https://github.com/xbmc/xbmc/issues/15308
+and as a side effect a language with country code can never be set as default language in Kodi player settings,
+therefore the user who speaks the language "es-ES" must always select it manually.
+
+Waiting for the correct implementation on Kodi, the temporary solutions that have been taken are:
+
+- Replacing language code<br/>
+`fix_locale_languages` in kodi_ops.py is used to replace all the language code with country code (of video manifest) with a customized language code, example "es-ES" with "es-Spain". In this way Kodi not recognize the language code and does not try to translate it with wrong names.
+
+- Set manually as default the audio track with country code<br/>
+`_get_default_audio_track_id` in converter.py, set as default in the manifest the audio track with the country code, when the user want to do this, see `if G.ADDON.getSettingBool('prefer_alternative_lang'):` line. In this way when a user play a video will have its audio/subtitle language as default.
+
+Some more info PR: https://github.com/CastagnaIT/plugin.video.netflix/pull/933
 
 ### Mixed menu languages, due to different Kodi GUI language
 
