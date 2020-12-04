@@ -35,21 +35,28 @@ The only solutions are: Change account e-mail, or try insert the phone number in
 In this case Netflix says to log out https://help.netflix.com/en/node/109329.<br/>
 Open add-on settings and choose `Logout`.
 
-If the problem persists, reinstall Widevine CDM (not applicable on Android):<br/>
+If the problem persists:
+
+**On Android:**
+
+Check if the ESN is equal to the official Netflix app, click on `Show ESN` in add-on `Expert` setting and compare with the ESN in android Netflix app settings. Only the first part of the code is important, last missing part ignore it.
+
+If the ESN is different:
+
+Then first try is set `Widevine L3` on add-on `Expert` setting,
+if this not works try type the correct ESN in `Manual ESN` of add-on `Expert` setting.
+
+**On all other systems:**
+
+Try reinstall Widevine CDM:<br/>
 Open add-on settings (by context menu on the add-on icon), then go to `Expert` page and choose `InputStream Helper settings`, a new window will be opened, then choose `(Re)install Widevine CDM`.
 
-If on Android the problem persists again, it is possible that your Android device is not more certified,
-how to verify device certification:
-- The official Netflix app must be available on PlayStore, if it is not listed your device is not Netflix certified
-- You can try install SafetyNet Test app, to check if `PASS` all google tests
-- You can try check in the PlayStore settings if `Play Protect certification` is marked as certified
-
-In any case there are no other known solutions to get around this message.
+_**If these solutions do not work, please do not open an Issue, there are no other known solutions to get around this message.**_
 
 ### Request failed validation during key exchange
 
 This generally happens on Android devices, most of the time it can be one of these cases:
-- Your device model is not Netflix certified (usually on chinese android-box), you can only try to enable `Force Widevine security level L3` see Expert settings wiki page.
+- Your device model is not Netflix certified ([how to check](https://github.com/CastagnaIT/plugin.video.netflix/wiki/FAQ-(Audio,-Video,-Subtitle,-Other)#how-to-check-if-an-android-device-passes-netflix-certification)), you can only try to force `Widevine L3` on add-on `Expert` settings.
 
 - The ESN used is wrong or incorrectly generated<br/>
 In this case you can try to solve the problem by using the ESN prodived from your device. In some cases you can read the ESN in the system information of the operative system, alternatively you can read the ESN by opening the official Netflix app settings. Then copy it in full lenght, in to `Manual ESN` option in the Netflix add-on expert settings.<br/>
