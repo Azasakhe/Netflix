@@ -60,7 +60,7 @@ In some cases the use of this plugin by many add-ons could cause timeout problem
 
 ### Force Widevine security level L3 (Android only)
 
-Some devices are declared as Widevine security level L1, but they have a broken/wrong implementation of Widevine or MediaCodec API, that will cause impossibility to playback videos, so with no pictures or with an error raised as `Request failed validation during key exchange`.
+Some devices are declared as Widevine security level L1, but they have a broken/wrong implementation of Widevine or MediaCodec API, that will cause impossibility to playback videos, so with no pictures or with an error raised as `Request failed validation during key exchange` or in others cases `This title is not available to watch instantly`.
 
 The only way to have a possibility to playback videos with this devices, are:
 - Try request/do a firmware update of device to the manufacturer
