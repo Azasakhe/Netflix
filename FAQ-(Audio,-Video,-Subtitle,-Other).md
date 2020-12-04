@@ -28,6 +28,7 @@ Other:
 * [Exports to Kodi library - Some Tv Shows are not updated automatically](#exports-to-kodi-library---some-tv-shows-are-not-updated-automatically)
 * [Some lists have missing titles, seasons or episodes](#some-lists-have-missing-titles-seasons-or-episodes)
 * [Views setting](#views-setting)
+* [How to check if an android device passes Netflix certification](#how-to-check-if-an-android-device-passes-netflix-certification)
 
 ## Video
 
@@ -302,3 +303,10 @@ These settings allow you to override the default views used by skin for a type o
 When enabling a custom view on a list type, you must enter the ID (number) of the view to be used.
 
 The ID's must be provided by the skins readme, have no relation with the add-on.
+
+### How to check if an android device passes Netflix certification
+
+Verification steps:
+1) The official Netflix app must be available on PlayStore, if it is not listed your device is not Netflix certified
+2) You can try install SafetyNet Test app, to check if `PASS` all google tests
+3) You can try check in the PlayStore settings if `Play Protect certification` is marked as certified
