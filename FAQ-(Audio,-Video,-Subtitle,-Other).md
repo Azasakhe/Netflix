@@ -6,6 +6,7 @@ Video:
 * [Missing video resolutions](#missing-video-resolutions)
 * [Video Stream only at 540P (SD) on ARM device (linux/Kodi OS)](#video-stream-only-at-540p-sd-on-arm-device-linuxkodi-os)
 * [Video Stream only at 540P (SD) on Android device](#video-stream-only-at-540p-sd-on-android-device)
+* [Videos at 23/25fps are not played at double display frequency (hz)](#videos-at-2325fps-are-not-played-at-double-display-frequency-hz)
 
 Audio:
 * [How to automatically use the audio language of the Netflix profile used](#how-to-automatically-use-the-audio-language-of-the-netflix-profile-used)
@@ -142,6 +143,18 @@ In your Issue thread you have to attach:
 1. Install "Material Terminal" app or similar terminal app
 2. Open the app, in the black screen write `getprop` so a long list appears
 3. Open the options then select "Send to e-mail". (you can send the info to yourself and attach everything as a text file or if you prefer send directly to this GitHub e-mail)
+
+### Videos at 23/25fps are not played at double display frequency (hz)
+
+_Only for Kodi 19.x for Windows:_<br/>
+The double frequencies are no longer switched automatically.
+This can happen when your display not support 23/25hz, Kodi 18.x in this case switch automatically (e.g. to 50hz),
+but on Kodi 19 this not happen by default anymore.
+
+To enable this Kodi feature:<br/>
+Open Kodi `System` settings, switch the settings page to `Expert` (below).
+On `Dislay` page, select `Whitelist`, select all the higher resolutions with differents hz (usually all 1080p or 4k),
+then enable `Allow double refresh rates`.
 
 ## Audio
 
