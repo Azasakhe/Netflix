@@ -7,7 +7,7 @@ The protective measures taken into account are the following:
 
 - The credentials inside the add-on (in the device) are stored in a encrypted form, the encryption is mostly related to the hardware of device in use (when possible, otherwise device information are collected), in this way will not be possible to use and/or decrypt the credentials from other devices.
 - The Login is done in the same way as it occurs on the website, through the secure HTTPS internet protocol
-- In network flow that using Netflix Shakti API, there are never credentials sent.
+- In network flow that using Netflix Shakti API, usually there are never credentials sent.
 - In network flow that using Netflix API with MSL, the communication takes place only in encrypted mode according to the Netflix MSL standard.
 - When you Logout, the credentials stored will be permanently deleted
 
