@@ -13,10 +13,13 @@
 
 ### Notice
 
-Android:
+- Android<br/>
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices.
 
-Fedora Linux:
+- Ubuntu (linux)<br/>
+This add-on is not full compatible with the old Kodi version of _Ubuntu Software Center_ (can be identified from the Kodi main screen by the logo `Kodi from debian`), please follow the official Kodi install instructions on Kodi website.
+
+- Fedora (linux)<br/>
 The add-on can not be run on Kodi 18.x with Fedora 32 or higher (Python 2 is partially working [Retire Python 2](https://fedoraproject.org/wiki/Changes/RetirePython2)), then is mandatory install Kodi 19 to run the add-on.
 
 Due to some changes in the website (we think about new anti-bot protections) login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. Then read also [[Login with Authentication key]] page.
