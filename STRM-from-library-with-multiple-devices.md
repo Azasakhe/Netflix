@@ -33,6 +33,8 @@ In this case _only_ the main device must manage the Kodi library (e.g. export, r
 
 - Method to be used carefully, can causing problems explained below
 - Needed a shared network folder (like SMB)
+- _STRM resume workaround_ **will not work** from other devices
+- _UpNext add-on_ **will not work** from other devices
 
 **Pay attention!**
 
