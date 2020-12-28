@@ -6,7 +6,7 @@
 - [[Library settings]]
 - [[Expert settings]]
 - [[How to export and sync tv shows and movies in Kodi library]]
-- [[Use library exported with multiple devices]]
+- [[STRM from library with multiple devices]]
 - [[List of 1080P 4k Android tested devices]]
 - [[Sync of watched status with Netflix]]
 - [[My credentials are safe?]]
