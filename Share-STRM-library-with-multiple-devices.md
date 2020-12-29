@@ -35,6 +35,7 @@ In this case _only_ the main device must manage the Kodi library (e.g. export, r
 - Needed a shared network folder (like SMB)
 - _STRM resume workaround_ **will not work** from other devices
 - _UpNext add-on_ **will not work** from other devices
+- It is not recommended to use the `Export to Library` feature to export STRM from other devices
 
 **Pay attention!**
 
@@ -55,7 +56,7 @@ In the _main device_:
 In the _other devices_:
 * Install the add-on
 * In the Kodi Video browser and add the path of the shared network folder.
-* Remember not to modify the Kodi library of Netflix exported items from these devices
-* If you prefer you can disable the functionality with the Kodi library completely. In Library page settings, set `Auto update mode` to `Disabled`.
+* It is recommended but not mandatory disable `Export to Library` feature, _to prevent wrong behaviours of Up Next add-on and STRM resume workaround_ (if you do not use them and have disabled them, you can ignore this step). From add-on `Library` settings, set `Auto update mode` to `Disabled`.
+* Remember not to modify the Kodi library of Netflix exported items from these devices.
 
 Now you can play the Netflix exported items from all configured devices.
