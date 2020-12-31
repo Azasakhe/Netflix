@@ -16,6 +16,7 @@ Audio:
 * [The ATMOS stream info (media-flags) does not appear](#the-atmos-stream-info-media-flags-does-not-appear)
 
 Other:
+* [How to try solve the problem with loading screen video buffering](#how-to-try-solve-the-problem-with-loading-screen-video-buffering)
 * [How to set the automatic selection of a profile](#how-to-set-the-automatic-selection-of-a-profile)
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
@@ -203,6 +204,28 @@ Kodi does not support the ATMOS name as a track description, therefore is replac
 - On Koki 19.x ATMOS tracks can be distinguished also from the label ATMOS in the audio language list.
 
 ## Other
+
+### How to try solve the problem with loading screen video buffering
+
+Usually this problem is related to:
+- Instability in the Netflix server
+- Not enough bandwidth to support playback
+- There is a unstable connection
+
+In addition the component used for playback the videos InputStream Adaptive add-on,
+currently has not implemented a stream buffering to compensate or eliminate these problems.
+
+Therefore possible solutions affect the quality of the image:
+
+- Limit the video resolution<br/>
+Open `Expert` settings, and on `Limit video stream resolution to` set 720P or lower
+- Lower the bitrate (can affect also the video resolution)<br/>
+Open InputStream Adaptive settings and set `Max. Bandwidth` to like 1000000/800000 or lower (could affect also the other add-ons)
+- Use a better Wi-Fi channel or change it to a wired connection (sometimes a simple reboot of the Router might solve the problem)
+- Try use a H.265 codec this codec use a lower bandwidth but is not available on all videos.<br/>
+Open `Expert` settings and enable VP9 or HEVC profile<br/>
+**WARNING! if not supported this could cause side effects like stuck Kodi or black screen etc.**
+
 
 ### How to set the automatic selection of a profile
 
