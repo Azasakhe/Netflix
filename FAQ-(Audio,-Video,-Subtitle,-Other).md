@@ -208,7 +208,7 @@ Kodi does not support the ATMOS name as a track description, therefore is replac
 ### How to try solve the problem with loading screen video buffering
 
 Usually this problem is related to:
-- Instability in the Netflix server
+- Instability of Netflix servers
 - Not enough bandwidth to support playback
 - There is a unstable connection
 
@@ -225,6 +225,7 @@ Open InputStream Adaptive settings and set `Max. Bandwidth` to like 1000000/8000
 - Try use a H.265 codec this codec use a lower bandwidth but is not available on all videos.<br/>
 Open `Expert` settings and enable VP9 or HEVC profile<br/>
 **WARNING! if not supported this could cause side effects like stuck Kodi or black screen etc.**
+- Only as last resort: Open `Expert` settings and try change `Open Connect CDN` server, if no improvement restore the `Server 1`.
 
 
 ### How to set the automatic selection of a profile
