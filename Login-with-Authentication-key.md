@@ -7,15 +7,13 @@ The Authentication key is a file created by a software (or script).
 This software will open the web browser in your computer, and will ask you to login in to Netflix web page.
 
 After the login in the web page, the software will create the Authentication key file, and provide you of a PIN.<br/>
-You can use this file+PIN (the password will be still required) to login with the add-on and so bypass the problem of "Incorrect password" error.
+With this file+PIN (the password will be still required) you can login on any device (or system) where you have installed Kodi with Netflix add-on and so bypass the problem of "Incorrect password" error.
 
 ## How to get the file NFAuthentication.key and the PIN
 
 To create this file and get the PIN, you need to use one of the following software.
 
-You can create this file from any _Personal Computer_, no matter what operating system you use.
-
-The file created can be used to login on all type of devices/systems where the Netflix add-on is installed.
+You can create this file from any _Personal Computer (desktop / laptop)_, no matter what operating system you use (and Kodi is not needed).
 
 <details>
 <summary><b>For Windows</b><sup> [click to expand]</sup></summary>
