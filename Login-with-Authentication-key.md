@@ -34,22 +34,16 @@ The file created can be used to login on all type of devices/systems where the N
 <summary><b>For Linux and MacOS</b><sup> [click to expand]</sup></summary>
 <p>
 
-**PREREQUISITE**: Chrome or Chromium browser installed
+**PREREQUISITE**: A web browser is required, supported browsers: _Chrome, Chromium, Brave Browser_
 
 **INSTRUCTIONS**: Download the zip, extract the folder and open this folder with the Terminal/Console. Then run the following commands.
 
-Install these python packages:
-<pre>
-pip install pycryptodomex
-pip install websocket-client
-</pre>
+Install these python packages:<br/>
+`pip install pycryptodomex` (or pip3)<br/>
+`pip install websocket-client` (or pip3)
 
-After run the script:
-<pre>
-python NFAuthenticationKey.py
-or
-python3 NFAuthenticationKey.py
-</pre>
+After run the script:<br/>
+`python NFAuthenticationKey.py` (or python3)<br/>
 Follow the instructions on screen, after you have created the file, you have to open it with Netflix add-on by choosing the login with "Authentication key". Remember to delete the Authentication key file after login.
 
 **DOWNLOAD**: [NFAuthenticationKey_Linux.zip](https://www.dropbox.com/sh/ls3veptflvneub1/AABz9Tt3EqKUb90PQXNarNxga?dl=0)
