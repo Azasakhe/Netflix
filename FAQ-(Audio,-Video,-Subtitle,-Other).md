@@ -31,6 +31,7 @@ Other:
 * [Some lists have missing titles, seasons or episodes](#some-lists-have-missing-titles-seasons-or-episodes)
 * [Views setting](#views-setting)
 * [How to check if an android device passes Netflix certification](#how-to-check-if-an-android-device-passes-netflix-certification)
+* [How i can use JSON-RPC calls?](#how-i-can-use-json-rpc-calls)
 
 ## Video
 
@@ -347,3 +348,7 @@ Verification steps:
 1) The official Netflix app must be available on PlayStore, if it is not listed your device is not Netflix certified
 2) You can try install SafetyNet Test app, to check if `PASS` all google tests
 3) You can try check in the PlayStore settings if `Play Protect certification` is marked as certified
+
+### How i can use JSON-RPC calls?
+
+This add-on has not been designed to be used with JSON-RPC calls, so help requests for malfunctions caused by these calls or wrong data in the responses will not be accepted.
