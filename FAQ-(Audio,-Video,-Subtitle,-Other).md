@@ -321,14 +321,16 @@ Means that you have exported a tv show from a profile where in another profile l
 Then browse the add-on with the right profile, select the tv show, open the context menu and select `Export new episodes`.
 
 ### Some lists have missing titles, seasons or episodes
-It may happen that between the official app and the add-on are missing titles, seasons or episodes,
-(we are talking about missing titles inside add-on lists, NOT Kodi library).
+It may happen that between the official app/website and the add-on there are missing titles, seasons or episodes,
+(we are talking about missing titles inside add-on lists, NOT in Kodi library).
 
-Before opening an Issue thread check these things:
-- Check if you are using the same profile on all devices
+It is essential to make these preliminary checks:
+- Check if you are using the same profile on all devices/apps/website
 - Check that the missing titles actually exist on the website (from a computer)
+- Check if you are using a VPN or Proxy:<br/>
+  Then disable or/and uninstall it, after open the add-on `Expert` settings, and select `Clear in-memory and on-disk cache`
 
-Only if the titles exist in the website but not in the add-on then open an Issue, otherwise it is their problem.
+If after these checks, there are still missing titles, seasons or episodes then try to open a Bug request Issue.
 
 ### Views setting
 
