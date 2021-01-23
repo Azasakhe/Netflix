@@ -328,7 +328,7 @@ It is essential to make these preliminary checks:
 - Check if you are using the same profile on all devices/apps/website
 - Check that the missing titles actually exist on the website (from a computer)
 - Check if you are using a VPN or Proxy:<br/>
-  Then disable or/and uninstall it, after open the add-on `Expert` settings, and select `Clear in-memory and on-disk cache`
+  Then disable or/and uninstall the VPN/Proxy, after open the add-on `Expert` settings, and select `Clear in-memory and on-disk cache`
 
 If after these checks, there are still missing titles, seasons or episodes then try to open a Bug request Issue.
 
