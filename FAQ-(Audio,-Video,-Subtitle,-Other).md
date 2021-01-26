@@ -47,9 +47,9 @@ Before asking for help, please perform the following checks:
 `Enable HEVC profiles` to ON
 - Verify that in the InputStream Adaptive add-on these settings are set correctly:
 `Override HDCP status` to ON
-`Stream selection` to Auto
+`Stream selection` to "Automatically select streams"
 
-If again you don't get 4k resolution, take note of the ESN of your device, or get it from Netflix App (can be found under Settings => About) and write it down on Expert page, Manual ESN.
+If again you don't get 4k resolution, take note of the ESN of your device from device settings or get it from Netflix App (can be found under Settings => About) and copy it on `Manual ESN` in the add-on `Expert` settings (if Kodi 19.x use `Change ESN` from `ESN / Widevine settings`).
 
 If again you don't get 4k resolution, open InputStream Adaptive settings and try to set:
 `Ignore Display Resolution` to ON
