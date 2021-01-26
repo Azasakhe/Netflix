@@ -142,9 +142,16 @@ If you have not solved the problem or you still want to report the problem, you 
 In your Issue thread you have to attach:
 - A screenshot of ESN of the official Netflix app (by censuring last chars)
 - The device system info, how to do:
+
+On Kodi 18.x:
 1. Install "Material Terminal" app or similar terminal app
 2. Open the app, in the black screen write `getprop` so a long list appears
 3. Open the options then select "Send to e-mail". (you can send the info to yourself and attach everything as a text file or if you prefer send directly to this GitHub e-mail)
+
+On Kodi 19.x:
+1. Open `ESN / Widevine settings` from add-on `Expert` settings
+2. Press the button `Save system info` to save the system info in to a file
+3. Attach the file in your Issue thread
 
 ### Videos at 23/25fps are not played at double display frequency (hz)
 
