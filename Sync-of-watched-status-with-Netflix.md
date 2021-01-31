@@ -10,7 +10,7 @@ Everything else will happen automatically.
 Open the add-on settings and turn on `Synchronize the watched status of the videos with Netflix`
 
 #### To enable it on Kodi library
-**If you enable this feature on the Kodi library, you can only send the watched status to netflix, therefore the synchronization will never update the watched status of your videos in the Kodi library.**
+If you enable this feature on the Kodi library, the add-on will be able to update the watched status of the videos in your Netflix account, **but will not be able to update the watched status of your videos in Kodi library from your Netflix account.**
 
 Before you will have to enable _Synchronize the watched status of the videos with Netflix_ then:
 
