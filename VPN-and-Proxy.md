@@ -1,5 +1,5 @@
-Netflix does not recommend the use of these network accesses, in some cases warns the user who tries to access the content with a warning.
-This is because it may unlock content that is not allowed in some countries (geo-blocking).
+Netflix does not recommend the use of these network accesses, in some cases warns the user who tries to access the content with a warning, in others situations may cause incorrect display of contents such as missing/wrong lists of titles.
+This is because it may unlock content that is not allowed in some countries (geo-blocking). 
 
 The rules on their legality, changes from country to country.
 Some countries sanction the users who use VPN/Proxy to circumvent the restrictions, with heavy penalties.
