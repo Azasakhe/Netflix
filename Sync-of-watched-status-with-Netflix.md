@@ -1,4 +1,4 @@
-### How it works
+## How it works
 
 By default this feature is disabled, we leave the choice to use this feature to the user.
 
@@ -6,10 +6,10 @@ If you enable it, all previous watched status and video progress (inside Kodi) w
 
 Everything else will happen automatically.
 
-#### To enable it
+### To enable it
 Open the add-on settings and turn on `Synchronize the watched status of the videos with Netflix`
 
-#### To enable it on Kodi library
+### To enable it on Kodi library
 If you enable this feature on the Kodi library, the add-on will be able to update the watched status of the videos in your Netflix account, **but will not be able to update the watched status of your videos in Kodi library from your Netflix account.**
 
 Before you will have to enable _Synchronize the watched status of the videos with Netflix_ then:
@@ -17,7 +17,7 @@ Before you will have to enable _Synchronize the watched status of the videos wit
 Open the add-on settings on `Synchronize the watched status of the videos with Netflix` -> turn on `Include Kodi library`
 
 
-### What happen if you use multiple devices, apps or website
+## What happen if you use multiple devices, apps or website
 
 _In general there is no problem_, you can use any device, apps, website at the same time.
 
@@ -34,7 +34,7 @@ If you want to see those changes immediately, you can choose to perform one of t
 - Disable and re-enable the add-on
 - Reboot Kodi
 
-### How to manually change state watched
+## How to manually change state watched
 
 By default Kodi provide these context menu:<br/>
 `Mark as watched` / `Mark as unwatched` / `Reset resume position`
@@ -48,17 +48,17 @@ This menu allows you to change the watched status, but _this change will never b
 
 Using it several times you will also have the possibility to restore the watched status of Netflix.
 
-### The video resume not works
+## The video resume not works
 
 It is a know bug of Kodi 18.x version that prevent to resume the videos, fixed on Kodi 19.x.
 
-### When i stop playback the resume is not updated
+## When i stop playback the resume is not updated
 
 The synchronization requires updates to be sent from the first minute of playback, therefore the resume will be updated only after the first minute of the played video, then if you press stop before this minute no changes will be saved.
 
-### Possible notifications with errors at the end of the playback
+## Possible notifications with errors at the end of the playback
 
-#### An error prevented the update the status watched on netflix
+### An error prevented the update the status watched on netflix
 
 This error may cause:
 - Failure to update the watched status of the video
