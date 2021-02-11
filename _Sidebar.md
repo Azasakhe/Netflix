@@ -1,6 +1,7 @@
 **User Documentation**
 - [[How install the addon]]
 - [[Login with Authentication key]]
+- [[Sync of watched status with Netflix]]
 - [[FAQ (Audio, Video, Subtitle, Other)]]
 - [[FAQ (Errors)]]
 - [[Library settings]]
@@ -8,7 +9,6 @@
 - [[How to export and sync tv shows and movies in Kodi library]]
 - [[Share STRM library with multiple devices]]
 - [[List of 1080P 4k Android tested devices]]
-- [[Sync of watched status with Netflix]]
 - [[My credentials are safe?]]
 - [[VPN and Proxy]]
 - [[Key mapping]]
