@@ -29,7 +29,7 @@ Other:
 * [Exports to Kodi library - Some exported TV Shows/Movies are missing in kodi library](#exports-to-kodi-library---some-exported-tv-showsmovies-are-missing-in-kodi-library)
 * [Exports to Kodi library - Some Tv Shows are not updated automatically](#exports-to-kodi-library---some-tv-shows-are-not-updated-automatically)
 * [Some lists have missing titles, seasons or episodes](#some-lists-have-missing-titles-seasons-or-episodes)
-* [Views setting](#views-setting)
+* [Skin viewtypes (Views) settings](#skin-viewtypes-views-settings)
 * [How to check if an android device passes Netflix certification](#how-to-check-if-an-android-device-passes-netflix-certification)
 * [How i can use JSON-RPC calls?](#how-i-can-use-json-rpc-calls)
 
@@ -339,7 +339,7 @@ It is essential to make these preliminary checks:
 
 If after these checks, there are still missing titles, seasons or episodes then try to open a Bug request Issue.
 
-### Views setting
+### Skin viewtypes (Views) settings
 
 The views are type of view to show list contents, for example to Estuary skin there are InfoWall/Poster/WideList/Wall etc.
 Each of this views has its own ID (related with skin used).
