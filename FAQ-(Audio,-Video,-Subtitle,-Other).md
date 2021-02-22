@@ -179,10 +179,12 @@ The ATMOS feature is enabled by default, when the option `Enable Dolby Digital P
 To use it a Premium account is required.
 
 If the Atmos audio output does not work:
-- Open Kodi settings `System` -> `Audio` and switch to `Advanced` settings, then check:<br/>
-`Allow passthrough` must be enabled<br/>
-`Dolby Digital Plus capable receiver` must be enabled
-- Check your hardware/software for a possible wrong setup
+- Open Kodi settings `System` -> `Audio` and switch to `Advanced` settings
+- Enable `Allow passthrough` setting
+- On `Passthrough output device` if possible select `RAW` mode or `WASAPI` or if previous options are not available select `HDMI`
+- Enable `Dolby Digital Plus capable receiver` setting
+
+If Atmos still not working you have to check your hardware/software for a possible wrong setup
 
 Read also [The ATMOS stream info (media-flags) does not appear](#the-atmos-stream-info-media-flags-does-not-appear) to more info.
 
