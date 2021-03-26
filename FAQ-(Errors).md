@@ -37,16 +37,22 @@ Open add-on settings and choose `Logout`.
 
 If the problem persists:
 
-**On Android:**
+#### On Android:
 
 Check if the ESN is equal to the official Netflix app, click on `Show ESN` in add-on `Expert` setting and compare with the ESN in android Netflix app settings. Only the first part of the code is important, last missing part ignore it.
 
 If the ESN is different:
 
-Then first try is set `Widevine L3` on add-on `Expert` setting,
-if this not works try type the correct ESN in `Manual ESN` of add-on `Expert` setting.
+* On Kodi 18.x:<br/>
+Try to set `Widevine L3` on add-on `Expert` settings and try to play a video,
+if this not works try type the correct ESN in `Manual ESN` field of add-on `Expert` setting.
 
-**On all other systems:**
+* On Kodi 19.x:<br/>
+From add-on `Expert` settings select `ESN / Widevine settings`,
+On Widevine section select `Force L3`, press OK button and try to play a video,
+if this not works try type the correct ESN by selecting `Change ESN` button of the same window.
+
+#### On all other systems:
 
 Try reinstall Widevine CDM:<br/>
 Open add-on settings (by context menu on the add-on icon), then go to `Expert` page and choose `InputStream Helper settings`, a new window will be opened, then choose `(Re)install Widevine CDM`.
