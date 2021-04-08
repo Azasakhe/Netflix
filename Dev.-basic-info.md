@@ -70,7 +70,7 @@ _Database nf_shared_ - Used to store the data for library only, the MySQL side r
 
 ### The data management
 
-All data operations like HTTP requests, data elaboration, making the ListItems, etc... are all processed within the service instance, to exchange data between (one or more) "frontend" python instance and the service python instance, IPC communications are used (IPC over HTTP/IPC over AddonSignals). This choice of manage all data in the service was taken mainly because SQLite databases can be corrupted if more add-on python instances read/write at same time.
+All data operations like HTTP requests, data elaboration, making the ListItems, etc... are all processed within the service instance, to exchange data between (one or more) "frontend" python instance and the service python instance, IPC communications are used (IPC over HTTP/IPC over AddonSignals). This choice of manage all data in the service was taken mainly because SQLite databases can be corrupted if more add-on python instances read/write at same time, and because memory sharing of a common cache is not possible except within the same python instance.
 
 ### Apple iOS tvOS limits Python compatibility
 
