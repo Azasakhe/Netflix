@@ -176,6 +176,7 @@ The ESN is a serial that _could_ contains information about the device in use, a
 
 - Some videos are also influenced by the producers
 - On Android, Netflix has also adopted a blacklist, when a device is blacklisted it will only play videos in SD quality
+- On linux to allow get the 1080P with ARM arch, is needed to provide the DRM challenge key in the video manifest request
 - Others things!? we hope no..
 
 <sup>
