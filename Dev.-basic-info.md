@@ -68,6 +68,10 @@ _Database nf_shared_ - Used to store the data for library only, the MySQL side r
 
 *1 Tables with frequently updated data, therefore these tables must never be used to save other data otherwise they will be deleted.
 
+### The data management
+
+All data operations like HTTP requests, data elaboration, making the ListItems, etc... are all processed within the service instance, to exchange data between (one or more) "frontend" python instance and the service python instance, IPC communications are used (IPC over HTTP/IPC over AddonSignals). This choice of manage all data in the service was taken mainly because SQLite databases can be corrupted if more add-on python instances read/write at same time.
+
 ### Apple iOS tvOS limits Python compatibility
 
 Unlike linux, iOS/tvOS does not implement or allow the use of some features, creating problems in executing of the source code
