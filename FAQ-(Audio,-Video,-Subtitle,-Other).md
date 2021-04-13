@@ -233,7 +233,7 @@ Open `Expert` settings, and on `Limit video stream resolution to` set 720P or lo
 Open InputStream Adaptive settings and set `Max. Bandwidth` to like 1000000/800000 or lower (could affect also the other add-ons)
 - Use a better Wi-Fi channel or change it to a wired connection (sometimes a simple reboot of the Router might solve the problem)
 - Try use a H.265 codec this codec use a lower bandwidth but is not available on all videos.<br/>
-Open `Expert` settings and enable VP9 (or HEVC profile if Android device)<br/>
+Open `Expert` settings and enable VP9 (and/or HEVC profile if Android device)<br/>
 **WARNING! if the codec is not supported this could cause side effects like stuck Kodi or black screen etc.**
 - Only as last resort: Open `Expert` settings and try change `Open Connect CDN` server, if no improvement restore the `Server 1`.
 
