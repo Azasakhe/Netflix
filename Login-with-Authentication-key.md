@@ -11,9 +11,9 @@ With this file+PIN (the password will be still required) you can login on any de
 
 ## How to get the file NFAuthentication.key and the PIN
 
-To create this file and get the PIN, you need to use one of the following software.
+You can create the NFAuthentication.key file from any _Personal Computer (desktop / laptop)_, no matter what operating system you use (and Kodi is not needed), then with this file you can login to Netflix add-on from all your devices.
 
-You can create this file from any _Personal Computer (desktop / laptop)_, no matter what operating system you use (and Kodi is not needed).
+To create this file and get the PIN, you need to use one of the following software:
 
 <details>
 <summary><b>For Windows</b><sup> [click to expand]</sup></summary>
