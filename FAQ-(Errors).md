@@ -10,7 +10,7 @@ Add-on errors:
 * [Exception: Connection error](#exception-connection-error)
 * [Request blacklisted by key exchange service](#request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
-* [It was not possible to get the data from Widevine CryptoSession]()
+* [It was not possible to get the data from Widevine CryptoSession](#it-was-not-possible-to-get-the-data-from-widevine-cryptosession)
 
 ## Add-on errors
 
