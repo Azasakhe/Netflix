@@ -10,6 +10,7 @@ Add-on errors:
 * [Exception: Connection error](#exception-connection-error)
 * [Request blacklisted by key exchange service](#request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
+* [It was not possible to get the data from Widevine CryptoSession]()
 
 ## Add-on errors
 
@@ -119,3 +120,11 @@ The only solution is try to enable IPC over HTTP: In add-on expert settings, tur
 Not solvable here.
 - Your device uses a memory card or disk that is too slow.
 - In rare cases it may represent an internal error of the addon.
+
+### It was not possible to get the data from Widevine CryptoSession
+
+Means that Kodi cannot communicate with the Widevine library on your device.
+Possible causes can be:
+- Your device has a custom ROM with broken/modified Widevine library
+- It's a cheap device (like Chinese products) with a fake widevine certification
+- Your device has a too old Android system version (versions prior Android 7.0 may not be fully compatible)
