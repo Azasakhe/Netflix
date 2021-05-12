@@ -43,3 +43,22 @@ To fix the problem you would need a Kodi method to get the addon language string
 
 Which will still result in the same language code problem with ISO 639-1 (because is provided in IETF BCP 47),
 but here it would be less invasive.
+
+### License request error: This title is not available to watch instantly
+
+This error is obscure, over time it has not been possible to identify the cause, because it seems to group together a number of different problems, such as:
+
+- could happen if you are using an hotspot/tethering connection with your device (where is running Kodi)
+- could happen with some models of android (not certificated) devices
+- could happen if you try use a VPN
+- could happen if you limit video resolutions from account settings
+
+Some users have solved in these ways:
+- make the log out
+- reinstall the Widevine library
+- manually changing/reset ESN
+- changed internet connection (before hotspot/tethering, after wired)
+
+the most common solutions have been to reinstall the widevine libraries and logout
+but others who have tried these solutions have not solved the problem...
+difficult to establish a real solution
