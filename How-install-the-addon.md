@@ -22,6 +22,8 @@ This add-on is not full compatible with the old Kodi version of _Ubuntu Software
 - Fedora (linux)<br/>
 The add-on can not be run on Kodi 18.x with Fedora 32 or higher (Python 2 is partially working [Retire Python 2](https://fedoraproject.org/wiki/Changes/RetirePython2)), then is mandatory install Kodi 19 to run the add-on.
 
+---
+
 Due to some changes in the website (we think about new anti-bot protections) login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. Then read also [[Login with Authentication key]] page.
 
 ---
