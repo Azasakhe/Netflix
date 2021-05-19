@@ -64,8 +64,14 @@ On some linux distributions additional libraries are needed (On Ubuntu and flavo
 In the terminal run these commands:
 
 <pre>
-sudo apt install build-essential python-dev python-pip python-setuptools
+FOR KODI 18 LEIA and 19 MATRIX:
+sudo apt install build-essential python-pip
 pip install --user pycryptodomex
+
+NOTE FOR KODI 19:
+If your linux distribution have installed Python 2 and 3 at same time, you will have to run these:
+sudo apt install build-essential python-pip3
+pip3 install --user pycryptodomex
 </pre>
 
 </p>
@@ -88,16 +94,21 @@ After establishing the connection with a terminal:
 
 * In the terminal run these commands:
 <pre>
+FOR KODI 18 LEIA:
 sudo apt-get update
 sudo apt-get install build-essential python-pip python-crypto libnss3
-sudo pip install -U setuptools
-sudo pip install wheel pycryptodomex
+sudo pip install pycryptodomex
+
+FOR KODI 19 MATRIX:
+sudo apt-get update
+sudo apt-get install build-essential python3-pip python3-crypto libnss3
+sudo pip3 install pycryptodomex
 </pre>
 * In the terminal run these commands to download the Repository zip:
 <pre>
-USE THIS FOR KODI 18 LEIA:
+FOR KODI 18 LEIA:
 wget https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.1.zip
-USE THIS FOR KODI 19 MATRIX:
+FOR KODI 19 MATRIX:
 wget https://github.com/castagnait/repository.castagnait/raw/matrix/repository.castagnait-1.0.0.zip
 </pre>
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
@@ -119,10 +130,15 @@ Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [Git
 
 * Open Raspberry Terminal app and run these commands:
 <pre>
+FOR KODI 18 LEIA:
 sudo apt update
-sudo apt install build-essential python-pip python-setuptools libnss3 kodi-inputstream-adaptive
-sudo pip install wheel
+sudo apt install build-essential python-pip libnss3 kodi-inputstream-adaptive
 sudo pip install pycryptodomex
+
+FOR KODI 19 MATRIX:
+sudo apt update
+sudo apt install build-essential python3-pip libnss3 kodi-inputstream-adaptive
+sudo pip3 install pycryptodomex
 </pre>
 * Now open Kodi and follow the menu: `Add-ons browser` > `My add-ons` > `VideoPlayer InputStream`<br/>
 so click on `InpuStream Adaptive` and enable it.
