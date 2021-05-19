@@ -165,6 +165,7 @@ Copy this file to an USB flash drive or memory card and connect it to the device
 
 * Open RetroPie shell and run these commands:
 <pre>
+FOR KODI 18 LEIA:
 sudo apt update
 sudo apt install build-essential python-setuptools python-pip libnss3
 sudo pip install wheel pycryptodomex
