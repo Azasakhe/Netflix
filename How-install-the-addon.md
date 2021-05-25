@@ -5,6 +5,7 @@
 * Pycryptodome python library *1 *2
 * InputStream Helper add-on *2
 * Widevine CDM library *2
+* Python version 3.6 or higher (only for Linux)
 
 <sup>
 *1 On some linux systems manual installation is required<br/>
