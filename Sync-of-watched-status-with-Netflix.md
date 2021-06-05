@@ -1,13 +1,7 @@
 ## How it works
 
-By default this feature is disabled, we leave the choice to use this feature to the user.
-
-If you enable it, all previous watched status and video progress (inside Kodi) will be replaced by those on your real Netflix account, until you disable this feature again.
-
-Everything else will happen automatically.
-
-### To enable it
-Open the add-on settings and turn on `Synchronize the watched status of the videos with Netflix`
+### To enable or disable it
+Open the add-on settings and switch `Synchronize the watched status of the videos with Netflix`
 
 ### To enable it on Kodi library
 If you enable this feature on the Kodi library, the add-on will be able to update the watched status of the videos in your Netflix account, **but will not be able to update the watched status of your videos in Kodi library from your Netflix account.**
