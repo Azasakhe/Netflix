@@ -13,7 +13,7 @@ The proprietary Netflix JSON:<br/>
 [Official Netflix JSON Docs](https://netflix.github.io/falcor/documentation/jsongraph.html)
 
 The bridge used between Kodi and DRM Systems (like Widevine):<br/>
-[InputStream Adaptive Add-on](https://github.com/peak3d/inputstream.adaptive/)
+[InputStream Adaptive Add-on](https://github.com/xbmc/inputstream.adaptive/)
 
 A little reverse engineering of Shakti API:<br/>
 [HowardStark - Shakti API](https://github.com/HowardStark/shakti)
