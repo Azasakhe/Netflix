@@ -26,6 +26,9 @@ CDN selection strategy to deliver video content and to use the best quality for 
 [Another one like above](https://www.cs.rutgers.edu/~badri/552dir/notes/W11-four.pdf)<br/>
 [The currently Netflix Open Connect](https://openconnect.netflix.com/)
 
+Netflix UWP app sources and debugging:<br/>
+[Adventures of Netflix Windows app debugging](https://equalizer7.medium.com/adventures-of-netflix-windows-app-debugging-6ec98b8ece77)
+
 Netflix player shortcuts:<br/>
 [Ctrl+Shift+Alt+D] Display A/V Stats on-screen<br/>
 [Ctrl+Shift+Alt+L] Logging window
