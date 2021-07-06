@@ -186,3 +186,14 @@ The ESN is a serial that _could_ contains information about the device in use, a
 <sup>
 * This parameter affects the ESN
 </sup>
+
+### Licensed manifest request
+
+In this last year 2020/2021 netflix has introduced a licensed manifest request,
+unlike the old type of manifest request this require to initialize the DRM before making the manifest request, in order to provide these two data, DRM session ID and the DRM key request (challenge).
+These data are needed in order to get HD resolutions, currently are mandatory only for ARM devices, but given these recent changes in future could be mandatory for all platforms.
+
+Two data are required to InputStream Adaptive to "pre-initialise" the DRM: PSSH and KEY ID.
+The PSSH can be found by parsing the javascript part of the website, this data also includes the Key ID that needs to be extracted.
+
+In the PR https://github.com/CastagnaIT/plugin.video.netflix/pull/1129 can be found other infos and the source code of a custom PSSH parser to extract the required keys.
