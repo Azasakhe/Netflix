@@ -8,7 +8,7 @@ Seems that is caused by the new reCAPTCHA v3 score, currently it is not possible
 or through "mechanical" webpage navigation (e.g. selenium) due to multi-platform add-on system and the large size of this module.
 
 UPDATE 22/08/2021:
-The transition to HTTP2 module (httpx) has improved a lot the login problem, but it seems that in not all countries it works, i don't think there are any other possible solution.
+The transition to HTTP2 module (httpx) has improved a lot the login problem, but it seems that in not all countries it works, i don't think there are any other possible solutions.
 
 ### Unsupported iso language code from Kodi for audio/subtitle
 
