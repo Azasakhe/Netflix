@@ -32,6 +32,7 @@ Other:
 * [Skin viewtypes (Views) settings](#skin-viewtypes-views-settings)
 * [How to check if an android device passes Netflix certification](#how-to-check-if-an-android-device-passes-netflix-certification)
 * [How i can use JSON-RPC calls?](#how-i-can-use-json-rpc-calls)
+* [How i can use JSON-RPC call to make a search?](#how-i-can-use-json-rpc-call-to-make-a-search)
 
 ## Video
 
@@ -363,3 +364,12 @@ Verification steps:
 ### How i can use JSON-RPC calls?
 
 This add-on has not been designed to be used with JSON-RPC calls, so help requests for malfunctions caused by these calls or wrong data in the responses will not be accepted.
+
+### How i can use JSON-RPC call to make a search?
+
+There is a specific support to allow searches through skins and/or JSON-RPC calls,
+this because use the default add-on path of add-on search menu could be complex to use.
+
+The endpoint to use is: `plugin://plugin.video.netflix/directory/search/search/?query=something`
+
+Please note that searches made from this endpoint will not be stored in the add-on database.
