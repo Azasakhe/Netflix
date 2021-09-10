@@ -1,31 +1,31 @@
 ### Prerequisites
 * A devices compatible with Kodi (Apple iOS/tvOS are not supported)
-* Kodi 18 or higher version
+* _Suggested_ Kodi 19 or above (Kodi 18 version may no longer support 1080P)
 * InputStream Adaptive add-on *1 *2
 * Pycryptodome python library *1 *2
 * InputStream Helper add-on *2
 * Widevine CDM library *2
-* Python version 3.7 or higher (only for Linux) *1
+* For Linux operative systems, Python version 3.7 or higher is required
 
 <sup>
-*1 On some linux systems manual installation is required<br/>
+*1 On some linux systems a manual installation is required<br/>
 *2 Automatically installed
 </sup>
 
-### Notice
+### To read before install
 
-- Android<br/>
-This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices.
+#### The login could cause "Incorrect password" error
+Due to some changes in the website (about new anti-bot protections) the login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. We provide an alternative to the standard login, please read [[Login with Authentication key]] page.
 
-- Ubuntu (linux)<br/>
-This add-on is not full compatible with the old Kodi version of _Ubuntu Software Center_ (can be identified from the Kodi main screen by the logo `Kodi from debian`), please follow the official Kodi install instructions on Kodi website.
+#### Add-on for Kodi 18
 
-- Fedora (linux)<br/>
-The add-on can not be run on Kodi 18.x with Fedora 32 or higher (Python 2 is partially working [Retire Python 2](https://fedoraproject.org/wiki/Changes/RetirePython2)), then is mandatory install Kodi 19 to run the add-on.
+This add-on for Kodi 18 is no longer updated, will only receive _maintenance fixes_. **Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P, this cannot be fixed_**, the only solution is upgrade your device to Kodi 19 or above.
 
----
+#### Android
+This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
 
-Due to some changes in the website (we think about new anti-bot protections) login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. Then read also [[Login with Authentication key]] page.
+#### Ubuntu (linux) use Kodi version from Ubuntu Software Center
+This add-on is not full compatible with the Kodi version from _Ubuntu Software Center_ (can be identified from the Kodi main screen by the logo `Kodi from debian`), please uninstall it and follow the official Kodi install instructions on Kodi website.
 
 ---
 
