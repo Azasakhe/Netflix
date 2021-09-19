@@ -17,6 +17,9 @@
 #### The login could cause "Incorrect password" error
 Due to some changes in the website (about new anti-bot protections) the login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. We provide an alternative to the standard login, please read [[Login with Authentication key]] page.
 
+#### Mobile plan
+This add-on **not** support Mobile plan.
+
 #### Add-on for Kodi 18
 
 This add-on is compatible for Kodi 18 but this version is no longer updated, will only receive _maintenance fixes_. **Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P, this cannot be fixed_**, the only solution is upgrade your device to Kodi 19 or above.
