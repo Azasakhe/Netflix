@@ -43,12 +43,8 @@ Before asking for help, please perform the following checks:
 - Verify that your device is connected to a display and/or amplifier with HDCP 2.2 or higher
 - Verify that on the Netflix website, in the Playback Settings for the profiles to be used, they have the Data usage per screen, set to Auto or High
 - If possible change Kodi display resolution to 4K. If it is not possible, open InputStream Adaptive settings and set `Ignore Display Resolution` to ON
-- Verify that in the addon settings these settings (in the Expert page) are set correctly:
-`Enable VP9 profiles` to OFF
-`Enable HEVC profiles` to ON
-- Verify that in the InputStream Adaptive add-on these settings are set correctly:
-`Override HDCP status` to ON
-`Stream selection` to "Automatically select streams"
+- Verify that in the addon Expert settings the setting `Enable HEVC profiles` is set to ON
+- Verify that in the InputStream Adaptive add-on the setting `Override HDCP status` is set to ON, and, `Stream selection` to "Automatically select streams"
 
 If again you don't get 4k resolution, take note of the ESN of your device from device settings or get it from Netflix App (can be found under Settings => About) and copy it on `Manual ESN` in the add-on `Expert` settings (if Kodi 19.x use `Change ESN` from `ESN / Widevine settings`).
 
