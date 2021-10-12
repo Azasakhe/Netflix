@@ -8,17 +8,12 @@ The maintainers do not guarantee its complete and constant functionality over ti
 and is not officially commissioned/supported by Netflix.
 
 Interested companies can collaborate to support the project by providing devices hardware to be used for testing purpose.
-After completion of a trial period, a short review could be done on the functionality of the hardware device in relation with Kodi and this add-on.
 
-The people who will be interested in acquiring knowledge of the devices tested will be able to read the reviews
-through the GitHub Wiki pages, in order to discover the features and limitations of these devices.
-
-The add-on works with most operating systems supported by Kodi,
-but there are some limitations, these are the supported systems:
+The add-on works with most operating systems supported by Kodi like:
 - Android (the only that can allow use of 4K and HDR/DolbyVision)
 - Windows 7/10 (x86/x64)
 - Linux distributions
-- Dedicated Kodi linux OS like: LibreElec/OSMC/...
+- Kodi OS such as: LibreElec / CoreElec / OSMC / many more...
 - MacOS
 
 GitHub not provide insight data to the public, so it may not be easy to verify the amount of active users.
@@ -51,7 +46,5 @@ also the downloads have definitely increased.
 
 ## Contacts
 
-Contact me through the e-mail of this GitHub account:
-
-gottardo.stefano.83[at]gmail.com
-
+You can contact me through this page
+https://beacons.ai/castagnait
