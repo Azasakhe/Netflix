@@ -6,7 +6,8 @@ This list only includes tested devices with hardware video decoding.
 
 | Device name                              | 1080P  | 4K   | HDR | Dolby Vision | Android |
 | ---------------------------------------- | ------ | ---- | --- | ------------ | ------- |
-| Amazon Fire Stick 4K                     | ✔     | ✔    | ✔   | ✔           | 7       |
+| Amazon Fire TV Stick 4K                  | ✔     | ✔    | ✔   | ✔           | 7       |
+| Amazon Fire TV Stick 4K Max              | ✔     | ✔    | ✔   | ✔           | 9       |
 | Chromecast with Google TV                | ✔     | ✔    | ✔   | ✔           | 10      |
 | EON Smart Box (United Group)             | ✔     | ✔    |     |              | 7, 8    |
 | Minix U9-H                               | ✔     |      |     |              | 7       |
