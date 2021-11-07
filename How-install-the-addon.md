@@ -22,7 +22,7 @@ This add-on **not** support Mobile plan.
 
 #### Add-on for Kodi 18
 
-This add-on is compatible for Kodi 18 but this version is no longer updated, will only receive _maintenance fixes_. **Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P, this cannot be fixed_**, the only solution is upgrade your device to Kodi 19 or above.
+This add-on is compatible for Kodi 18 but this version is no longer updated, will only receive _maintenance fixes_. **Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P and 4K, this cannot be fixed_**, the only solution is upgrade your device to Kodi 19 or above.
 
 #### Android
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
