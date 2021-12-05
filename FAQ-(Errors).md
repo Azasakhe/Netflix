@@ -56,7 +56,7 @@ if this not works try type the correct ESN by selecting `Change ESN` button of t
 #### On all other systems:
 
 Try reinstall Widevine CDM:<br/>
-Open add-on settings (by context menu on the add-on icon), then go to `Expert` page and choose `InputStream Helper settings`, a new window will be opened, then choose `(Re)install Widevine CDM`.
+Open add-on settings (by context menu on the add-on icon), then go to `Expert` page and choose `InputStream Helper settings`, a new window will be opened, then choose `(Re)install Widevine CDM`. When done reboot Kodi or the device.
 
 _**If these solutions do not work, please do not open an Issue, there are no other known solutions to get around this message.**_
 
