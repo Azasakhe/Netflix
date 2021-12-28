@@ -33,6 +33,7 @@ Other:
 * [How to check if an android device passes Netflix certification](#how-to-check-if-an-android-device-passes-netflix-certification)
 * [How i can use JSON-RPC calls?](#how-i-can-use-json-rpc-calls)
 * [How i can use JSON-RPC call to make a search?](#how-i-can-use-json-rpc-call-to-make-a-search)
+* [How to try run the addon with Python 3.5 or 3.6](#how-to-try-run-the-addon-with-python-35-or-36)
 
 ## Video
 
@@ -369,3 +370,16 @@ this because use the default add-on path of add-on search menu could be complex 
 The endpoint to use is: `plugin://plugin.video.netflix/directory/search/search/?query=something`
 
 Please note that searches made from this endpoint will not be stored in the add-on database.
+
+### How to try run the addon with Python 3.5 or 3.6
+
+This addon requires Python 3.7 libraries, so force using this addon with older Python libraries may cause unexpected errors, for which no support will be provided.
+If you are experienced enough and have a Linux operating system, there is an alternative that allows you to run the addon on Python 3.5 and 3.6. This is the guide:
+
+Open the terminal and install these packages:
+```
+apt install python3-pip
+pip3 install contextvars
+pip3 install async_generator
+```
+Now you can try run the addon, please note that it may still not work and does not guarantee correct functioning of the addon.
