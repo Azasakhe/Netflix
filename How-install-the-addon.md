@@ -108,7 +108,7 @@ sudo pip install pycryptodomex
 FOR KODI 19 MATRIX:
 sudo apt-get update
 sudo apt-get install build-essential python3-pip python3-crypto libnss3
-sudo pip3 install setuptools
+sudo pip3 install setuptools wheel
 sudo pip3 install pycryptodomex
 </pre>
 * In the terminal run these commands to download the Repository zip:
