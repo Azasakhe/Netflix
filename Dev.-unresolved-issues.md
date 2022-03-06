@@ -56,7 +56,7 @@ This error is obscure, over time it has not been possible to identify the cause,
 - could happen with some models of android (not certificated) devices
 - could happen if you try use a VPN
 - could happen if you limit video resolutions from account settings
-- some users say that raised this error without change nothing in the account
+- could happen if something in MSL manifest/license format is changed
 
 Some users have solved in these ways:
 - make the log out
@@ -68,3 +68,8 @@ Some users have solved in these ways:
 the most common solutions have been to reinstall the widevine libraries and logout,
 but others who have tried these solutions have not solved the problem not even reinstalling the addon,
 other users (linux OS) have resolved by updating the operating system, but i can't find a relationship between the two, as nothing should change in the addon's execution environment.
+
+### Android Chromebook devices cannot be used
+
+Not found a way to make works the ESN handshake i dont know what ESN format could be used
+ref. https://github.com/CastagnaIT/plugin.video.netflix/issues/1286
