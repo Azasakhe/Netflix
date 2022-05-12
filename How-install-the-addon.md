@@ -5,7 +5,7 @@
 * Pycryptodome python library *1 *2
 * InputStream Helper add-on *2
 * Widevine CDM library *2
-* For Linux operative systems, Python version 3.7 or higher is required (warning python 3.10.3-1 is bugged)
+* For Linux operative systems, Python version 3.7 or higher is required (warning python 3.10.3 / 3.10.4 is bugged)
 
 <sup>
 *1 On some linux systems a manual installation is required<br/>
