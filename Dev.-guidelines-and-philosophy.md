@@ -6,7 +6,7 @@ Please note that if you decide to contribute it means that you automatically acc
 
 **Readability of the code**
 
-The [PEP8](https://www.python.org/dev/peps/pep-0008/) rules are followed in this project, it is not necessary to learn every rule, there are a lot of examples here and often intuition is enough and integration tests may be of help
+The [PEP8](https://www.python.org/dev/peps/pep-0008/) rules are followed in this project, source code editors like PyCharm if correctly configured, helps to check and report typing errors without having to learn all the rules and it is possible to take inspiration from existing source code.
 
 **Unit and integration testing**
 
