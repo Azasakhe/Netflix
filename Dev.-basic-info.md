@@ -18,7 +18,7 @@ Being a large project which also makes use of undocumented technologies, it is n
 | /lib/utils        | Stand-alone helper files |
 | /lib/common       | Helper files incorporated on the _common_ module |
 | /lib/database         | SQLite, MySQL database management |
-| /lib/kodi             | Methods for interact with Kodi mainly used for context menus and library |
+| /lib/kodi             | Methods to interact with Kodi mainly for context menus and library management |
 | /lib/kodi/ui          | Classes and methods to handle standard and custom Kodi window dialogs |
 | /lib/navigation       | Handle route navigation between menus, context menu actions, settings actions, play titles |
 | /lib/services         | Contains code used only by the service instance |
