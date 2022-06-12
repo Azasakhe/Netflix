@@ -36,13 +36,13 @@ This add-on is not full compatible with the Kodi version from _Ubuntu Software C
 <summary><b>How to installing on: Windows / MacOS / Android / LibreELEC / CoreELEC</b><sup> [click to expand]</sup></summary>
 <p>
 
-Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
 
 If you are using an external device: copy this file to an USB flash drive or memory card and connect it to the device
 
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the Home/downloads folder (or USB flash drive/memory card if you use an external device)<br/>
-then install the repository file `repository.castagnait-1.0.x.zip`
+then install the repository file `repository.castagnait-2.0.x.zip`
 * Return to the add-ons browser and choose _Install from repository_<br/>
 then select CastagnaIT repository and install Netflix add-on
 
@@ -55,13 +55,13 @@ then select CastagnaIT repository and install Netflix add-on
 <summary><b>How to installing on: Linux distributions</b><sup> [click to expand]</sup></summary>
 <p>
 
-Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
 
 If you are using an external device: copy this file to an USB flash drive or memory card and connect it to the device
 
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the Home/downloads folder (or USB flash drive/memory card if you use an external device)<br/>
-then install the repository file `repository.castagnait-1.0.x.zip`
+then install the repository file `repository.castagnait-2.0.x.zip`
 * Return to the add-ons browser and choose _Install from repository_<br/>
 then select CastagnaIT repository and install Netflix add-on
 
@@ -113,14 +113,11 @@ sudo pip3 install pycryptodomex
 </pre>
 * In the terminal run these commands to download the Repository zip:
 <pre>
-FOR KODI 18 LEIA:
-wget https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.1.zip
-FOR KODI 19 MATRIX:
-wget https://github.com/castagnait/repository.castagnait/raw/matrix/repository.castagnait-1.0.0.zip
+wget https://github.com/castagnait/repository.castagnait/raw/kodi/repository.castagnait-2.0.0.zip
 </pre>
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the Home folder<br/>
-then install the repository file `repository.castagnait-1.0.x.zip`
+then install the repository file `repository.castagnait-2.0.x.zip`
 * Return to the add-ons browser and choose _Install from repository_<br/>
 then select CastagnaIT repository and install Netflix add-on
 
@@ -133,7 +130,7 @@ then select CastagnaIT repository and install Netflix add-on
 <summary><b>How to installing on: Raspbian (Raspberry system)</b><sup> [click to expand]</sup></summary>
 <p>
 
-Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
 
 * Open Raspberry Terminal app and run these commands:
 <pre>
@@ -151,7 +148,7 @@ sudo pip3 install pycryptodomex
 so click on `InpuStream Adaptive` and enable it.
 * Return to the Add-ons browser, choose _Install from zip file_
 * Navigate in to the Home/downloads folder<br/>
-then install the repository file `repository.castagnait-1.0.x.zip`
+then install the repository file `repository.castagnait-2.0.x.zip`
 * Return to the add-ons browser and choose _Install from repository_<br/>
 then select CastagnaIT repository and install Netflix add-on
 
@@ -164,7 +161,7 @@ then select CastagnaIT repository and install Netflix add-on
 <summary><b>How to installing on: RetroPie (Raspberry system)</b><sup> [click to expand]</sup></summary>
 <p>
 
-Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
 
 Copy this file to an USB flash drive or memory card and connect it to the device
 
@@ -177,7 +174,7 @@ sudo pip install wheel pycryptodomex
 </pre>
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the USB flash drive/memory card<br/>
-then install the repository file `repository.castagnait-1.0.x.zip`
+then install the repository file `repository.castagnait-2.0.x.zip`
 * Return to the add-ons browser and choose _Install from repository_<br/>
 then select CastagnaIT repository and install Netflix add-on
 
@@ -220,13 +217,13 @@ chroot .
 apt install python-pycryptodome
 </pre>
 
-Download the Repository zip file `repository.castagnait-1.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
 
 Copy this file to an USB flash drive or memory card and connect it to the device
 
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the Home folder<br/>
-then install the repository file `repository.castagnait-1.0.x.zip`
+then install the repository file `repository.castagnait-2.0.x.zip`
 * Return to the add-ons browser and choose _Install from repository_<br/>
 then select CastagnaIT repository and install Netflix add-on
 
