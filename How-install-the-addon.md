@@ -63,7 +63,7 @@ FOR KODI 19 MATRIX:
 sudo apt install build-essential python3-pip
 pip3 install --user pycryptodomex
 
-TO INSTALL INPUT STREAM ADAPTIVE ADD-ON:
+TO INSTALL INPUTSTREAM ADAPTIVE ADD-ON:
 sudo apt install kodi-inputstream-adaptive
 </pre>
 
