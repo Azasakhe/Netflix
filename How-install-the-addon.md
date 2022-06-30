@@ -70,14 +70,16 @@ On some linux distributions additional libraries are needed (On Ubuntu and flavo
 In the terminal run these commands:
 
 <pre>
-FOR KODI 18 LEIA and 19 MATRIX:
+FOR KODI 18 LEIA:
 sudo apt install build-essential python-pip
 pip install --user pycryptodomex
 
-NOTE FOR KODI 19:
-If your linux distribution have installed Python 2 and 3 at same time, you will have to run these:
-sudo apt install build-essential python-pip3
+FOR KODI 19 MATRIX:
+sudo apt install build-essential python3-pip
 pip3 install --user pycryptodomex
+
+TO INSTALL INPUT STREAM ADAPTIVE ADD-ON:
+sudo apt install kodi-inputstream-adaptive
 </pre>
 
 </p>
