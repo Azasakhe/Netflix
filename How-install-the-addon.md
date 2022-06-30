@@ -20,15 +20,11 @@ Due to some changes in the website (about new anti-bot protections) the login wi
 #### Mobile plan
 This add-on **not** support Mobile plan.
 
-#### Add-on for Kodi 18
-
-**Kodi 18 is EOL. This add-on is compatible but will only receive _maintenance fixes_, no support will be provided. Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P and 4K and this cannot be fixed_**, we highly recommend the upgrade to Kodi 19 or above.
+#### Kodi 18 - Leia
+**The Kodi 18 version is end-of-life.** This add-on is compatible but will only receive _maintenance fixes_, **no support will be provided**. Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P and 4K and this cannot be fixed_, we highly recommend the upgrade to Kodi 19 or above.
 
 #### Android
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
-
-#### Ubuntu (linux) use Kodi version from Ubuntu Software Center
-This add-on is not full compatible with the Kodi version from _Ubuntu Software Center_ (can be identified from the Kodi main screen by the logo `Kodi from debian`), please uninstall it and follow the official Kodi install instructions on Kodi website.
 
 ---
 
@@ -55,19 +51,8 @@ then select CastagnaIT repository and install Netflix add-on
 <summary><b>How to installing on: Linux distributions</b><sup> [click to expand]</sup></summary>
 <p>
 
-Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
-
-If you are using an external device: copy this file to an USB flash drive or memory card and connect it to the device
-
-* Now open Kodi and in the Add-ons browser, choose _Install from zip file_
-* Navigate in to the Home/downloads folder (or USB flash drive/memory card if you use an external device)<br/>
-then install the repository file `repository.castagnait-2.0.x.zip`
-* Return to the add-ons browser and choose _Install from repository_<br/>
-then select CastagnaIT repository and install Netflix add-on
-
-On some linux distributions additional libraries are needed (On Ubuntu and flavors are already installed)
-
-In the terminal run these commands:
+On some linux distributions additional components are needed,
+so in the terminal run these commands:
 
 <pre>
 FOR KODI 18 LEIA:
@@ -82,6 +67,15 @@ TO INSTALL INPUT STREAM ADAPTIVE ADD-ON:
 sudo apt install kodi-inputstream-adaptive
 </pre>
 
+Now download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
+
+If you are using an external device: copy this file to an USB flash drive or memory card and connect it to the device
+
+* Now open Kodi and in the Add-ons browser, choose _Install from zip file_
+* Navigate in to the Home/downloads folder (or USB flash drive/memory card if you use an external device)<br/>
+then install the repository file `repository.castagnait-2.0.x.zip`
+* Return to the add-ons browser and choose _Install from repository_<br/>
+then select CastagnaIT repository and install Netflix add-on
 </p>
 </details>
 
