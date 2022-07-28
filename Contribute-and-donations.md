@@ -16,6 +16,6 @@ you can join as a developer and provide help to fix errors, make improvements, a
 
 _A huge thank you to those who were able to support the adventures of this project:_
 
-Andrzej, David, Daniel, Chartrand, Choi, David, Mederle, Niklas, Gregory, מקסים, Eric, Florian, Tim, Matej, Daniel, Vasil, Norbert, Emanuel, Christian, Wolfgang, Ashley, Orestis, Matej, Thomas, David, Jan, Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
+Matej, Andrzej, David, Daniel, Chartrand, Choi, David, Mederle, Niklas, Gregory, מקסים, Eric, Florian, Tim, Matej, Daniel, Vasil, Norbert, Emanuel, Christian, Wolfgang, Ashley, Orestis, Matej, Thomas, David, Jan, Sandro, Alexander, Matteo, Gioele, Lukas, Dózsa, Dominik, Frederik, Martin, Bertrand, Dorin, Bruno, Péter, Timo
 
 and of course all users of Ko-fi page!
