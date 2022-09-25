@@ -20,7 +20,7 @@ Other:
 * [How to set the automatic selection of a profile](#how-to-set-the-automatic-selection-of-a-profile)
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
-* [Subtitles - don't always keep the language of your choice](#subtitles---dont-always-keep-the-language-of-your-choice)
+* [Subtitles - don't always keep the language of your choice (Kodi 18)](#subtitles---dont-always-keep-the-language-of-your-choice-Kodi-18)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 * [Skin - wrong video media-flags info (resolution, format audio-video)](#skin---wrong-video-media-flags-info-resolution-format-audio-video)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
@@ -144,22 +144,16 @@ In your Issue thread you have to attach:
 - A screenshot of ESN of the official Netflix app (by censuring last chars)
 - The device system info, how to do:
 
-On Kodi 18.x:
-1. Install "Material Terminal" app or similar terminal app
-2. Open the app, in the black screen write `getprop` so a long list appears
-3. Open the options then select "Send to e-mail". (you can send the info to yourself and attach everything as a text file or if you prefer send directly to this GitHub e-mail)
-
-On Kodi 19.x:
 1. Open `ESN / Widevine settings` from add-on `Expert` settings
 2. Press the button `Save system info` to save the system info in to a file
 3. Attach the file in your Issue thread
 
 ### Videos at 23/25fps are not played at double display frequency (hz)
 
-_Only for Kodi 19.x for Windows:_<br/>
+_For Windows system only:_<br/>
 The double frequencies are no longer switched automatically.
 This can happen when your display not support 23/25hz, Kodi 18.x in this case switch automatically (e.g. to 50hz),
-but on Kodi 19 this not happen by default anymore.
+but from Kodi v19 this not happen by default anymore.
 
 To enable this Kodi feature:<br/>
 Open Kodi `System` settings, switch the settings page to `Expert` (below).
@@ -211,8 +205,8 @@ First of all make sure that:
 
 Kodi does not support the ATMOS name as a track description, therefore is replaced by [DOLBY-HD], so:
 
-- On Kodi 18.x ATMOS tracks can be distinguished only from the skin media-flag [DOLBY-HD].
-- On Koki 19.x ATMOS tracks can be distinguished also from the label ATMOS in the audio language list.
+- On Kodi v18 ATMOS tracks can be distinguished only from the skin media-flag [DOLBY-HD].
+- On Koki v19 or above ATMOS tracks can be distinguished also from the label ATMOS in the audio language list.
 
 ## Other
 
@@ -254,7 +248,7 @@ To remove the setting perform the action again.
 ### Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)
 
 The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
-This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use, and in the Kodi subtitles settings.
+This is a limitation of the fonts used Kodi, the only way to try and trick this problem is to set the Arial font to the Skin in use, and in the Kodi subtitles settings.
 It may not work with all kinds of Asian languages, the best thing is to get/ask information through the forum of Kodi.
 
 ### Subtitles - I always see subtitles in every video
@@ -263,9 +257,9 @@ Just change how Kodi handles subtitles by choosing *forced only*.
 In Kodi Settings -> Player -> Language
 set: `Preferred subtitle language` to `Forced only`
 
-### Subtitles - don't always keep the language of your choice
+### Subtitles - don't always keep the language of your choice (Kodi 18)
 
-The Kodi 18.x framework does not allow to fix this problem. So there is no solution.<br/>
+Kodi v18.x framework does not allow to fix this problem. So there is no solution.<br/>
 If you prefer you can disable `Remember audio / subtitle preferences` in the addon Playback settings, so in each video you will manually enable the subtitles.
 
 ### Sometimes blank boxes are shown instead of characters of descriptions and titles
