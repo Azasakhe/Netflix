@@ -40,18 +40,21 @@ Other:
 ### My android device supports 4K but does not playback at 4K
 
 Before asking for help, please perform the following checks:
-- Verify that your device support Widevine Security Level L1 (use an app like: DRM Info)
-- Verify that your device is connected to a display and/or amplifier with HDCP 2.2 or higher
-- Verify that on the Netflix website, in the Playback Settings for the profiles to be used, they have the Data usage per screen, set to Auto or High
-- If possible change Kodi display resolution to 4K. If it is not possible, open InputStream Adaptive settings and set `Ignore Display Resolution` to ON
-- Verify that in the addon Expert settings the setting `Enable HEVC profiles` is set to ON
-- Verify that in the InputStream Adaptive add-on the setting `Override HDCP status` is set to ON, and, `Stream selection` to "Automatically select streams"
+- You must have a 4k Netflix account plan.
+- Verify that your device support Widevine Security Level L1 (use an app like: DRM Info).
+- Verify that your device is connected to a display and/or amplifier with HDCP 2.2 or higher.
+- Verify that on the Netflix website, in the Playback Settings for the profiles to be used, they have the Data usage per screen, set to Auto or High.
+- Verify that Kodi can reach until to 4K resolution, Go to Kodi settings -> `System` -> `Display` check that there is the 4K resolution. If there is no 4K resolution available you have some kind of problem with your device or display.
 
-If again you don't get 4k resolution, take note of the ESN of your device from device settings or get it from Netflix App (can be found under Settings => About) and copy it on `Manual ESN` in the add-on `Expert` settings (if Kodi 19.x use `Change ESN` from `ESN / Widevine settings`).
+_If you are using KODI v19_ try follow also these steps:
+- Set Kodi display resolution to 4K. If instead you want keep a lower Kodi GUI resolution, then open InputStream Adaptive settings and set `Ignore Display Resolution` to ON.
+- Verify that in the Netflix addon `Expert` settings, `Enable HEVC profiles` is set to ON.
+- Verify that in the InputStream Adaptive add-on settings, `Override HDCP status` is set to ON, and, `Stream selection` to "Automatically select streams".
 
-If again you don't get 4k resolution, open InputStream Adaptive settings and try to set:
-`Ignore Display Resolution` to ON
-`Min Bandwidth` to 18.000.000
+_If you are using KODI v20_ try follow also these steps:
+- Verify that in the InputStream Adaptive add-on settings, `Stream selection type` is set to "Adaptive", or else you can try set "Ask quality" to be able to see if 4K video resolution exists in the list of available video resolutions when playback starts.
+
+If again you don't get 4k resolution, take note of the ESN of your device from device settings or get it from original Netflix app (can be found under Settings => About) then open `ESN / Widevine settings` on add-on `Expert` settings, press `Change ESN` button and copy the original ESN.
 
 ### Video playback problems like frame drops, slowdown, stuttering
 
