@@ -1,9 +1,14 @@
-## Explanation of the functions in the Expert settings
+## Explanation of Expert setting category
+Here there are only some of them referred to the addon for Kodi v19 or above.
 
 ### Run add-on configuration wizard
 Performs self-configuration of the add-on. This include configuration of profiles, InputStream Adaptive, and some Kodi settings.
 
 Useful to restore the settings after a wrong configuration.
+
+### Limit video stream resolution to
+Force limit the stream resolutions. This runs at a very low level, so will affect InputStream Adaptive addon functionalities.
+If possible you suggest to avoid use this setting and limit resolutions by using InputStream Adaptive settings.
 
 ### Enable Dolby Digital Plus
 When enabled enable Dolby Digital Plus, Dolby Digital Plus with high bitrate on standard/premium account, and Dolby Digital Atmos on premium account.
@@ -23,12 +28,24 @@ For testing purposes only.
 
 The HDCP 2.2 streams are automatically enabled when a device have Widevine certification with a 4K certified display, see Readme.
 
+### ESN / Widevine settings
+Open a window to show and change ESN and Widevine settings.
+
+- Change ESN: allow to change ESN for some Android problematic devices.
+- Save system info: Save device system infos to a file to allow developers investigate on problems.
+- Force security level: On Android L1 device, this allow to force Widevine L3. Usually useful for non-certificated devices.
+
+### Enable debug logging
+Allow the addon to print to Kodi log file all information to help developers investigate on problems.
+If not needed keep it disabled to save device performances.
+
 ### Enable execution timing
 For debug purposes only.
 Enables the collection of execution time statistics of the source code, concerning the methods executed.
 
-### Limit video stream resolution to
-Force a maximum resolution limit. This runs at a low level, it limits the video streams sent to InputStreamAdaptive/Kodi.
+### MSL manifest version
+Allow to use an old MSL manifest request version. This was used in the past as workaround to get 1080p resolution on ARM linux devices (e.g. RPI).
+Change it may break playback and raise different type of errors.
 
 ### Open Connect CDN
 To be used with caution. This parameter allows you to select a CDN server for streaming.
@@ -48,9 +65,14 @@ The CDN server with a lower index (rank) is the most reliable one and with the f
 Therefore the CDN `Server 1` is the default choice, try to change only for the problems described above.
 
 ### Enable IPC over HTTP
-The IPC allows the communication between different processes of the add-on, not to be confused with internet communication. By default IPC communication is done by using the AddonSignals plugin.
+The IPC allows the communication between different processes of the add-on, not to be confused with internet communication.
 
-In some cases the use of this plugin by many add-ons could cause timeout problems, so you can activate the _IPC over HTTP_ to exclude _IPC over AddonSignals_.
+If enabled (by default) you will use _IPC over HTTP_, so localhost routing data communication.
+If disabled you will use IPC over AddonSignals_ plugin, Kodi will route the data internally without use localhost.
+
+Change this setting may be useful in case of timeout errors.
+
+Due to a internal Kodi bug AddonSignals IPC has memory leak problems, if the device remains switched on 24 hours a day, it is recommended not to disable this setting.
 
 ### Force Widevine security level L3 (Android only)
 
