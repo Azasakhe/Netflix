@@ -27,10 +27,6 @@ You can try solve with these steps:
 2) Reboot Kodi
 3) Open Netflix add-on, should be asked to enter the new credentials, if no credential are asked open add-on settings and Logout
 
-- Your e-mail address contains a plus sign example `name+surname@dom.com`<br/>
-This is a known problem, this e-mail addresses will always cause "incorrect password" errors.<br/>
-The only solutions are: Change account e-mail, or try insert the phone number instead of the e-mail to login.
-
 ### This title is not available to watch instantly
 
 In this case Netflix says to log out https://help.netflix.com/en/node/109329.<br/>
@@ -44,11 +40,11 @@ Check if the ESN is equal to the official Netflix app, click on `Show ESN` in ad
 
 If the ESN is different:
 
-* On Kodi 18.x:<br/>
+* On Kodi v18:<br/>
 Try to set `Widevine L3` on add-on `Expert` settings and try to play a video,
 if this not works try type the correct ESN in `Manual ESN` field of add-on `Expert` setting.
 
-* On Kodi 19.x:<br/>
+* On Kodi v19 or above:<br/>
 From add-on `Expert` settings select `ESN / Widevine settings`,
 On Widevine section select `Force L3`, press OK button and try to play a video,
 if this not works try type the correct ESN by selecting `Change ESN` button of the same window.
