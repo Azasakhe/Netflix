@@ -44,7 +44,7 @@ Using it several times you will also have the possibility to restore the watched
 
 ## The video resume not works
 
-It is a know bug of Kodi 18.x version that prevent to resume the videos, fixed on Kodi 19.x.
+It is a know bug of Kodi 18.x version that prevent to resume the videos, fixed on Kodi v19.x and above.
 
 ## When i stop playback the resume is not updated
 
