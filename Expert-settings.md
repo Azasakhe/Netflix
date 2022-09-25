@@ -6,28 +6,22 @@ Performs self-configuration of the add-on. This include configuration of profile
 Useful to restore the settings after a wrong configuration.
 
 ### Enable Dolby Digital Plus
-When enabled enable DDPlus and DDPlus HQ and DDAtmos on premium accounts.
+When enabled enable Dolby Digital Plus, Dolby Digital Plus with high bitrate on standard/premium account, and Dolby Digital Atmos on premium account.
 When disabled allow only 2.0 audio tracks.
 
 ### Enable VP9 profiles
-Allow get VP9 video streams. If your device does not have full support for this codec, the video startup may crash or cause display problems.
+Allow to get video streams with VP9 codec. If your device does not have full support for this codec, the video startup may crash or cause display problems.
 
 ### Enable HEVC profiles
-Allow get HEVC video streams. If your device does not have full support for this codec, the video startup may crash or cause display problems.
-(may not work on systems other than Android or MacOS).
+Allow to get video streams with HEVC codec. If your device does not have full support for this codec, the video startup may crash or cause display problems. (Available on Android only).
 
 ### Disable WebVTT subtitle support
-To be used only in case of display problems with subtitles.
+Can be used only in case of display problems with subtitles on Kodi v18 or v19.
 
 ### Force HCDP 2.2 video streams
 For testing purposes only.
 
 The HDCP 2.2 streams are automatically enabled when a device have Widevine certification with a 4K certified display, see Readme.
-
-### Debug logging level
-- Disabled - Logging info completely disabled (save CPU resources)
-- Info - Basic logging info
-- Verbose - Detailed logging info (allow to analyze issues)
 
 ### Enable execution timing
 For debug purposes only.
