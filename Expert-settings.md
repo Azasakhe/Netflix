@@ -31,9 +31,21 @@ The HDCP 2.2 streams are automatically enabled when a device have Widevine certi
 ### ESN / Widevine settings
 Open a window to show and change ESN and Widevine settings.
 
-- Change ESN: allow to change ESN for some Android problematic devices.
-- Save system info: Save device system infos to a file to allow developers investigate on problems.
-- Force security level: On Android L1 device, this allow to force Widevine L3. Usually useful for non-certificated devices.
+- Change ESN<br/>
+Allow you to change ESN by specifing the ESN of your certified device. Can be useful for some problematic android devices.
+Do not change it if not really needed.
+
+- Reset<br/>
+Reset the current ESN, useful if you have previously changed ESN or settings.
+
+- Save system info<br/>
+Save your device system info in to a file, to allow developers investigate on problems.
+
+- Widevine - Force security level<br/>
+Allow to force Widevine L3 on a declared L1 device. This may be useful for non-certified devices, that cause impossibility to playback videos, so with no pictures or when there is an error raised as `Request failed validation during key exchange` or `This title is not available to watch instantly`.<br/>
+When you enable it:
+  - If you get this error `Request failed validation during key exchange`, means that _you can not use your device with Netflix add-on_.
+  - And you can play videos, you will be limited to _SD quality_ only, so there is no way to get 1080p or 4k.
 
 ### Enable debug logging
 Allow the addon to print to Kodi log file all information to help developers investigate on problems.
@@ -74,30 +86,11 @@ Change this setting may be useful in case of timeout errors.
 
 Due to a internal Kodi bug AddonSignals IPC has memory leak problems, if the device remains switched on 24 hours a day, it is recommended not to disable this setting.
 
-### Force Widevine security level L3 (Android only)
-
-Some devices are declared as Widevine security level L1, but they have a broken/wrong implementation of Widevine or MediaCodec API, that will cause impossibility to playback videos, so with no pictures or with an error raised as `Request failed validation during key exchange` or in others cases `This title is not available to watch instantly`.
-
-The only way to have a possibility to playback videos with this devices, are:
-- Try request/do a firmware update of device to the manufacturer
-- Try to enable this option
-
-When you enable this option:
-- If you get this error `Request failed validation during key exchange`, means that _you can not use your device with Netflix add-on_.
-- If you can play videos, you can only see them only at _SD quality_.
-
 ### Results per page
 
 You can choose how many results have per page (works only to paginated menus).
 
 Note to slow devices and/or slow internet connection:
 - A lower value could solve timeouts errors
-- A high value could cause timeouts errors
+- An higher value could make a slow loading and cause timeouts errors
 
-### Manual ESN
-Allows you to specify the use of an ESN of your certified device, by excluding the automatically generated ESN.
-
-To be inserted only and exclusively in case of problems.
-
-### Reset ESN
-Reset any settings and ESN data stored in the database, and generates a new ESN.
