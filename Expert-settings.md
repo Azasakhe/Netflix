@@ -44,7 +44,7 @@ Save your device system info in to a file, to allow developers investigate on pr
 - Widevine - Force security level<br/>
 Allow to force Widevine L3 on a declared L1 device. This may be useful for non-certified devices, that cause impossibility to playback videos, so with no pictures or when there is an error raised as `Request failed validation during key exchange` or `This title is not available to watch instantly`.<br/>
 When you enable it:
-  - If you get this error `Request failed validation during key exchange`, means that _you can not use your device with Netflix add-on_.
+  - If you get this error `Request failed validation during key exchange` again, means that _you can not use your device with Netflix add-on_.
   - And you can play videos, you will be limited to _SD quality_ only, so there is no way to get 1080p or 4k.
 
 ### Enable debug logging
