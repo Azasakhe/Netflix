@@ -9,7 +9,7 @@ This list only includes tested devices with hardware video decoding.
 | Amazon Fire TV Stick 4K                  | ✔     | ✔    | ✔   | ✔           | 7       |
 | Amazon Fire TV Stick 4K Max              | ✔     | ✔    | ✔   | ✔           | 9       |
 | Chromecast with Google TV                | ✔     | ✔    | ✔   | ✔           | 10      |
-| EON Smart Box (United Group)             | ✔     | ✔    |     |              | 7, 8, (9 some models only SD, others not working) |
+| EON Smart Box (United Group)             | ✔     | ✔    |     |              | 7, 8, (9 some models only SD, others do not work) |
 | Minix U9-H                               | ✔     |      |     |              | 7       |
 | NVIDIA Shield TV 2015/2017               | ✔     | ✔    | ✔   |             | 8, 9, 11 |
 | NVIDIA Shield TV 2019                    | ✔     | ✔    | ✔   | ✔           | 8, 9, 11 |
