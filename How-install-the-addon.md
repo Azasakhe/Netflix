@@ -103,7 +103,7 @@ sudo pip install pycryptodomex
 
 FOR KODI 19 OR ABOVE:
 sudo apt-get update
-sudo apt-get install build-essential python3-pip python3-crypto libnss3
+sudo apt-get install build-essential python3-pip libnss3
 sudo pip3 install setuptools wheel
 sudo pip3 install pycryptodomex
 </pre>
