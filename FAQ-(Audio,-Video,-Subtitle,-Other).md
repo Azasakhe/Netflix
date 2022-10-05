@@ -133,8 +133,7 @@ If say maximum resolution HD, then could be an ESN problem.
 **Second step, check the ESN:**
 
 Open add-on expert settings, do a _Reset ESN_.<br/>
-If still not works, try compare the ESN code shown in the settings of official app with the add-on ESN (expert settings->Show ESN).
-if you see that the code starts differently, you can try manually insert the ESN in the add-on, or ask for help.
+If still not works, try compare the ESN code shown in the settings of official Netflix app with the add-on ESN (on `Expert` settings `ESN / Widevine settings`). If you notice that the characters in the code begin differently, try manually copy the official ESN in the add-on by clicking on `Change ESN` button (you can ignore all characters of the final part).
 
 **Third step, how to ask for help:**
 
