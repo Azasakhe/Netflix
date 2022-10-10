@@ -55,6 +55,10 @@ If not needed keep it disabled to save device performances.
 For debug purposes only.
 Enables the collection of execution time statistics of the source code, concerning the methods executed.
 
+### Force MSL with idtoken authentication
+For Android only, this setting can be used to try solve MSL error: `User authentication data does not match entity identity`
+that could happens on some Android devices. _If enabled, this will limit the capability to play videos only from the main profile_, this is due to recent changes on website to which there is currently no solution.
+
 ### MSL manifest version
 Allow to use an old MSL manifest request version. This was used in the past as workaround to get 1080p resolution on ARM linux devices (e.g. RPI).
 Change it may break playback and raise different type of errors.
