@@ -39,6 +39,22 @@ Waiting for the correct implementation on Kodi, the temporary solutions that hav
 
 Some more info PR: https://github.com/CastagnaIT/plugin.video.netflix/pull/933
 
+**UPDATE:** On Kodi v20 i have partially fixed this problem (see https://github.com/xbmc/xbmc/pull/21776)
+now Kodi do not convert language codes with country codes with wrong descriptions but keep them as is
+so for example `es-ES` now become `Spanish-es`.
+
+Plus an user can also add custom description by using Kodi advancedsetting.xml, for example :
+```xml
+<advancedsettings>
+<languagecodes>
+  <code>
+    <short>es-es</short>
+    <long>Spanish - Spain</long>
+  </code>
+</languagecodes>
+</advancedsettings>
+```
+
 ### Mixed menu languages, due to different Kodi GUI language
 
 When a netflix profile is set with a certain language, and Kodi GUI is set with a different language, some menus result with mixed languages.
