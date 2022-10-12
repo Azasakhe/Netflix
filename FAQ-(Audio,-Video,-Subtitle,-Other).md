@@ -34,6 +34,7 @@ Other:
 * [How i can use JSON-RPC calls?](#how-i-can-use-json-rpc-calls)
 * [How i can use JSON-RPC call to make a search?](#how-i-can-use-json-rpc-call-to-make-a-search)
 * [How to try run the addon with Python 3.5 or 3.6](#how-to-try-run-the-addon-with-python-35-or-36)
+* [Audio/Subtitles language codes have a wrong/incomplete descriptions](#audiosubtitles-language-codes-have-a-wrongincomplete-descriptions)
 
 ## Video
 
@@ -379,3 +380,14 @@ pip3 install contextvars
 pip3 install async_generator
 ```
 Now you can try run the addon, please note that it may still not work and does not guarantee correct functioning of the addon.
+
+### Audio/Subtitles language codes have a wrong/incomplete descriptions
+**On Kodi v18/v19:**
+This is a know issue of Kodi v18/v19 because do not support language code with subtags, then unrecognized language codes are displayed on Kodi GUI menus with a wrong description. For example `es-ES` is displayed like `Spanish-Spanish` instead of `Spanish-Spain`.
+To limits this problem the addon implement a workaround to show better language descriptions, but may not include your language code. If so open a new Issue and report it. There are no other solutions for these Kodi versions.
+
+**On Kodi v20 or above:**
+From this Kodi version has been improved the support for language code with subtags, then unrecognized language codes are displayed in Kodi GUI menus as is without descriptions. For example `es-ES` is displayed like `Spanish-es` instead of `Spanish-Spain`.
+If you want better language descriptions, there are two solutions:
+- Install skin language packs of each language code you need (if are available)
+- Add the language code with description by using `Advancedsettings.xml`. Read Kodi Wiki to know how to do https://kodi.wiki/view/Advancedsettings.xml#languagecodes
