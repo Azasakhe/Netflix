@@ -66,7 +66,7 @@ _Database nf_shared_ - Used to store the data for library only, the MySQL side r
 | video_lib_tvshows  | Contains the data of exported tv shows |
 | watched_status_override | Contains the watched status manually set by the user (when is enabled the sync with nf) |
 
-*1 Tables with frequently updated data, therefore these tables must never be used to save other data otherwise they will be deleted.
+*1 Tables with frequently updated data from website, save other data may be deleted if the data name have same value of website data.
 
 ### The data management
 
