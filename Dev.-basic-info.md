@@ -128,13 +128,15 @@ The new authURL obtained will need to use for all future NFSession requests.
 
 #### MSL APIs
 
-Here Netflix has implemented a custom MSL user-authentication scheme, (MSL references [User Authentication (Configuration)](https://github.com/Netflix/msl/wiki/User-Authentication-%28Configuration%29), [User Authentication](https://github.com/Netflix/msl/wiki/User-Authentication)) called `SWITCH_PROFILE`.
+Here Netflix has implemented a custom MSL user-authentication scheme, (MSL references [User Authentication (Configuration)](https://github.com/Netflix/msl/wiki/User-Authentication-%28Configuration%29), [User Authentication](https://github.com/Netflix/msl/wiki/User-Authentication)) called `SWITCH_PROFILE`. UPDATE: This auth scheme has been disabled on website backend (04/10/2022).
 
 This authentication method, in addition to attaching the user authentication data to the MSL request, instructs the service to activate the specified profile.
 
 Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netflix/pull/484)
 
 This user-authentication scheme works only combined with an user-id-token and can not be used with all endpoints, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
+
+Another way to switch MSL profile is use NETFLIXID auth scheme, but for non-L1 android devices may cause problems.
 
 ### How using: makefile
 
