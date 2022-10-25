@@ -114,29 +114,36 @@ These APIs have not been implemented because they require further huge separate 
 
 Considering that there are no documents on which to base ourselves, i will try to explain in short what i currently understand.
 
-There are two ways to work with Netflix profiles, one with the APIs used in "NFSession" (e.g. Shakti) and the other with the MSL APIs. In both cases to be able to activate a profile (therefore to be able to send/receive data with it) we talk about "profile switch".
+There are currently two separate profile management on the website, the first Shakti API endpoint (used for pathEvaluator) used to get/send data like lists, etc... and the MSL API endpoint used for playback.
 
-#### NFSession APIs
+To be able to send/receive data with a specified profile, you need to activate it on both sides, so we talk about "profile switch".
 
-There are two ways to perform the profile switch the NFSession side, by using:
-- Endpoint /SwitchProfile (this allows you to obtain also the profile cookies)
-- Endpoint /profiles/switch
+#### Shakti pathEvaluator NFSession API
 
-In both cases, after making the switch, you must obtain the authURL value.
-The authURL is required to have access rights to make http requests with the specified profile.
-The new authURL obtained will need to use for all future NFSession requests.
+There are two ways to perform the profile switch the NFSession side, by using one of these endpoints:
+- ../SwitchProfile (better provide profile cookies)
+- ../profiles/switch
 
-#### MSL APIs
+(these are partial address they change over the time so you need check the website)
 
-Here Netflix has implemented a custom MSL user-authentication scheme, (MSL references [User Authentication (Configuration)](https://github.com/Netflix/msl/wiki/User-Authentication-%28Configuration%29), [User Authentication](https://github.com/Netflix/msl/wiki/User-Authentication)) called `SWITCH_PROFILE`. UPDATE: This auth scheme has been disabled on website backend (04/10/2022).
+In both cases, after making the switch, you must obtain the updated authURL value, that must be used for all future pathEvaluator requests.
+The authURL is required to have access rights to make http requests with the specified profile, in this way the data sent or received will be bound to the selected profile.
+
+The `/SwitchProfile` endpoint provide updated profile cookies, these can be used to switch profile in the MSL API by using NETFLIXID scheme.
+
+#### MSL API
+
+There are two ways to switch profile on MSL side, this is needed to receive the manifest and send data with the right profile.
+
+The first way consists of using `NETFLIXID` MSL user-authentication scheme, where you send the cookies bound to selected profile, they will be used to switch profile.
+
+The second way consists of using a custom MSL user-authentication scheme, (MSL references [User Authentication (Configuration)](https://github.com/Netflix/msl/wiki/User-Authentication-%28Configuration%29), [User Authentication](https://github.com/Netflix/msl/wiki/User-Authentication)) called `SWITCH_PROFILE`.
 
 This authentication method, in addition to attaching the user authentication data to the MSL request, instructs the service to activate the specified profile.
 
 Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netflix/pull/484)
 
-This user-authentication scheme works only combined with an user-id-token and can not be used with all endpoints, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
-
-Another way to switch MSL profile is use NETFLIXID auth scheme, but for non-L1 android devices may cause problems.
+This user-authentication scheme works only combined with an user-id-token, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
 
 ### How using: makefile
 
