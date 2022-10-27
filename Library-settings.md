@@ -1,4 +1,4 @@
-## Explanation of the functions in the Library settings (for most recent add-on version)
+## Explanation of the functions in the Library settings
 
 ### Enable Kodi library management
 Enables the use and management of the Kodi library, when enabled will be add on each TV Show / Movie the following context menus:
