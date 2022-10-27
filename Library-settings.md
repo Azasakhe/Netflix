@@ -1,13 +1,30 @@
-## Explanation of the functions in the Library settings
+## Explanation of the functions in the Library settings (for most recent add-on version)
+
+### Enable Kodi library management
+Enables the use and management of the Kodi library, when enabled will be add on each TV Show / Movie the following context menus:
+
+Export to library / Remove from library / Update inside library / Export new episodes
+
+### Add Netflix folders to Kodi library sources
+Add to the sources of Kodi library the netflix folders, to browse Netflix content directly from the Kodi library.
+
+Once added you will have to restart Kodi to be able to view them, after that you need to configure them as follow:
+1) In the Kodi homepage, open menu `TV Shows` or `Movies`, then open `Files` sub-menu.
+2) Select `Netflix-Shows` or `Netflix-Movies` (both need to be configured) and open the context menu `Edit source`
+3) In the new window press Ok, another window will be opened
+4) Set `This directory contains` field with appropriate content
+5) Set `Choose information provider` field with the appropriate scraper e.g. The Movie Database Python
+6) Press OK to complete the configuration of the selected folder
 
 ### Auto update mode
 Establishes which method to use to update the tv shows in order to export automatically new seasons and episodes.
 
 - Manual: updates to tv shows must be done manually, through context menus `Export new episodes`, or in alternative by select the menu `Check for updates now`.
-- Scheduled: updates to tv shows are automatic, you will need to set up a schedule.
+- Scheduled: updates to tv shows will be automatic, you will need to set up a schedule.
+- When Kodi starts: updates to tv shows will starts at Kodi start-up, once a day.
 
-### Keep My List and Kodi Library in sync
-Allows you to automatically export/remove the tv shows/films to the Kodi library when they are added/removed from My List of an specific profile. If My List has been modified externally for example through the website, in the Kodi library no changes will be made immediately, you will have to wait for the schedule to run.
+### Synchronize Kodi library with "My list"
+Allows you to automatically export/remove the tv shows/films to the Kodi library when they are added/removed from My List of an specific profile. If My List has been modified externally (for example through the website or mobile app), the Kodi library updates will be postponed to the scheduled time.
 
 Perform full sync now: Start synchronization immediately (export tv shows and also movies) but delete everything previously exported.<br/>
 _DO NOT USE IT TO SYNCHRONIZE WITHOUT WAITING FOR THE START OF THE SCHEDULING, OTHERWISE RISK BAN OF YOUR ACCOUNT._
@@ -21,7 +38,7 @@ This function has these purposes:
 For example, it can happen that a TV series on netflix is divided into two seasons, while on the TMDB database it is in a single season. This means that Kodi's screaper doesn't get the information for the second season because it doesn't exist in the database. So the NFO files add this missing information.
 - To allow the use of the "Local information only" screaper in Kodi's library,
 in this case, you must also enable the option `Include all information in NFO files`.
-- When Kodi's screaper does not recognize a title (TV Show/Movie) the title may not be displayed in the Kodi library, enabling NFO files still allows you to view unrecognized titles. In this case, you must also enable the option `Include all information in NFO files`.
+- When Kodi's screaper does not recognize a title (TV Show/Movie) the title may not be displayed in the Kodi library, enabling NFO files still allows you to view unrecognized titles. In this case, you must also enable the option `Include tv show NFO details`.
 
 ### Enable custom library folder
 Here you can change the default folder where the addon save the file exported of tv shows or movies.
