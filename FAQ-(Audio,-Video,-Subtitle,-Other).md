@@ -59,17 +59,23 @@ If again you don't get 4k resolution, take note of the ESN of your device from d
 
 ### Video playback problems like frame drops, slowdown, stuttering
 
-Usually happens to those devices where hardware video decoding is not available (due to Widevine limitations) and the CPU fails to process the video stream properly due to the high load.
-All devices with software video decoding are affected by this problem (see *Reference table of high resolutions*) like personal computers, raspberry, android boxes (with Widevine sec. lev. L3), etc..
+It usually occurs on devices where hardware video decoding is not available and the CPU cannot process the video stream properly due to high load.
 
-So to get a smooth reproduction **you will need a CPU that can handle the load of software decoding 1080p video** otherwise you will have the result of stuttering video playback.
+So to try to get a more smooth playback the only solution is to limit the bandwidth and/or resolution of the video stream.
 
 You can try to solve this problem by trying one of these solutions:
-- Limit the resolution to 720p<br/>
-From add-on settings go to `Expert` page and change `Limit video stream resolution to` value to 720p.
-- Limit InputStream Adaptive max bandwidth<br/>
-From add-on settings go to `Expert` page open `InputStream Adaptive settings` and try to set `Max Bandwidth` between 2.500.000 and 4.000.000
-- On Raspberry system try increase the RAM dedicated to the GPU the best value depends on the model type in use, to know it try to search in the RPI forum.
+- Force limit the video resolution to 720p in the add-on<br/>
+From add-on `Expert` settings, change `Limit video stream resolution to` value to 720p.
+- Limit the max bandwidth on InputStream Adaptive<br/>
+From add-on settings go to `Expert` page open `InputStream Adaptive settings`, then set `Max Bandwidth` between 2.500.000 and 4.000.000
+- On Raspberry system try increase the RAM dedicated to the GPU<br/>
+Search in the RPI forums to know how to do and what is the best value it depens from RPI models.
+
+On Kodi v20 or above, there are other similar solutions:
+- Limit the max resolution on InputStream Adaptive<br/>
+From add-on `Expert` settings, select `InputStream Adaptive settings`, then set `Maximum resolution` to 720p
+- Always manually choose the video resolution on playback starts<br/>
+From add-on `Expert` settings, change the `Override stream selection type` to `Ask video quality`
 
 ### How to enable HDR and Dolby Vision
 
