@@ -32,7 +32,7 @@ To create this file and get the PIN, you need to use one of the following softwa
 <summary><b>For Linux (e.g. Ubuntu) and MacOS</b><sup> [click to expand]</sup></summary>
 <p>
 
-**PREREQUISITE**: A web browser is required, supported browsers: _Chrome, Chromium, Brave Browser_
+**PREREQUISITE**: A web browser is required, supported browsers: _Chrome or Chromium_
 
 **INSTRUCTIONS**: Download the zip, extract the folder and open this folder with the Terminal/Console. Then run the following commands.
 
