@@ -18,4 +18,4 @@ This list shows some of the devices that have been tested with hardware video de
 
 ✔ = Feature tested and working
 
-If you have a working hardware video decoding device that is not listed, please open a new *Issue* by providing the device model, firmware version and a debug log after playing video.
+If you have a working hardware video decoding device that is not listed, to add it to the list please open a new *Issue* by providing the device model, firmware version and a debug log after playing video.
