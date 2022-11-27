@@ -1,6 +1,4 @@
-This list shows some of the devices that have been tested with this add-on and related features.
-
-This list only includes tested devices with hardware video decoding.
+This list shows some of the devices that have been tested with hardware video decoding and their capabilities.
 
 *Note it is not a choice of the add-on developers to decide which device can work or not, it depends only by netflix.*
 
@@ -20,5 +18,4 @@ This list only includes tested devices with hardware video decoding.
 
 ✔ = Feature tested and working
 
-If your device is not listed, please open a new *Issue* and provide a debug log after playing a 4k video, and if possible also specify if you have used the default configuration or a custom configuration settings (profiles settings, InputStream Adaptive settings).
-This will help us to continue to improve the add-on.
+If your device is not listed, please open a new *Issue* by providing the device model, firmware version and a debug log after playing video.
