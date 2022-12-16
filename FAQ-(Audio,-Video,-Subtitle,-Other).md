@@ -55,7 +55,9 @@ _If you are using KODI v19_ try follow also these steps:
 _If you are using KODI v20_ try follow also these steps:
 - Verify that in the InputStream Adaptive add-on settings, `Stream selection type` is set to "Adaptive", or else you can try set "Ask quality" to be able to see if 4K video resolution exists in the list of available video resolutions when playback starts.
 
-If again you don't get 4k resolution, take note of the ESN of your device from device settings or get it from original Netflix app (can be found under Settings => About) then open `ESN / Widevine settings` on add-on `Expert` settings, press `Change ESN` button and copy the original ESN.
+If again you don't get 4k resolution,
+open `ESN / Widevine settings` on add-on `Expert` settings, then press `Reset` and `OK` button.
+_Avoid using the ESN of the original device provided by the original app with the add-on, as Netflix may limit your device to 540p for an undefined period of time._
 
 ### Video playback problems like frame drops, slowdown, stuttering
 
