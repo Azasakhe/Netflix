@@ -32,3 +32,6 @@ Netflix UWP app sources and debugging:<br/>
 Netflix player shortcuts:<br/>
 [Ctrl+Shift+Alt+D] Display A/V Stats on-screen<br/>
 [Ctrl+Shift+Alt+L] Logging window
+
+Netflix player shortcuts, for Android only:<br/>
+[F4] Display current video stream info on-screen<br/>
