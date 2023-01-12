@@ -4,13 +4,13 @@ Add-on errors:
 * [MSL Error: Request failed validation during key exchange](#msl-error-Request-failed-validation-during-key-exchange)
 * [MSL Error: Entity used incorrect key exchange data type](#msl-error-Entity-used-incorrect-key-exchange-data-type)
 * [MSL Error: Entity used incorrect user authentication data type](#msl-error-Entity-used-incorrect-user-authentication-data-type)
+* [MSL Error: Request blacklisted by key exchange service](#msl-error-request-blacklisted-by-key-exchange-service)
 * [MSL Error: Email or password is incorrect](#msl-error-email-or-password-is-incorrect)
 * [MSL Error: User must login again](#msl-error-user-must-login-again)
 * [HTTPError: 403 Client Error: Forbidden for url ...](#httperror-403-client-error-forbidden-for-url-)
 * [HTTPError: 500 Server Error](#httperror-500-server-error)
 * [HTTPError: 504 Server Error](#httperror-504-server-error)
 * [Exception: Connection error](#exception-connection-error)
-* [MSL Error: Request blacklisted by key exchange service](#msl-error-request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
 * [It was not possible to get the data from Widevine CryptoSession](#it-was-not-possible-to-get-the-data-from-widevine-cryptosession)
 
@@ -81,6 +81,10 @@ It happens very rarely, so it is difficult to find a solution, it is usually a t
 
 It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
 
+### MSL Error: Request blacklisted by key exchange service
+
+As far as we know in the case of android devices, may indicate compatibility problems with the device firmware (needs updating), or there is the possibility that the model of the android device in use is on the black list of devices not authorized by Netflix.
+
 ### MSL Error: Email or password is incorrect
 
 Known use cases when this error can be raised are:
@@ -124,10 +128,6 @@ You can try to solve the problem by making these tests:
 - Check your connection if it is stable or try use another connection
 - Try change your DNS (on the router or in Kodi settings if you use a Kodi OS)
 - If you use Proxy/VPN try disable it
-
-### MSL Error: Request blacklisted by key exchange service
-
-As far as we know in the case of android devices, may indicate compatibility problems with the device firmware (needs updating), or there is the possibility that the model of the android device in use is on the black list of devices not authorized by Netflix.
 
 ### Addon Signals call timeout
 
