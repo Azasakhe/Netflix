@@ -1,14 +1,16 @@
 Add-on errors:
 * [Email or password is incorrect](#email-or-password-is-incorrect)
-* [This title is not available to watch instantly](#This-title-is-not-available-to-watch-instantly)
-* [Request failed validation during key exchange](#Request-failed-validation-during-key-exchange)
-* [Entity used incorrect key exchange data type](#Entity-used-incorrect-key-exchange-data-type)
-* [Entity used incorrect user authentication data type](#Entity-used-incorrect-user-authentication-data-type)
+* [MSL Error: This title is not available to watch instantly](#msl-error-This-title-is-not-available-to-watch-instantly)
+* [MSL Error: Request failed validation during key exchange](#msl-error-Request-failed-validation-during-key-exchange)
+* [MSL Error: Entity used incorrect key exchange data type](#msl-error-Entity-used-incorrect-key-exchange-data-type)
+* [MSL Error: Entity used incorrect user authentication data type](#msl-error-Entity-used-incorrect-user-authentication-data-type)
+* [MSL Error: Email or password is incorrect](#msl-error-email-or-password-is-incorrect)
+* [MSL Error: User must login again](#msl-error-user-must-login-again)
 * [HTTPError: 403 Client Error: Forbidden for url ...](#httperror-403-client-error-forbidden-for-url-)
 * [HTTPError: 500 Server Error](#httperror-500-server-error)
 * [HTTPError: 504 Server Error](#httperror-504-server-error)
 * [Exception: Connection error](#exception-connection-error)
-* [Request blacklisted by key exchange service](#request-blacklisted-by-key-exchange-service)
+* [MSL Error: Request blacklisted by key exchange service](#msl-error-request-blacklisted-by-key-exchange-service)
 * [Addon Signals call timeout](#addon-signals-call-timeout)
 * [It was not possible to get the data from Widevine CryptoSession](#it-was-not-possible-to-get-the-data-from-widevine-cryptosession)
 
@@ -27,7 +29,7 @@ You can try solve with these steps:
 2) Reboot Kodi
 3) Open Netflix add-on, should be asked to enter the new credentials, if no credential are asked open add-on settings and Logout
 
-### This title is not available to watch instantly
+### MSL Error: This title is not available to watch instantly
 
 In this case Netflix says to log out https://help.netflix.com/en/node/109329.<br/>
 Open add-on settings and choose `Logout`.
@@ -60,7 +62,7 @@ In this case, you may be playing videos exported from a different Netflix profil
 
 _**If these solutions do not work, please do not open an Issue, there are no other known solutions to get around this message.**_
 
-### Request failed validation during key exchange
+### MSL Error: Request failed validation during key exchange
 
 This generally happens on Android devices, most of the time it can be one of these cases:
 - Your device model is not Netflix certified ([how to check](https://github.com/CastagnaIT/plugin.video.netflix/wiki/FAQ-(Audio,-Video,-Subtitle,-Other)#how-to-check-if-an-android-device-passes-netflix-certification)), you can only try to force `Widevine L3` on add-on `Expert` settings.
@@ -71,13 +73,29 @@ Probably future changes by developers will be necessary.
 
 - Netflix has implemented some changes, so changes will need to be made by the developers of the add-on.
 
-### Entity used incorrect user authentication data type
+### MSL Error: Entity used incorrect user authentication data type
 
 It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
 
-### Entity used incorrect key exchange data type
+### MSL Error: Entity used incorrect key exchange data type
 
 It happens very rarely, so it is difficult to find a solution, it is usually a temporary problem that solves itself in a day or two without doing anything.
+
+### MSL Error: Email or password is incorrect
+
+Known use cases when this error can be raised are:
+- You have changed account password
+- Netflix has resetted your password
+
+The only solution known is do Logout from addon settings.
+After that login again, if you had used Auth Key method you will need to generate a new Auth Key.
+
+### MSL Error: User must login again
+
+This error could happens when you have done "Sign out of all devices" from website account.
+
+When you do "Sign out of all devices" from website, you need to do also Logout from the add-on settings.
+After that it is important **waiting about 10 minutes before login again** (if you had used Auth Key method you will need to generate a new Auth Key), otherwise same error will be shown again.
 
 ### HTTPError: 403 Client Error: Forbidden for url ...
 
@@ -107,7 +125,7 @@ You can try to solve the problem by making these tests:
 - Try change your DNS (on the router or in Kodi settings if you use a Kodi OS)
 - If you use Proxy/VPN try disable it
 
-### Request blacklisted by key exchange service
+### MSL Error: Request blacklisted by key exchange service
 
 As far as we know in the case of android devices, may indicate compatibility problems with the device firmware (needs updating), or there is the possibility that the model of the android device in use is on the black list of devices not authorized by Netflix.
 
