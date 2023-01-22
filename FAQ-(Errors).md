@@ -38,18 +38,12 @@ If the problem persists:
 
 #### On Android:
 
-Check if the ESN is equal to the official Netflix app, click on `Show ESN` in add-on `Expert` setting and compare with the ESN in android Netflix app settings. Only the first part of the code is important, last missing part ignore it.
+Check if the ESN code (_by ignoring last part of 64 characters_), is equal to the official Netflix app, you can see the add-on ESN by select `ESN / Widevine settings` in the add-on Expert settings.
 
 If the ESN is different:
 
-* On Kodi v18:<br/>
-Try to set `Widevine L3` on add-on `Expert` settings and try to play a video,
-if this not works try type the correct ESN in `Manual ESN` field of add-on `Expert` setting.
-
-* On Kodi v19 or above:<br/>
-From add-on `Expert` settings select `ESN / Widevine settings`,
-On Widevine section select `Force L3`, press OK button and try to play a video,
-if this not works try type the correct ESN by selecting `Change ESN` button of the same window.
+1) On Widevine section select `Force L3`, press OK button and try to play a video
+2) If solution 1 do not works, try modify the ESN by selecting `Change ESN` button, _keeping the last part of the existing 64 characters_.
 
 #### On all other systems:
 
