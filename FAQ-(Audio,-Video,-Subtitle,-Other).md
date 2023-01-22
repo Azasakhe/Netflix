@@ -287,7 +287,7 @@ For DOLBY ATMOS case, will be replaced by DOLBY-HD description.
 
 ### Skin Widgets - problems and limits
 
-Let's start by saying that _this add-on is not fully compatible with Skins Widgets_ due to unmanageability and poor integration provided by Widgets themselves.
+Let's start by saying that _this add-on is not fully compatible with Skins Widgets_ due to unmanageability and poor integration provided by Widgets themselves, therefore widgets are not officially supported.
 
 Therefore requests for help for problems caused by widgets will not be accepted.
 
