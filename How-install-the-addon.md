@@ -20,8 +20,8 @@ Due to some changes in the website (about new anti-bot protections) the login wi
 #### Mobile plan
 This add-on **not** support Mobile plan.
 
-#### Kodi 18 - Leia
-**The Kodi 18 version is end-of-life.** This add-on is compatible but will only receive _maintenance fixes_, **no support will be provided**. Due to recent Netflix changes the Kodi 18 version _may no longer support 1080P and 4K and this cannot be fixed_, we highly recommend the upgrade to Kodi 19 or above.
+#### Kodi v18 - Leia
+**The Kodi v18 version is end-of-life.** The support and development of this add-on for this obsolete Kodi version has been stopped. Install and use the add-on on this platform at your own risk. No support will be provided.
 
 #### Android
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
