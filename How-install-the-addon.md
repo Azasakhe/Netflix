@@ -1,4 +1,4 @@
-### Prerequisites
+## Prerequisites
 * A devices compatible with Kodi (Apple iOS/tvOS are not supported)
 * Kodi v19 or above
 * InputStream Adaptive add-on *1 *2
@@ -12,7 +12,7 @@
 *2 Automatically installed
 </sup>
 
-### To read before install
+## To read before install
 
 #### The login could cause "Incorrect password" error
 Due to some changes in the website (about new anti-bot protections) the login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. We provide an alternative to the standard login, please read [[Login with Authentication key]] page.
@@ -23,10 +23,10 @@ This add-on **not** support Mobile plan.
 #### Kodi v18 - Leia
 **The Kodi v18 version is end-of-life.** The support and development of this add-on for this obsolete Kodi version has been stopped. Install and use the add-on on this platform at your own risk. No support will be provided.
 
-#### Android
+#### Android support
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
 
----
+## How to install
 
 <details>
 <summary><b>How to installing on: Windows / MacOS / Android / LibreELEC / CoreELEC</b><sup> [click to expand]</sup></summary>
