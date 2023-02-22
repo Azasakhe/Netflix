@@ -1,6 +1,6 @@
 ### Prerequisites
 * A devices compatible with Kodi (Apple iOS/tvOS are not supported)
-* _Suggested_ Kodi 19 or above (for Kodi 18 read below)
+* Kodi v19 or above
 * InputStream Adaptive add-on *1 *2
 * Pycryptodome python library *1 *2
 * InputStream Helper add-on *2
