@@ -295,7 +295,7 @@ Some know Widgets limitations and problems:
 - When you add a Widget, it will have access to the data of the last selected netflix profile, which is the profile you selected to open the add-on last time.
 - The videos played from a Widget, will be played by using the last selected netflix profile, which is the profile you selected to open the add-on last time.
 - Widgets created by some type of list may cause unexpected errors when you select another Netflix profile different from which the Widget was created, by displaying error messages or other.
-- Add many Widgets could stuck the Netflix service with unexpected errors.
+- Use many Widgets could stuck the Netflix service with unexpected errors, break the database and cause many other unexpected behaviours.
 
 ### Kodi - Favourites
 The Kodi Favourites menu play the videos with the last selected netflix profile, which is the profile you selected to open the add-on last time.
