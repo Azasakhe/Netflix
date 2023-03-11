@@ -7,6 +7,7 @@ Video:
 * [Video Stream only at 540P (SD) on ARM device (linux/Kodi OS)](#video-stream-only-at-540p-sd-on-arm-device-linuxkodi-os)
 * [Video Stream only at 540P (SD) on Android device](#video-stream-only-at-540p-sd-on-android-device)
 * [Videos at 23/25fps are not played at double display frequency (hz)](#videos-at-2325fps-are-not-played-at-double-display-frequency-hz)
+* [Video codecs](#video-codecs)
 
 Audio:
 * [How to automatically use the audio language of the Netflix profile used](#how-to-automatically-use-the-audio-language-of-the-netflix-profile-used)
@@ -167,6 +168,16 @@ To enable this Kodi feature:<br/>
 Open Kodi `System` settings, switch the settings page to `Expert` (below).
 On `Dislay` page, select `Whitelist`, select all the higher resolutions with differents hz (usually all 1080p or 4k),
 then enable `Allow double refresh rates`.
+
+### Video codecs
+The availability of video codecs depends on the system used and device capability. For example HEVC is available only on Android but not all devices support it, that could cause black screen or so.
+
+Enabling too many codecs can cause a forced fallback to H264 codec, this behaviour does not depend on the add-on but is caused by the website.
+Some codecs even if enabled are not guaranteed to be available on the played video.
+
+It is currently not possible to establish a guide on which codec combination to enable, because depends on the behaviour of the website that currently is not so clear.
+
+The H264 codec is enabled by default, so in general we can suggest to enable only one high effency codec, so VP9 or HEVC or AV1. Enable more codecs may works or not or cause the fallback mentioned above.
 
 ## Audio
 
