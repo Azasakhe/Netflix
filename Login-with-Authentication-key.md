@@ -19,7 +19,7 @@ To create this file and get the PIN, you need to use one of the following softwa
 <summary><b>For Windows</b><sup> [click to expand]</sup></summary>
 <p>
 
-**PREREQUISITE**: Chrome browser installed
+**PREREQUISITE**: Chrome browser or Brave Browser installed
 
 **INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key". Remember to delete the Authentication key file after login.
 
