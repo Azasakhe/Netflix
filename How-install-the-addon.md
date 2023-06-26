@@ -20,6 +20,9 @@ Due to some changes in the website (about new anti-bot protections) the login wi
 #### Mobile plan
 This add-on **not** support Mobile plan.
 
+#### ADS plan
+At today this add-on **not** support ADS plan, but may be in future.
+
 #### Kodi v18 - Leia
 **The Kodi v18 version is end-of-life.** The support and development of this add-on for this obsolete Kodi version has been stopped. Install and use the add-on on this platform at your own risk. No support will be provided.
 
