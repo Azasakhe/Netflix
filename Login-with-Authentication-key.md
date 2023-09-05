@@ -23,7 +23,7 @@ To create this file and get the PIN, you need to use one of the following softwa
 
 **INSTRUCTIONS**: Download the zip and extract the folder, then run the software and follow the instructions on screen. After you have created the file, you have to open it, with Netflix add-on by choosing the login with "Authentication key". Remember to delete the Authentication key file after login.
 
-**DOWNLOAD**: [NFAuthenticationKey_Windows.zip](https://1drv.ms/f/s!AtyQ3CECpAKXk1HlWbz5Zi4BERLE?e=8sR9cK) (Google may report incorrectly as malware, press continue and ignore it)
+**DOWNLOAD**: [NFAuthenticationKey_Windows.zip](https://1drv.ms/f/s!AtyQ3CECpAKXk1HlWbz5Zi4BERLE?e=Nx6Ud4) (Google may report incorrectly as malware, press continue and ignore it)
 
 </p>
 </details>
