@@ -145,6 +145,35 @@ Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netf
 
 This user-authentication scheme works only combined with an user-id-token, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
 
+#### Test Shakti pathEvaluator
+
+The add-on integrates a Shakti website API testing for pathEvaluator endpoint into the service.
+Therefore, it is possible to do tests to understand what data we get with one type of request, follow an example how to do.
+
+- Prerequisite: a software to make HTTP POST requests e.g. Postman
+- Enable Kodi debug
+- Enable Netflix add-on debug from expert settings -> _MANDATORY OR WILL NOT WORKS!_
+- Run Kodi, before continuing -> make sure you are already logged in (after is not needed open the add-on)
+- Open Kodi log file, and find the netflix server port by searching: `[NF_SERVER] Picked Port:`
+- Now on Postman open a page to make an HTTP POST request, then:
+
+Base server address: `http://127.0.0.1:xxxxx/netflix_service/nfsessiontest` (replace xxxxx with the found port number)
+Append to this URL the function name to be called, usually "path_request" to use pathEvaluator, that become:
+server address: `http://127.0.0.1:xxxxx/netflix_service/nfsessiontest/path_request`
+
+the request must be a POST request, the data will be raw set as json format, example:
+```
+[
+    ["genres",11881,"name"],
+    ["genres",11881,"rw","componentSummary"],
+    ["genres",11881,"subgenres",{"from":0,"to":30},["id","name"]],
+    ["genres",11881,"rw",0,0,"reference",["availability","summary"]]
+]
+```
+
+you can create custom json data requests also by looking at website network flow,
+and by respecting netflix JSON Graph format rules.
+
 ### How using: makefile
 
 Prerequisites:
