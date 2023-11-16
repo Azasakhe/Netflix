@@ -145,7 +145,7 @@ Ref PR: [The MSL switch profile](https://github.com/CastagnaIT/plugin.video.netf
 
 This user-authentication scheme works only combined with an user-id-token, after use it you will get in the response an user-id-token of the profile specified, that you will need to use for all future MSL requests.
 
-#### Test Shakti pathEvaluator
+### Test Shakti pathEvaluator
 
 The add-on integrates a Shakti website API testing for pathEvaluator endpoint into the service.
 Therefore, it is possible to do tests to understand what data we get with one type of request, follow an example how to do.
