@@ -21,7 +21,6 @@ Other:
 * [How to set the automatic selection of a profile](#how-to-set-the-automatic-selection-of-a-profile)
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
 * [Subtitles - i always see subtitles in every video](#subtitles---i-always-see-subtitles-in-every-video)
-* [Subtitles - don't always keep the language of your choice (Kodi 18)](#subtitles---dont-always-keep-the-language-of-your-choice-Kodi-18)
 * [Sometimes blank boxes are shown instead of characters of descriptions and titles](#Sometimes-blank-boxes-are-shown-instead-of-characters-of-descriptions-and-titles)
 * [Skin - wrong video media-flags info (resolution, format audio-video)](#skin---wrong-video-media-flags-info-resolution-format-audio-video)
 * [Skin Widgets - problems and limits](#skin-widgets---problems-and-limits)
@@ -160,8 +159,8 @@ In your Issue thread you have to attach:
 ### Videos at 23/25fps are not played at double display frequency (hz)
 
 _For Windows system only:_<br/>
-The double frequencies are no longer switched automatically.
-This can happen when your display not support 23/25hz, Kodi 18.x in this case switch automatically (e.g. to 50hz),
+The double frequencies are not switched automatically.
+This can happen when your display not support 23/25hz, and display should switch to e.g. to 50hz,
 but from Kodi v19 this not happen by default anymore.
 
 To enable this Kodi feature:<br/>
@@ -210,7 +209,6 @@ go to in the `Playback` add-on settings, and turn on `Prefer stereo audio tracks
 
 ### When you resume a previous playback it do not keep the language of your choice
 
-On Kodi 18.x is a known bug, the Kodi 18.x framework does not allow to fix this problem. Then can't be solved in any way.
 If you prefer you can try to disable `Remember audio / subtitle preferences` in the addon Playback settings,
 in this way leaves the choice of language to Kodi, so you will need to manually select the exact audio language.
 
@@ -276,15 +274,10 @@ Just change how Kodi handles subtitles by choosing *forced only*.
 In Kodi Settings -> Player -> Language
 set: `Preferred subtitle language` to `Forced only`
 
-### Subtitles - don't always keep the language of your choice (Kodi 18)
-
-Kodi v18.x framework does not allow to fix this problem. So there is no solution.<br/>
-If you prefer you can disable `Remember audio / subtitle preferences` in the addon Playback settings, so in each video you will manually enable the subtitles.
-
 ### Sometimes blank boxes are shown instead of characters of descriptions and titles
 
 The blank boxes are commonly known as tofu, is displayed when a certain character is missing in the font used.<br/>
-This is a limitation of the fonts used in Kodi 18.x and Kodi 19.x, the only way to try and trick this problem is to set the Arial font to the Skin in use.
+This is a limitation of the fonts used in Kodi, the only way to try and trick this problem is to set the Arial font to the Skin in use.
 
 ### Skin - wrong video media-flags info (resolution, format audio-video)
 
