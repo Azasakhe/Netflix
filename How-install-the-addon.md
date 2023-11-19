@@ -106,7 +106,7 @@ sudo pip3 install pycryptodomex
 </pre>
 * In the terminal run these commands to download the Repository zip:
 <pre>
-wget https://github.com/castagnait/repository.castagnait/raw/kodi/repository.castagnait-2.0.0.zip
+wget https://github.com/castagnait/repository.castagnait/raw/kodi/repository.castagnait-2.0.1.zip
 </pre>
 * Now open Kodi and in the Add-ons browser, choose _Install from zip file_
 * Navigate in to the Home folder<br/>
