@@ -21,7 +21,7 @@ Due to some changes in the website (about new anti-bot protections) the login wi
 Mobile plan is NOT supported.
 
 #### ADS plan
-_ADS Plan support is experimental_, so you may experience malfunctions of add-on features (for example language selection, watched status sync ecc..).
+_ADS Plan support is experimental_, Kodi v20 or higher is required. Being experimental you may experience malfunctions of add-on features (for example language selection, watched status sync ecc..), for development details see: https://github.com/CastagnaIT/plugin.video.netflix/pull/1625.
 
 #### Android support
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
