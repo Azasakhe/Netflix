@@ -42,10 +42,6 @@ This menu allows you to change the watched status, but _this change will never b
 
 Using it several times you will also have the possibility to restore the watched status of Netflix.
 
-## The video resume not works
-
-It is a know bug of Kodi 18.x version that prevent to resume the videos, fixed on Kodi v19.x and above.
-
 ## When i stop playback the resume is not updated
 
 The synchronization requires updates to be sent from the first minute of playback, therefore the resume will be updated only after the first minute of the played video, then if you press stop before this minute no changes will be saved.
