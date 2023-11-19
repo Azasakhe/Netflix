@@ -1,6 +1,6 @@
 ## Prerequisites
 * A devices compatible with Kodi (Apple iOS/tvOS are not supported)
-* Kodi v19 or above
+* **Kodi v19 or higher**
 * InputStream Adaptive add-on *1 *2
 * Pycryptodome python library *1 *2
 * InputStream Helper add-on *2
@@ -18,16 +18,21 @@
 Due to some changes in the website (about new anti-bot protections) the login with E-Mail/Password could cause "Incorrect password" error, even when the credentials are correct. We provide an alternative to the standard login, please read [[Login with Authentication key]] page.
 
 #### Mobile plan
-This add-on **not** support Mobile plan.
+Mobile plan is NOT supported.
 
 #### ADS plan
-At today this add-on **not** support ADS plan, but may be in future.
-
-#### Kodi v18 - Leia
-**The Kodi v18 version is end-of-life.** The support and development of this add-on for this obsolete Kodi version has been stopped. Install and use the add-on on this platform at your own risk. No support will be provided.
+_ADS Plan support is experimental_, so you may experience malfunctions of add-on features (for example language selection, watched status sync ecc..).
 
 #### Android support
 This add-on works with most _Netflix certified_ android devices, but video playback is not guaranteed on all models of android devices, causing playback errors.
+
+#### Windows and MacOS support
+Due to changes to website you can no longer play video on these systems, at today a solution has not been found yet.<br/>
+For more information and news about this problem read:<br/>
+https://github.com/CastagnaIT/plugin.video.netflix/issues/1627
+
+#### Live and interactive videos
+Live and interactive videos are NOT supported.
 
 ## How to install
 
