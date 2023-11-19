@@ -63,11 +63,6 @@ On some linux distributions additional components are needed,
 so in the terminal run these commands:
 
 <pre>
-FOR KODI 18 LEIA:
-sudo apt install build-essential python-pip
-pip install --user pycryptodomex
-
-FOR KODI 19 OR ABOVE:
 sudo apt install build-essential python3-pip
 pip3 install --user pycryptodomex
 
@@ -104,12 +99,6 @@ After establishing the connection with a terminal:
 
 * In the terminal run these commands:
 <pre>
-FOR KODI 18 LEIA:
-sudo apt-get update
-sudo apt-get install build-essential python-pip python-crypto libnss3
-sudo pip install pycryptodomex
-
-FOR KODI 19 OR ABOVE:
 sudo apt-get update
 sudo apt-get install build-essential python3-pip libnss3
 sudo pip3 install setuptools wheel
@@ -138,12 +127,6 @@ Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [Git
 
 * Open Raspberry Terminal app and run these commands:
 <pre>
-FOR KODI 18 LEIA:
-sudo apt update
-sudo apt install build-essential python-pip libnss3 kodi-inputstream-adaptive
-sudo pip install pycryptodomex
-
-FOR KODI 19 OR ABOVE:
 sudo apt update
 sudo apt install build-essential python3-pip libnss3 kodi-inputstream-adaptive
 sudo pip3 install pycryptodomex
@@ -171,7 +154,6 @@ Copy this file to an USB flash drive or memory card and connect it to the device
 
 * Open RetroPie shell and run these commands:
 <pre>
-FOR KODI 18 LEIA:
 sudo apt update
 sudo apt install build-essential python-setuptools python-pip libnss3
 sudo pip install wheel pycryptodomex
@@ -190,8 +172,8 @@ then select CastagnaIT repository and install Netflix add-on
 <summary><b>How to installing on: QNAP - HD Station</b><sup> [click to expand]</sup></summary>
 <p>
 
-**PREREQUISITE:** Mandatory HD Station app installed.<br/>
-**PREREQUISITE for KODI 19 OR ABOVE:** Verify that the installed version of Python is equal to or greater than 3.7 otherwise you need update it from the QNAP Store. 
+**PREREQUISITE 1:** Mandatory HD Station app installed.<br/>
+**PREREQUISITE 2:** Verify that the installed version of Python is equal to or greater than 3.7 otherwise you need update it from the QNAP Store. 
 
 * Connect to QNAP with a terminal (ssh or telnet) as admin<br/>
 Instructions: https://www.qnap.com/en/how-to/knowledge-base/article/how-to-access-qnap-nas-by-ssh
@@ -217,8 +199,7 @@ Now that you are in the _HD_Station_ folder, run:
 
 <pre>
 chroot .
-FOR KODI 18 LEIA: apt install python-pycryptodome
-FOR KODI 19 OR ABOVE: apt install python3-pycryptodome
+apt install python3-pycryptodome
 </pre>
 
 Download the Repository zip file `repository.castagnait-2.0.x.zip` from the [GitHub Readme](https://github.com/CastagnaIT/plugin.video.netflix#quick-download-links)
