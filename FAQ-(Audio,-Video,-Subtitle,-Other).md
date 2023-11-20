@@ -17,6 +17,7 @@ Audio:
 * [The ATMOS stream info (media-flags) does not appear](#the-atmos-stream-info-media-flags-does-not-appear)
 
 Other:
+* [Playback problems with ADS Plan](#playback-problems-with-ads-plan)
 * [How to try solve the problem with loading screen video buffering](#how-to-try-solve-the-problem-with-loading-screen-video-buffering)
 * [How to set the automatic selection of a profile](#how-to-set-the-automatic-selection-of-a-profile)
 * [Subtitles - blank boxes are shown with asian subtitles (Hebrew, Arabic, Thai...)](#subtitles---blank-boxes-are-shown-with-asian-subtitles-hebrew-arabic-thai)
@@ -226,6 +227,19 @@ Kodi does not support the ATMOS name as a track description, therefore is replac
 - On Koki v19 or above ATMOS tracks can be distinguished also from the label ATMOS in the audio language list.
 
 ## Other
+
+### Playback problems with ADS Plan
+
+The support to ADS Plan is EXPERIMENTAL, there are several things that may not work correctly, this is also due to inherent problems with Kodi core itself. Listed here some common problems:
+
+- Fast forward or rewind ADS causes malfunctioning on features like language selection, skip intro, back bars minimizing etc...
+- Video resume dont works correctly in the Kodi library
+- Video resume dont works correctly when `Synchronize the watched status of the videos with Netflix` setting is disabled
+- Skip intro button is displayed with wrong timing or not displayed
+- ADS are displayed before the movie and never in the middle of the movie
+
+Perhaps some of these will be solved in the future, others will not be, there is no timeline to this.
+Open Issue threads reporting add-on problems related to ADS plan will not be considered, are know problems.
 
 ### How to try solve the problem with loading screen video buffering
 
